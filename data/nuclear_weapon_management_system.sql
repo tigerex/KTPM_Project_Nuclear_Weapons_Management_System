@@ -40,11 +40,12 @@ CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     password_hash VARCHAR(255) NOT NULL UNIQUE,  -- mmã hash từ password
-    full_name VARCHAR(100) NOT NULL DEFAULT 'REDACTED',	
-    role VARCHAR(100) NOT NULL DEFAULT 'REDACTED',
-    country VARCHAR(100),
-    organization VARCHAR(150),
-    clearance_level ENUM('Low', 'Medium', 'High', 'Ultra-Secret') DEFAULT 'Low',
+    full_name VARCHAR(100) NOT NULL DEFAULT 'REDACTED',	 -- tên
+    role VARCHAR(100) NOT NULL DEFAULT 'REDACTED', -- chức danh
+    country VARCHAR(100), -- quốc gia
+    organization VARCHAR(150), -- tổ chức
+    clearance_level ENUM('Low', 'Medium', 'High', 'Ultra-Secret') DEFAULT 'Low', -- quyền hạng
+    is_admin BOOLEAN DEFAULT false, -- admin thì làm được nhiều thứ
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     last_login TIMESTAMP NULL
 );

@@ -40,7 +40,7 @@ namespace ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService
         /// - Thực thi query SELECT và in ra console.
         /// - Dùng using để đảm bảo connection, command, reader được dispose tự động.
         /// </summary>
-        public static void TestQuery()
+        public static void GetAllWeapon()
         {
             using (var conn = GetConnection())
             {
