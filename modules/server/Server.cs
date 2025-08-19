@@ -2,7 +2,12 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Net.NetworkInformation;
-using ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService;
+using project_nuclear_weapons_management_system.modules.database;
+
+using System.Text;
+using System.Text.Json;
+using System.Collections.Generic;
+using BCryptNet = BCrypt.Net.BCrypt;
 
 /// <summary>
 /// Server chịu trách nhiệm khởi chạy một TCP server trên IP Wi-Fi của máy.
@@ -12,7 +17,7 @@ using ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService;
 /// - Hỗ trợ dừng server có delay hoặc Ctrl+C.
 /// - Phản hồi các request HTTP đơn giản với HTML.
 /// </summary>
-namespace ProjectNuclearWeaponsManagementSystem.Modules.Server
+namespace project_nuclear_weapons_management_system.modules.server
 {
     public static class ServerModule
     {
@@ -137,60 +142,54 @@ namespace ProjectNuclearWeaponsManagementSystem.Modules.Server
                             // --- 4. Xử lý request từ client ---
                             while (_isRunning && client.Connected)
                             {
-                                byte[] buffer = new byte[4096];
+                                byte[] first = new byte[4096];
                                 int bytesRead;
 
                                 try
                                 {
-                                    bytesRead = stream.Read(buffer, 0, buffer.Length);
+                                    bytesRead = stream.Read(first, 0, first.Length);
                                 }
                                 catch (IOException)
                                 {
-                                    // timeout -> kết thúc keep-alive
                                     Logger.Log($"[INFO] Keep-alive timeout for {clientIP}, closing connection.");
                                     break;
                                 }
 
                                 if (bytesRead == 0)
                                 {
-                                    // client đóng kết nối mà không gửi request
                                     Logger.Log($"[INFO] Idle client {clientIP} disconnected (no request).");
                                     break;
                                 }
 
-                                string requestText = System.Text.Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                                string requestLine = requestText.Split("\r\n")[0];
-                                Logger.Log($"[DEBUG] Request line from {clientIP}: {requestLine}");
+                                var (method, path, headers, body) = ParseHttpRequest(stream, first, bytesRead);
+                                Logger.Log($"[DEBUG] {clientIP} -> {method} {path}");
 
-                                // --- 5. Xác định nội dung phản hồi ---
-                                string body;
-                                string contentType;
+                                // string response;
+                                // if (method == "POST" && path == "/api/auth/login")
+                                // {
+                                //     response = HandleLogin(body);
+                                // }
+                                // else if (path.Contains("favicon.ico"))
+                                // {
+                                //     response = BuildHttpResponse(200, "image/x-icon", "");
+                                // }
+                                // else
+                                // {
+                                //     // Trang mặc định (demo)
+                                //     var html = "<h1>hello from project N</h1>";
+                                //     response = BuildHttpResponse(200, "text/html; charset=UTF-8", html);
+                                // }
 
-                                if (requestLine.Contains("favicon.ico"))
-                                {
-                                    body = ""; // favicon rỗng, thêm sau
-                                    contentType = "image/x-icon";
-                                }
-                                else
-                                {
-                                    body = "<h1>hello from project N</h1>";
-                                    contentType = "text/html; charset=UTF-8";
-                                }
+                                // Factory Method + Adapter
+                                var repo = new MySqlUserRepository();
+                                IRequestHandler handler = HandlerFactory.Create(path, repo);
+                                string response = handler.Handle(body);
 
-                                // --- 6. Tạo HTTP response ---
-                                string httpResponse =
-                                    "HTTP/1.1 200 OK\r\n" +
-                                    $"Content-Type: {contentType}\r\n" +
-                                    $"Content-Length: {System.Text.Encoding.UTF8.GetByteCount(body)}\r\n" +
-                                    "Connection: keep-alive\r\n" +
-                                    "Keep-Alive: timeout=5, max=100\r\n" +
-                                    "\r\n" +
-                                    body;
-
-                                // --- 7. Gửi phản hồi tới client ---
-                                byte[] responseBytes = System.Text.Encoding.UTF8.GetBytes(httpResponse);
+                                // Gửi phản hồi
+                                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
                                 stream.Write(responseBytes, 0, responseBytes.Length);
                                 stream.Flush();
+
                             }
                         }
                         catch (Exception ex)
@@ -245,5 +244,81 @@ namespace ProjectNuclearWeaponsManagementSystem.Modules.Server
                 }
             }
         }
+
+  
+        // Đọc đầy đủ 1 HTTP request (header + body) từ stream
+        private static (string Method, string Path, Dictionary<string, string> Headers, string Body)
+        ParseHttpRequest(NetworkStream stream, byte[] firstChunk, int bytesRead)
+        {
+            var buf = new List<byte>(firstChunk.AsSpan(0, bytesRead).ToArray());
+
+            // Tìm \r\n\r\n kết thúc header
+            int headerEnd = FindCrlfCrlf(buf);
+            while (headerEnd == -1)
+            {
+                byte[] tmp = new byte[4096];
+                int n = stream.Read(tmp, 0, tmp.Length);
+                if (n <= 0) break;
+                buf.AddRange(tmp.AsSpan(0, n).ToArray());
+                headerEnd = FindCrlfCrlf(buf);
+            }
+
+            if (headerEnd == -1)
+                return ("", "", new(), "");
+
+            // headerEnd trả về chỉ số NGAY SAU "\r\n\r\n"
+            string headerText = Encoding.UTF8.GetString(buf.GetRange(0, headerEnd - 4).ToArray());
+            var lines = headerText.Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
+            var parts = lines[0].Split(' ', 3, StringSplitOptions.RemoveEmptyEntries);
+
+            string method = parts[0];
+            string path = parts[1];
+
+            var headers = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+            for (int i = 1; i < lines.Length; i++)
+            {
+                int idx = lines[i].IndexOf(':');
+                if (idx > 0)
+                    headers[lines[i][..idx].Trim()] = lines[i][(idx + 1)..].Trim();
+            }
+
+            int contentLength = 0;
+            if (headers.TryGetValue("Content-Length", out var clStr))
+                int.TryParse(clStr, out contentLength);
+
+            // Lấy body (có thể còn thiếu => đọc tiếp)
+            int have = buf.Count - headerEnd;
+            var bodyBytes = new byte[contentLength];
+            if (contentLength > 0)
+            {
+                int toCopy = Math.Min(contentLength, have);
+                if (toCopy > 0)
+                    buf.CopyTo(headerEnd, bodyBytes, 0, toCopy);
+
+                int remaining = contentLength - toCopy;
+                int offset = toCopy;
+                while (remaining > 0)
+                {
+                    int n = stream.Read(bodyBytes, offset, remaining);
+                    if (n <= 0) break;
+                    offset += n;
+                    remaining -= n;
+                }
+            }
+
+            string body = contentLength > 0 ? Encoding.UTF8.GetString(bodyBytes) : "";
+            return (method, path, headers, body);
+        }
+
+        private static int FindCrlfCrlf(List<byte> data)
+        {
+            for (int i = 0; i <= data.Count - 4; i++)
+            {
+                if (data[i] == 13 && data[i + 1] == 10 && data[i + 2] == 13 && data[i + 3] == 10)
+                    return i + 4; // index ngay sau \r\n\r\n
+            }
+            return -1;
+        }
+
     }
 }

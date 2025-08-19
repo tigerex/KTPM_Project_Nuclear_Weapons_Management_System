@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nuclear Weapons Management System</title>
+    <link rel="stylesheet" href="loginPage.css">
+</head>
+<body>
+    <div class="background">
+        <img src="../../data/resources/mapBackground.png" alt="World Map" class="map-bg">
+        <div class="overlay"></div>
+    </div>
+    <div class="welcome-message">
+        <h1>Welcome to the Nuclear Weapons Management System</h1>
+        <p>Please log in to continue.</p>
+    </div>
+    <div class="login-container">
+        <!-- <h1 class="title">Login</h1> -->
+        <form class="login-form">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" name="password" required autocomplete="current-password">
+                    <button type="button" id="togglePwdIcon" class="toggle-pwd" onclick="togglePassword()" aria-label="Show password">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11C3.5 6 8 3 11 3C14 3 18.5 6 21 11C18.5 16 14 19 11 19C8 19 3.5 16 1 11Z" stroke="#00bfff" stroke-width="2" fill="none"/>
+                            <circle id="eyeCircle" cx="11" cy="11" r="3.5" stroke="#00bfff" stroke-width="2" fill="none"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <div class="links">
+                <a href="#" class="forgot">Forgot Password?</a>
+                <a href="#" class="help">Help</a>
+            </div>
+        </form>
+    </div>
+    <script>
+        function togglePassword() {
+            const pwd = document.getElementById('password');
+            const icon = document.getElementById('togglePwdIcon');
+            const eyeCircle = icon.querySelector('#eyeCircle');
+            if (pwd.type === 'password') {
+                pwd.type = 'text';
+                eyeCircle.setAttribute('fill', '#00bfff');
+            } else {
+                pwd.type = 'password';
+                eyeCircle.setAttribute('fill', 'none');
+            }
+        }
+    </script>
+</body>
+</html>

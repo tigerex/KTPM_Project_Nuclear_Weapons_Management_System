@@ -36,18 +36,44 @@ CREATE TABLE storage_inventory (
 );
 
 
+-- CREATE TABLE users (
+--     user_id INT AUTO_INCREMENT PRIMARY KEY,
+--     username VARCHAR(50) NOT NULL UNIQUE,
+--     password_hash VARCHAR(255) NOT NULL UNIQUE,  -- mmã hash từ password
+--     full_name VARCHAR(100) NOT NULL DEFAULT 'REDACTED',	 -- tên
+--     role VARCHAR(100) NOT NULL DEFAULT 'REDACTED', -- chức danh
+--     country VARCHAR(100), -- quốc gia
+--     organization VARCHAR(150), -- tổ chức
+--     clearance_level ENUM('Low', 'Medium', 'High', 'Ultra-Secret') DEFAULT 'Low', -- quyền hạng
+--     is_admin BOOLEAN DEFAULT false, -- admin thì làm được nhiều thứ
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+--     last_login TIMESTAMP NULL
+-- );
+
 CREATE TABLE users (
-    user_id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    password_hash VARCHAR(255) NOT NULL UNIQUE,  -- mmã hash từ password
-    full_name VARCHAR(100) NOT NULL DEFAULT 'REDACTED',	 -- tên
-    role VARCHAR(100) NOT NULL DEFAULT 'REDACTED', -- chức danh
-    country VARCHAR(100), -- quốc gia
-    organization VARCHAR(150), -- tổ chức
-    clearance_level ENUM('Low', 'Medium', 'High', 'Ultra-Secret') DEFAULT 'Low', -- quyền hạng
-    is_admin BOOLEAN DEFAULT false, -- admin thì làm được nhiều thứ
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    last_login TIMESTAMP NULL
+  user_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(50) NOT NULL,
+  password_hash VARCHAR(255) NOT NULL,          -- KHÔNG đặt UNIQUE
+  full_name VARCHAR(100) NOT NULL DEFAULT 'REDACTED',
+  role VARCHAR(100) NOT NULL DEFAULT 'REDACTED',
+  country VARCHAR(100),
+  organization VARCHAR(150),
+  clearance_level ENUM('Low','Medium','High','Ultra-Secret') NOT NULL DEFAULT 'Low',
+  is_admin BOOLEAN NOT NULL DEFAULT FALSE,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  last_login TIMESTAMP NULL DEFAULT NULL,
+  CONSTRAINT uq_users_username UNIQUE (username) -- unique theo username là đủ
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+INSERT INTO users (username, password_hash, full_name, role, is_admin, clearance_level)
+VALUES (
+  'admin',
+  '$2a$12$bYTEabtrK2Es2OCPDIGbOecElqburebEo56NoXHwnXb8QII1.sOlG',
+  'System Admin',
+  'Admin',
+  TRUE,
+  'Ultra-Secret'
 );
 
 INSERT INTO weapons (name, type, yield_megatons, range_km, weight_kg, status, country_of_origin, year_craeted, notes)
@@ -96,6 +122,7 @@ ORDER BY s.location_name, w.name;
 SELECT * from weapons;
 SELECT * from storages;
 SELECt * from storage_inventory;
+SELECt * from users;
 
 
 show tables;

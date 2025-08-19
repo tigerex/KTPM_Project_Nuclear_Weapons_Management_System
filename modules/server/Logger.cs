@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace ProjectNuclearWeaponsManagementSystem.Modules.Server
+namespace project_nuclear_weapons_management_system.modules.server
 {
     /// <summary>
     /// Logger chịu trách nhiệm ghi log các sự kiện của server vào file.
