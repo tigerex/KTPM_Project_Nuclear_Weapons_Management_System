@@ -12,7 +12,7 @@ namespace ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService
     public static class Database
     {
         // Chuỗi kết nối đến MySQL database, nhớ đổi host, pass, database nếu khác tên
-        private static string connectionString = "Server=localhost;Database=nuclear_weapon;User ID=root;Password=0;";
+        private static string connectionString = "Server=localhost;Database=nuclear_weapon;User ID=root;Password=gunnyvip2003;";
 
         /// <summary>
         /// Trả về một MySqlConnection đã mở sẵn.

@@ -34,3 +34,4 @@ C:\Minh\workplace\KTPM\Project\project_nuclear_weapons_management_system\bin\Deb
 C:\Minh\workplace\KTPM\Project\project_nuclear_weapons_management_system\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Minh\workplace\KTPM\Project\project_nuclear_weapons_management_system\obj\Debug\net9.0\project_nuclear_weapons_management_system.csproj.AssemblyReference.cache
 C:\Minh\workplace\KTPM\Project\project_nuclear_weapons_management_system\obj\Debug\net9.0\project_.3D7317FC.Up2Date
+C:\Minh\workplace\KTPM\Project\project_nuclear_weapons_management_system\obj\Debug\net9.0\project_nuclear_weapons_management_system.sourcelink.json

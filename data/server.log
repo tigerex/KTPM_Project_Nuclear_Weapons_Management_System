@@ -351,3 +351,24 @@
 [2025-08-18 17:47:47] [INFO] Server shut down due to ProcessExit (application end).
 [2025-08-18 17:47:47] ===== SESSION END =====
 
+[2025-08-19 09:00:03] ✅ Server started successfully at 10.106.42.75:9999
+[2025-08-19 09:00:03] ====== SESSION ACTIVITIES =====
+[2025-08-19 09:02:05] Client connected from 10.106.42.77
+[2025-08-19 09:02:05] [DEBUG] Request line from 10.106.42.77: GET / HTTP/1.1
+[2025-08-19 09:02:07] [DEBUG] Request line from 10.106.42.77: GET /favicon.ico HTTP/1.1
+[2025-08-19 09:02:12] [INFO] Idle client 10.106.42.77 disconnected (no request).
+[2025-08-19 09:02:12] Client 10.106.42.77 disconnected.
+[2025-08-19 09:02:12] Client connected from 10.106.42.74
+[2025-08-19 09:02:12] [DEBUG] Request line from 10.106.42.74: GET / HTTP/1.1
+[2025-08-19 09:02:12] [DEBUG] Request line from 10.106.42.74: GET /favicon.ico HTTP/1.1
+[2025-08-19 09:02:42] [INFO] Keep-alive timeout for 10.106.42.74, closing connection.
+[2025-08-19 09:02:42] Client 10.106.42.74 disconnected.
+[2025-08-19 09:02:42] Client connected from 10.106.42.74
+[2025-08-19 09:03:07] [INFO] Idle client 10.106.42.74 disconnected (no request).
+[2025-08-19 09:03:07] Client 10.106.42.74 disconnected.
+[2025-08-19 09:27:15] !!!Command issue!!!
+[2025-08-19 09:27:15] [ALERT] Server will stop in 10 seconds...
+[2025-08-19 09:27:25] 🛑 Server stopped gracefully.
+[2025-08-19 09:27:25] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 09:27:25] ===== SESSION END =====
+
