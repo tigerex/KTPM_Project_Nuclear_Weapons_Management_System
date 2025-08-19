@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Nuclear Weapons Management System</title>
+    <link rel="stylesheet" href="homePage.css">
+    <link rel="stylesheet" href="../authentication/loginPage.css">
+</head>
+<body>
+    <div class="background">
+        <img src="../../data/resources/mapBackground.png" alt="World Map" class="map-bg">
+        <div class="overlay"></div>
+    </div>
+    <div class="top-bar">
+        <span class="logo">NWMS</span>
+        <nav class="nav">
+            <a href="#" title="Storage"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="7" width="14" height="10" rx="2" stroke="#00bfff" stroke-width="2"/><rect x="7" y="3" width="6" height="4" rx="1" stroke="#00bfff" stroke-width="2"/></svg> Storage</a>
+            <a href="#" title="Users"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="7" cy="8" r="3" stroke="#00bfff" stroke-width="2"/><circle cx="13" cy="8" r="3" stroke="#00bfff" stroke-width="2"/><path d="M3 17v-2a4 4 0 014-4h2a4 4 0 014 4v2" stroke="#00bfff" stroke-width="2"/></svg> Users</a>
+            <a href="#" title="Logout"><svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 17h6a2 2 0 002-2V5a2 2 0 00-2-2H7" stroke="#00bfff" stroke-width="2"/><path d="M10 9v-2m0 0l-3 3m3-3l3 3" stroke="#00bfff" stroke-width="2"/></svg> Logout</a>
+        </nav>
+        <div class="avatar" tabindex="0">
+            <img src="https://i.pravatar.cc/100?u=nuclear" alt="User Avatar" class="avatar-img">
+            <div class="profile-dropdown">
+                <div><strong>John Doe</strong></div>
+                <div>Admin</div>
+                <hr>
+                <a href="#">Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </div>
+    <div id="map-dots">
+        <!-- Dots will be injected here -->
+    </div>
+    <button class="fab" title="Add Storage" onclick="alert('Add new storage feature coming soon!')">
+        <svg width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="14" cy="14" r="13" stroke="#fff" stroke-width="2"/><path d="M14 8v12M8 14h12" stroke="#fff" stroke-width="2"/></svg>
+    </button>
+    <script>
+    // Example weapon storage data
+    const storages = [
+        { name: "Site A", x: 0.32, y: 0.38, details: "Location: USA\nWeapons: 12\nSecurity: High" },
+        { name: "Site B", x: 0.75, y: 0.42, details: "Location: Russia\nWeapons: 20\nSecurity: Medium" },
+        { name: "Site C", x: 0.55, y: 0.60, details: "Location: India\nWeapons: 8\nSecurity: High" },
+        { name: "Site D", x: 0.18, y: 0.75, details: "Location: Brazil\nWeapons: 5\nSecurity: Medium" },
+        { name: "Site E", x: 0.85, y: 0.80, details: "Location: Australia\nWeapons: 3\nSecurity: Low" }
+    ];
+    const mapDots = document.getElementById('map-dots');
+    function showDetails(dot, details, x, y) {
+        // Responsive tooltip positioning
+        const tooltipWidth = 320;
+        const tooltipHeight = 120;
+        let left = x + 20;
+        let top = y - 10;
+        if (left + tooltipWidth > window.innerWidth) left = x - tooltipWidth - 20;
+        if (top + tooltipHeight > window.innerHeight) top = window.innerHeight - tooltipHeight - 20;
+        details.style.left = left + 'px';
+        details.style.top = top + 'px';
+        details.classList.add('show');
+    }
+    function hideDetails(dot) {
+        let detailDiv = dot.nextElementSibling;
+        detailDiv.classList.remove('show');
+    }
+    function renderDots() {
+        const mapW = window.innerWidth;
+        const mapH = window.innerHeight;
+        mapDots.innerHTML = '';
+        storages.forEach(storage => {
+            const x = Math.floor(storage.x * mapW);
+            const y = Math.floor(storage.y * mapH);
+            const dot = document.createElement('div');
+            dot.className = 'dot';
+            dot.style.left = x + 'px';
+            dot.style.top = y + 'px';
+            dot.title = storage.name;
+            const details = document.createElement('div');
+            details.className = 'dot-details';
+            details.innerHTML = `<strong>${storage.name}</strong><br>${storage.details.replace(/\n/g, '<br>')}`;
+            dot.addEventListener('mouseenter', () => showDetails(dot, details, x, y));
+            dot.addEventListener('mouseleave', () => hideDetails(dot));
+            mapDots.appendChild(dot);
+            mapDots.appendChild(details);
+        });
+    }
+    window.addEventListener('resize', renderDots);
+    renderDots();
+    </script>
+</body>
+</html>

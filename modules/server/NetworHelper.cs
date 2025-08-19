@@ -2,7 +2,7 @@ using System;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 
-namespace ProjectNuclearWeaponsManagementSystem.Modules.Server
+namespace project_nuclear_weapons_management_system.modules.server
 {
     /// <summary>
     /// Các tiện ích liên quan đến Network, ví dụ lấy IP Wi-Fi.

@@ -351,3 +351,89 @@
 [2025-08-18 17:47:47] [INFO] Server shut down due to ProcessExit (application end).
 [2025-08-18 17:47:47] ===== SESSION END =====
 
+[2025-08-19 20:17:46] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-19 20:17:46] ====== SESSION ACTIVITIES =====
+[2025-08-19 20:18:16] !!!Command issue!!!
+[2025-08-19 20:18:16] [ALERT] Server will stop in 300 seconds...
+[2025-08-19 20:19:03] Client connected from 192.168.0.102
+[2025-08-19 20:19:03] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 20:19:04] [ERROR] HandleLogin failed: Connection must be valid and open.
+[2025-08-19 20:19:34] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 20:19:34] Client 192.168.0.102 disconnected.
+[2025-08-19 20:23:16] 🛑 Server stopped gracefully.
+[2025-08-19 20:23:16] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 20:23:16] ===== SESSION END =====
+
+[2025-08-19 20:23:37] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-19 20:23:37] ====== SESSION ACTIVITIES =====
+[2025-08-19 20:23:41] !!!Command issue!!!
+[2025-08-19 20:23:41] [ALERT] Server will stop in 300 seconds...
+[2025-08-19 20:23:45] Client connected from 192.168.0.102
+[2025-08-19 20:23:45] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 20:23:45] [ERROR] HandleLogin failed: Could not find specified column in results: password_hash
+[2025-08-19 20:23:59] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 20:23:59] [ERROR] HandleLogin failed: Could not find specified column in results: password_hash
+[2025-08-19 20:24:29] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 20:24:29] Client 192.168.0.102 disconnected.
+[2025-08-19 20:28:41] 🛑 Server stopped gracefully.
+[2025-08-19 20:28:41] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 20:28:41] ===== SESSION END =====
+
+[2025-08-19 21:01:40] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-19 21:01:40] ====== SESSION ACTIVITIES =====
+[2025-08-19 21:01:43] !!!Command issue!!!
+[2025-08-19 21:01:43] [ALERT] Server will stop in 300 seconds...
+[2025-08-19 21:01:47] Client connected from 192.168.0.102
+[2025-08-19 21:01:47] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 21:02:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 21:02:18] Client 192.168.0.102 disconnected.
+[2025-08-19 21:02:58] Client connected from 192.168.0.102
+[2025-08-19 21:02:58] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 21:03:29] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 21:03:29] Client 192.168.0.102 disconnected.
+[2025-08-19 21:06:43] 🛑 Server stopped gracefully.
+[2025-08-19 21:06:43] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 21:06:43] ===== SESSION END =====
+
+[2025-08-19 21:35:54] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-19 21:35:54] ====== SESSION ACTIVITIES =====
+[2025-08-19 21:35:59] !!!Command issue!!!
+[2025-08-19 21:35:59] [ALERT] Server will stop in 300 seconds...
+[2025-08-19 21:36:03] Client connected from 192.168.0.102
+[2025-08-19 21:36:03] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 21:36:34] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 21:36:34] Client 192.168.0.102 disconnected.
+[2025-08-19 21:40:59] 🛑 Server stopped gracefully.
+[2025-08-19 21:40:59] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 21:40:59] ===== SESSION END =====
+
+[2025-08-19 21:42:50] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-19 21:42:50] ====== SESSION ACTIVITIES =====
+[2025-08-19 21:42:55] !!!Command issue!!!
+[2025-08-19 21:42:55] [ALERT] Server will stop in 300 seconds...
+[2025-08-19 21:43:00] Client connected from 192.168.0.102
+[2025-08-19 21:43:00] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 21:43:31] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 21:43:31] Client 192.168.0.102 disconnected.
+[2025-08-19 21:43:54] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 21:43:54] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 21:43:54] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 21:43:54] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 21:44:04] 🛑 Server stopped gracefully.
+[2025-08-19 21:44:04] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 21:44:04] ===== SESSION END =====
+
+[2025-08-19 21:52:40] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-19 21:52:40] ====== SESSION ACTIVITIES =====
+[2025-08-19 21:52:44] Client connected from 192.168.0.102
+[2025-08-19 21:52:44] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 21:52:50] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-19 21:53:21] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-19 21:53:21] Client 192.168.0.102 disconnected.
+[2025-08-19 22:13:38] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 22:13:38] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 22:13:38] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-19 22:13:49] 🛑 Server stopped gracefully.
+[2025-08-19 22:13:49] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-19 22:13:49] ===== SESSION END =====
+

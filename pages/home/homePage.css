@@ -1,0 +1,183 @@
+/* Map background and overlay are inherited from loginPage.css */
+
+.map-bg {
+    opacity: 0.35;
+    filter: drop-shadow(0 0 32px #00bfff) brightness(1.15) grayscale(0.3);
+}
+
+.dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #00fff7;
+    border: 2px solid #00bfff;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #00bfff99;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.5s;
+    opacity: 0;
+    animation: dotFadeIn 0.7s forwards;
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+.dot:focus {
+    outline: none !important;
+    box-shadow: 0 0 24px #00bfffcc;
+}
+@keyframes dotFadeIn {
+    to { opacity: 1; }
+}
+
+.dot:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 24px #00bfffcc;
+}
+
+.dot-details {
+    position: absolute;
+    min-width: 220px;
+    max-width: 320px;
+    background: rgba(20, 24, 34, 0.98);
+    color: #eaf6fb;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px #00bfff44;
+    padding: 18px 20px;
+    font-size: 1rem;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s, left 0.2s, top 0.2s;
+    word-break: break-word;
+}
+
+.dot-details.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.top-bar {
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    right: 32px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    z-index: 3;
+}
+
+.top-bar .logo {
+    font-size: 2rem;
+    color: #00bfff;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px #00bfff44;
+    cursor: pointer;
+    outline: none;
+}
+
+.top-bar .nav {
+    display: flex;
+    gap: 18px;
+}
+
+.top-bar .nav a {
+    color: #eaf6fb;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-bar .nav a:hover {
+    color: #00bfff;
+}
+
+.top-bar .avatar {
+    margin-left: auto;
+    position: relative;
+}
+
+.avatar-img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #00bfff;
+    box-shadow: 0 0 8px #00bfff44;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    background: rgba(20, 24, 34, 0.98);
+    border-radius: 10px;
+    box-shadow: 0 4px 24px #00bfff44;
+    padding: 12px 18px;
+    min-width: 160px;
+    color: #eaf6fb;
+    font-size: 1rem;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 20;
+}
+
+.avatar:hover .profile-dropdown,
+.avatar:focus-within .profile-dropdown {
+    display: flex;
+}
+
+.fab {
+    position: fixed;
+    right: 36px;
+    bottom: 36px;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #00bfff 60%, #005f8f 100%);
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px #00bfff55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 20;
+    border: none;
+    outline: none;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.fab:hover {
+    background: linear-gradient(135deg, #005f8f 60%, #00bfff 100%);
+    box-shadow: 0 8px 32px #00bfff99;
+}
+
+@media (max-width: 700px) {
+    .top-bar {
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        gap: 10px;
+    }
+    .top-bar .logo {
+        font-size: 1.2rem;
+    }
+    .avatar-img {
+        width: 28px;
+        height: 28px;
+    }
+    .fab {
+        right: 16px;
+        bottom: 16px;
+        width: 44px;
+        height: 44px;
+        font-size: 1.3rem;
+    }
+}

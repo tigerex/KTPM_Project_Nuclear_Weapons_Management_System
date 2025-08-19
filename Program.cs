@@ -1,6 +1,6 @@
 ﻿using ProjectNuclearWeaponsManagementSystem.Modules;
-using ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService;
-using ProjectNuclearWeaponsManagementSystem.Modules.Server;
+using project_nuclear_weapons_management_system.modules.database;
+using project_nuclear_weapons_management_system.modules.server;
 
 namespace ProjectNuclearWeaponsManagementSystem
 {
@@ -25,3 +25,16 @@ namespace ProjectNuclearWeaponsManagementSystem
         }
     }
 }
+
+
+
+
+// using System;
+// using BCrypt.Net;
+
+// class Tmp {
+//   static void Main() {
+//     var hash = BCrypt.Net.BCrypt.HashPassword("admin123", workFactor: 12);
+//     Console.WriteLine(hash);
+//   }
+// }

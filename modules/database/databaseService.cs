@@ -1,18 +1,20 @@
 using System;
 using MySql.Data.MySqlClient;
+using System.Threading.Tasks;
+using System.Data;
 
-namespace ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService
+namespace project_nuclear_weapons_management_system.modules.database
 {
     /// <summary>
     /// Database chịu trách nhiệm quản lý kết nối và truy vấn đến MySQL database.
-    /// - Sử dụng MySQL Connector/NET (MySql.Data).
+    /// - Sử dụng MySQL Connector/NET (MySql.Data)
     /// - Đảm bảo mở kết nối trước khi truy vấn.
     /// - Có thể mở rộng các method CRUD khác dựa trên GetConnection().
     /// </summary>
     public static class Database
     {
         // Chuỗi kết nối đến MySQL database, nhớ đổi host, pass, database nếu khác tên
-        private static string connectionString = "Server=localhost;Database=nuclear_weapon;User ID=root;Password=0;";
+        private static string connectionString = "Server=127.0.0.1;Database=nuclear_weapon;User ID=root;Password=1234;";
 
         /// <summary>
         /// Trả về một MySqlConnection đã mở sẵn.
@@ -55,5 +57,55 @@ namespace ProjectNuclearWeaponsManagementSystem.Modules.DatabaseService
                 }
             }
         }
+
+
+        // ======= Chuẩn bị cho login =======
+
+        // public sealed record UserDto(
+        //     int Id,
+        //     string Username,
+        //     string PasswordHash,
+        //     string Role,
+        //     bool IsAdmin,
+        //     string ClearanceLevel
+        // );
+
+
+        // /// <summary>
+        // /// Lấy user theo username. Dùng async để không block.
+        // /// </summary>
+        // public static async Task<UserDto?> GetUserByUsernameAsync(string username)
+        // {
+        //     using var conn = GetConnection();
+        //     const string sql = @"
+        //         SELECT 
+        //             user_id,
+        //             username,
+        //             password_hash,
+        //             role,
+        //             is_admin,
+        //             clearance_level
+        //         FROM users
+        //         WHERE username = @u
+        //         LIMIT 1;";
+
+
+        //     using var cmd = new MySqlCommand(sql, conn);
+        //     cmd.Parameters.AddWithValue("@u", username);
+
+        //     using var reader = await cmd.ExecuteReaderAsync();
+        //     if (await reader.ReadAsync())
+        //     {
+        //         return new UserDto(
+        //             Id: reader.GetInt32("user_id"),
+        //             Username: reader.GetString("username"),
+        //             PasswordHash: reader.GetString("password_hash"),
+        //             Role: reader.GetString("role"),
+        //             IsAdmin: reader.GetBoolean("is_admin"),
+        //             ClearanceLevel: reader.GetString("clearance_level")
+        //         );
+        //     }
+        //     return null;
+        // }
     }
 }
