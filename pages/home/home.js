@@ -22,8 +22,8 @@ async function fetchStorages() {
 
 //Do cái background của mình không có theo một cái chuẩn nào hết nên là tui chỉnh công thức tính tạo độ một xíu dựa theo kho vũ khí ở nhà bè.
 function latLngToXY(lat, lng, mapWidth, mapHeight) {
-    const x = (lng + 155) * (mapWidth / 360); // long lệch 155px (gốc là 180 thì phải)
-    const y = (106 - lat) * (mapHeight / 180); // lat lệch -106px (gốc này thì là -90)
+    const x = (lng + 158) * (mapWidth / 360); // long lệch 155px (gốc là 180 thì phải)
+    const y = (117 - lat) * (mapHeight / 180); // lat lệch -106px (gốc này thì là -90)
     return { x, y };
 }
 

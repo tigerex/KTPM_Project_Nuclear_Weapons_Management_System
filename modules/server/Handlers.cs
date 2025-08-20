@@ -28,6 +28,15 @@ namespace project_nuclear_weapons_management_system.modules.server
             return token;
         }
 
+        public static bool RequireRole(Dictionary<string,string> headers, params string[] roles)
+        {
+            headers.TryGetValue("Authorization", out var authHeader);
+            var session = AuthService.Instance.Validate(authHeader);
+            if (session == null) return false;
+
+            return roles.Contains(session.Role, StringComparer.OrdinalIgnoreCase);
+        }
+
         public Session? Validate(string? authorizationHeader)
         {
             if (string.IsNullOrWhiteSpace(authorizationHeader)) return null;
@@ -43,18 +52,6 @@ namespace project_nuclear_weapons_management_system.modules.server
             var token = authorizationHeader.Substring(7).Trim();
             _sessions.TryRemove(token, out _); // idempotent
         }
-        
-        //  public Session? ValidateToken(string token)
-        // {
-        //     if (string.IsNullOrWhiteSpace(token)) return null;
-        //     return _sessions.TryGetValue(token, out var s) && s.ExpiresAt > DateTime.UtcNow ? s : null;
-        // }
-
-        // public void Revoke(string token)
-        // {
-        //     if (string.IsNullOrWhiteSpace(token)) return;
-        //     _sessions.TryRemove(token, out _); // idempotent
-        // }
     }
 
     // ===================================
@@ -225,13 +222,20 @@ namespace project_nuclear_weapons_management_system.modules.server
         {
             try
             {
-                // Lấy Authorization header (Bearer <token>) từ headers (đã parse ở HTTP parser)
                 headers.TryGetValue("Authorization", out var authHeader);
 
-                // Thu hồi token. Thiết kế idempotent: luôn 200 OK dù token có/không.
+                // Revoke the token from memory
                 AuthService.Instance.Revoke(authHeader);
+
                 Console.WriteLine($"[INFO] User logged out: {authHeader}");
-                return HttpHelper.Json(200, new { ok = true, message = "Logged out" });
+
+                // Return JSON + clear the cookie
+                return HttpHelper.Json(200, new { ok = true, message = "Logged out" },
+                    new()
+                    {
+                        // overwrite cookie with empty value, expired
+                        ["Set-Cookie"] = "auth=; Path=/; Max-Age=0; HttpOnly; SameSite=Lax"
+                    });
             }
             catch (Exception ex)
             {
@@ -240,10 +244,11 @@ namespace project_nuclear_weapons_management_system.modules.server
             }
         }
     }
+    
     //Handler GET một kho vũ khí
     public sealed class StorageHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -271,7 +276,10 @@ namespace project_nuclear_weapons_management_system.modules.server
         {
             try
             {
+                // var sw = System.Diagnostics.Stopwatch.StartNew(); //debug
                 var storages = Database.GetAllStorages();
+                // sw.Stop();//debug
+                // Console.WriteLine($"[PERF] Database.GetAllStorages took {sw.ElapsedMilliseconds}ms");//debug
                 return HttpHelper.Json(200, storages);
             }
             catch (Exception ex)
@@ -287,6 +295,9 @@ namespace project_nuclear_weapons_management_system.modules.server
     {
         public byte[] Handle(string body, Dictionary<string,string> headers)
         {
+            //chỉ có admin mới làm được cái này
+            // if (!AuthService.RequireRole(headers, "Admin"))
+            //     return HttpHelper.Json(403, new { error = "Forbidden" });
             try
             {
                 // parse body JSON: { "locationName": "...", "latitude": 10.7, "longitude": 106.6 }

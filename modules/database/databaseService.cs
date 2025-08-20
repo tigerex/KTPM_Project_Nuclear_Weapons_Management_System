@@ -160,6 +160,7 @@ namespace project_nuclear_weapons_management_system.modules.database
             return null;
         }
 
+        // PUT kho vũ khí
         public static bool UpdateStorage(int id, string locationName, decimal latitude, decimal longitude)
         {
             using var conn = GetConnection();
@@ -175,6 +176,7 @@ namespace project_nuclear_weapons_management_system.modules.database
             return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi được cập nhật
         }
 
+        // DELETE kho vũ khí
         public static bool DeleteStorage(int id)
         {
             using var conn = GetConnection();
@@ -187,16 +189,15 @@ namespace project_nuclear_weapons_management_system.modules.database
             return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi bị xóa
         }
 
+        // GET 1 vũ khí
         public static WeaponDto? GetWeaponById(int id)
         {
             using var conn = GetConnection();
 
-            const string sql = @"
-        SELECT weapon_id, name, type, yield_megatons, range_km, weight_kg, 
-               status, country_of_origin, year_created, notes
-        FROM weapons 
-        WHERE weapon_id = @id 
-        LIMIT 1;";
+            const string sql = @"SELECT weapon_id, name, type, yield_megatons, range_km, weight_kg, status, country_of_origin, year_created, notes
+                                    FROM weapons 
+                                    WHERE weapon_id = @id 
+                                    LIMIT 1;";
 
             using var cmd = new MySqlCommand(sql, conn);
             cmd.Parameters.AddWithValue("@id", id);
@@ -220,6 +221,7 @@ namespace project_nuclear_weapons_management_system.modules.database
             return null;
         }
 
+        // POST vũ khí
         public static bool AddWeapon(
             string name,
             string type,
@@ -234,10 +236,10 @@ namespace project_nuclear_weapons_management_system.modules.database
             using var conn = GetConnection();
 
             const string sql = @"
-        INSERT INTO weapons
-            (name, type, yield_megatons, range_km, weight_kg, status, country_of_origin, year_created, notes)
-        VALUES
-            (@name, @type, @yield_megatons, @range_km, @weight_kg, @status, @country_of_origin, @year_created, @notes);";
+                                INSERT INTO weapons
+                                    (name, type, yield_megatons, range_km, weight_kg, status, country_of_origin, year_created, notes)
+                                VALUES
+                                    (@name, @type, @yield_megatons, @range_km, @weight_kg, @status, @country_of_origin, @year_created, @notes);";
 
             using var cmd = new MySqlCommand(sql, conn);
 
@@ -255,6 +257,7 @@ namespace project_nuclear_weapons_management_system.modules.database
             return rows > 0;
         }
 
+        //DELETE vũ khí
         public static bool DeleteWeapon(int id)
         {
             using var conn = GetConnection();
@@ -267,23 +270,24 @@ namespace project_nuclear_weapons_management_system.modules.database
             return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi bị xóa
         }
 
+        //PUT vũ khí
         public static bool UpdateWeapon(int id, string name, string type, decimal? yieldMegatons, int? rangeKm, int? weightKg, string status, string countryOfOrigin, int? yearCreated, string? notes)
         {
             using var conn = GetConnection();
 
             const string sql = @"
-        UPDATE weapons
-        SET
-            name = @name,
-            type = @type,
-            yield_megatons = @yield_megatons,
-            range_km = @range_km,
-            weight_kg = @weight_kg,
-            status = @status,
-            country_of_origin = @country_of_origin,
-            year_created = @year_created,
-            notes = @notes
-        WHERE weapon_id = @id;";
+                                    UPDATE weapons
+                                    SET
+                                        name = @name,
+                                        type = @type,
+                                        yield_megatons = @yield_megatons,
+                                        range_km = @range_km,
+                                        weight_kg = @weight_kg,
+                                        status = @status,
+                                        country_of_origin = @country_of_origin,
+                                        year_created = @year_created,
+                                        notes = @notes
+                                    WHERE weapon_id = @id;";
 
             using var cmd = new MySqlCommand(sql, conn);
 
