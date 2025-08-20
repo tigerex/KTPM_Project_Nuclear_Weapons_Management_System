@@ -2,6 +2,7 @@ using System;
 using MySql.Data.MySqlClient;
 using System.Threading.Tasks;
 using System.Data;
+using System.Dynamic;
 // test user admin admin123
 namespace project_nuclear_weapons_management_system.modules.database
 {
@@ -24,7 +25,7 @@ namespace project_nuclear_weapons_management_system.modules.database
         int? weight_kg,
         string status,
         string country_of_origin,
-        int? year_craeted,
+        int? year_created,
         string? notes
     );
 
@@ -59,8 +60,9 @@ namespace project_nuclear_weapons_management_system.modules.database
         }
 
         // Ví dụ truy vấn test: lấy danh sách vũ khí từ bảng weapons.
-        public static void GetAllWeapon()
+        public static List<WeaponDto> GetAllWeapon()
         {
+            var weapons = new List<WeaponDto>();
             using (var conn = GetConnection())
             {
                 string sql = "SELECT weapon_id, name, type FROM weapons;";
@@ -69,10 +71,22 @@ namespace project_nuclear_weapons_management_system.modules.database
                 {
                     while (reader.Read())
                     {
-                        Console.WriteLine($"Weapon: {reader["name"]} (Type: {reader["type"]}, ID: {reader["weapon_id"]})");
+                        weapons.Add(new WeaponDto(
+                            weapon_id: reader.GetInt32("weapon_id"),
+                            name: reader.GetString("name"),
+                            type: reader.GetString("type"),
+                            yield_megatons: reader.IsDBNull("yield_megatons") ? null : reader.GetDecimal("yield_megatons"),
+                            range_km: reader.IsDBNull("range_km") ? null : reader.GetInt32("range_km"),
+                            weight_kg: reader.IsDBNull("weight_kg") ? null : reader.GetInt32("weight_kg"),
+                            status: reader.GetString("status"),
+                            country_of_origin: reader.GetString("country_of_origin"),
+                            year_created: reader.IsDBNull("year_created") ? null : reader.GetInt32("year_created"),
+                            notes: reader.IsDBNull("notes") ? null : reader.GetString("notes")
+                        ));
                     }
                 }
             }
+            return weapons;
         }
 
         //GET danh sách tất cả các kho vũ khí.
@@ -121,6 +135,172 @@ namespace project_nuclear_weapons_management_system.modules.database
             return id;
         }
 
+        public static StorageDto? GetStorageById(int id)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"SELECT storage_id, location_name, latitude, longitude, last_inspection FROM storages WHERE storage_id = @id LIMIT 1;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+
+            using var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                return new StorageDto(
+                    storage_id: reader.GetInt32("storage_id"),
+                    location_name: reader.GetString("location_name"),
+                    latitude: reader.GetDecimal("latitude"),
+                    longitude: reader.GetDecimal("longitude"),
+                    last_inspection: reader.IsDBNull("last_inspection")
+                        ? null
+                        : reader.GetDateTime("last_inspection")
+                );
+            }
+            return null;
+        }
+
+        public static bool UpdateStorage(int id, string locationName, decimal latitude, decimal longitude)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"UPDATE storages SET location_name = @name, latitude = @lat, longitude = @lng WHERE storage_id = @id;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@name", locationName);
+            cmd.Parameters.AddWithValue("@lat", latitude);
+            cmd.Parameters.AddWithValue("@lng", longitude);
+
+            return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi được cập nhật
+        }
+
+        public static bool DeleteStorage(int id)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"DELETE FROM storages WHERE storage_id = @id;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+
+            return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi bị xóa
+        }
+
+        public static WeaponDto? GetWeaponById(int id)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"
+        SELECT weapon_id, name, type, yield_megatons, range_km, weight_kg, 
+               status, country_of_origin, year_created, notes
+        FROM weapons 
+        WHERE weapon_id = @id 
+        LIMIT 1;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+
+            using var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                return new WeaponDto(
+                    reader.GetInt32("weapon_id"),
+                    reader.GetString("name"),
+                    reader.GetString("type"),
+                    reader.IsDBNull("yield_megatons") ? null : reader.GetDecimal("yield_megatons"),
+                    reader.IsDBNull("range_km") ? null : reader.GetInt32("range_km"),
+                    reader.IsDBNull("weight_kg") ? null : reader.GetInt32("weight_kg"),
+                    reader.GetString("status"),
+                    reader.GetString("country_of_origin"),
+                    reader.IsDBNull("year_created") ? null : reader.GetInt32("year_created"),
+                    reader.IsDBNull("notes") ? null : reader.GetString("notes")
+                );
+            }
+            return null;
+        }
+
+        public static bool AddWeapon(
+            string name,
+            string type,
+            decimal? yieldMegatons,
+            int? rangeKm,
+            int? weightKg,
+            string status,
+            string countryOfOrigin,
+            int? yearCreated,
+            string? notes)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"
+        INSERT INTO weapons
+            (name, type, yield_megatons, range_km, weight_kg, status, country_of_origin, year_created, notes)
+        VALUES
+            (@name, @type, @yield_megatons, @range_km, @weight_kg, @status, @country_of_origin, @year_created, @notes);";
+
+            using var cmd = new MySqlCommand(sql, conn);
+
+            cmd.Parameters.AddWithValue("@name", name);
+            cmd.Parameters.AddWithValue("@type", type);
+            cmd.Parameters.AddWithValue("@yield_megatons", (object?)yieldMegatons ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@range_km", (object?)rangeKm ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@weight_kg", (object?)weightKg ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@status", status);
+            cmd.Parameters.AddWithValue("@country_of_origin", countryOfOrigin);
+            cmd.Parameters.AddWithValue("@year_created", (object?)yearCreated ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@notes", (object?)notes ?? DBNull.Value);
+
+            int rows = cmd.ExecuteNonQuery();
+            return rows > 0;
+        }
+
+        public static bool DeleteWeapon(int id)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"DELETE FROM weapons WHERE weapon_id = @id;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@id", id);
+
+            return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi bị xóa
+        }
+
+        public static bool UpdateWeapon(int id, string name, string type, decimal? yieldMegatons, int? rangeKm, int? weightKg, string status, string countryOfOrigin, int? yearCreated, string? notes)
+        {
+            using var conn = GetConnection();
+
+            const string sql = @"
+        UPDATE weapons
+        SET
+            name = @name,
+            type = @type,
+            yield_megatons = @yield_megatons,
+            range_km = @range_km,
+            weight_kg = @weight_kg,
+            status = @status,
+            country_of_origin = @country_of_origin,
+            year_created = @year_created,
+            notes = @notes
+        WHERE weapon_id = @id;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@name", name);
+            cmd.Parameters.AddWithValue("@type", type);
+            cmd.Parameters.AddWithValue("@yield_megatons", (object?)yieldMegatons ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@range_km", (object?)rangeKm ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@weight_kg", (object?)weightKg ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@status", status);
+            cmd.Parameters.AddWithValue("@country_of_origin", countryOfOrigin);
+            cmd.Parameters.AddWithValue("@year_created", (object?)yearCreated ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@notes", (object?)notes ?? DBNull.Value);
+
+            int rows = cmd.ExecuteNonQuery();
+            return rows > 0;
+        }
 
         // ======= Chuẩn bị cho login =======
 

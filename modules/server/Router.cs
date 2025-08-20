@@ -25,35 +25,37 @@ namespace project_nuclear_weapons_management_system.modules.server
         
 
         // helper parse cookie
-        private static string? GetCookie(Dictionary<string,string> headers, string name)
-        {
-            if (!headers.TryGetValue("Cookie", out var cookie) || string.IsNullOrEmpty(cookie)) return null;
-            foreach (var part in cookie.Split(';'))
-            {
-                var kv = part.Split('=', 2, StringSplitOptions.TrimEntries);
-                if (kv.Length == 2 && kv[0] == name) return kv[1];
-            }
-            return null;
-        }
+        // private static string? GetCookie(Dictionary<string,string> headers, string name)
+        // {
+        //     if (!headers.TryGetValue("Cookie", out var cookie) || string.IsNullOrEmpty(cookie)) return null;
+        //     foreach (var part in cookie.Split(';'))
+        //     {
+        //         var kv = part.Split('=', 2, StringSplitOptions.TrimEntries);
+        //         if (kv.Length == 2 && kv[0] == name) return kv[1];
+        //     }
+        //     return null;
+        // }
 
-        private static bool IsProtectedPath(string path)
-        {
-            // đánh dấu các trang phải đăng nhập
-            return path.StartsWith("/home") || path.StartsWith("/admin");
-        }
+        // private static bool IsProtectedPath(string path)
+        // {
+        //     // đánh dấu các trang phải đăng nhập
+        //     return path.StartsWith("/home") || path.StartsWith("/admin");
+        // }
 
         // --- Static file serving ---
         private static byte[] HandleStatic(string path, Dictionary<string, string> headers)
         {
-            
+
             // Nếu vào trang "protected" mà CHƯA đăng nhập → ép về /login
-            if (IsProtectedPath(path))
-            {
-                var token = GetCookie(headers, "authToken");
-                bool ok = !string.IsNullOrEmpty(token) && AuthService.Instance.Validate($"Bearer {token}") != null;
-                if (!ok)
-                    return HttpHelper.Redirect("/login");
-            }
+            // if (IsProtectedPath(path))
+            // {
+            //     var token = GetCookie(headers, "authToken");
+            //     bool ok = !string.IsNullOrEmpty(token) && AuthService.Instance.Validate($"Bearer {token}") != null;
+            //     if (!ok)
+            //         return HttpHelper.Redirect("/login");
+            //     else
+            //         return HttpHelper.Redirect("/home"); // nếu đã đăng nhập thì cho vào trang yêu cầu
+            // }
 
             // ======= Phần resolve file như cũ =======
             if (path == "/" || string.IsNullOrEmpty(path))
