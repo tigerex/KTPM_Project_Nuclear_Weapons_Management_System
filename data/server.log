@@ -3357,3 +3357,879 @@
 [2025-08-20 18:44:06] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
 [2025-08-20 18:44:20] [INFO] Keep-alive timeout for 192.168.0.105, closing connection.
 [2025-08-20 18:44:20] Client 192.168.0.105 disconnected.
+[2025-08-20 21:01:25] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:01:25] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:01:29] Client connected from 192.168.2.11
+[2025-08-20 21:01:29] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:01:29] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:01:34] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:01:35] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:01:51] [DEBUG] 192.168.2.11 -> GET /login?username=admin&password=admin123
+[2025-08-20 21:01:51] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:01:53] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:01:53] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:02:08] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:02:08] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:02:08] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:02:11] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:02:28] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:02:58] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:02:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:02:58] Client connected from 192.168.2.11
+[2025-08-20 21:02:58] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:02:58] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:02:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:02:58] Client connected from 192.168.2.11
+[2025-08-20 21:02:58] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:02:58] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:02:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:02:58] Client connected from 192.168.2.11
+[2025-08-20 21:02:58] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:02:58] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:02:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:02:59] Client connected from 192.168.2.11
+[2025-08-20 21:02:59] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:02:59] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:02:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:02:59] Client connected from 192.168.2.11
+[2025-08-20 21:02:59] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:02:59] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:02:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:02:59] Client connected from 192.168.2.11
+[2025-08-20 21:02:59] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:02:59] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:02:59] [ERROR] AllStorageHandler: Connection must be valid and open.
+[2025-08-20 21:03:09] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:03:29] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:03:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:03:31] !!!Command issue!!!
+[2025-08-20 21:03:31] 🛑 Server stopped gracefully.
+[2025-08-20 21:03:31] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 21:03:31] ===== SESSION END =====
+
+[2025-08-20 21:04:02] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:04:02] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:04:06] Client connected from 192.168.2.11
+[2025-08-20 21:04:06] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:04:06] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:04:14] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:04:14] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:04:24] [DEBUG] 192.168.2.11 -> GET /login?username=admin&password=admin123
+[2025-08-20 21:04:24] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:04:32] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:04:32] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:04:44] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:04:52] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:05:22] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:05:22] Client 192.168.2.11 disconnected.
+[2025-08-20 21:05:22] Client connected from 192.168.2.11
+[2025-08-20 21:05:22] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:05:22] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:05:22] Client 192.168.2.11 disconnected.
+[2025-08-20 21:05:22] Client connected from 192.168.2.11
+[2025-08-20 21:05:22] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:05:22] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:05:22] Client 192.168.2.11 disconnected.
+[2025-08-20 21:05:22] Client connected from 192.168.2.11
+[2025-08-20 21:05:22] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:05:22] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:05:22] Client 192.168.2.11 disconnected.
+[2025-08-20 21:05:22] Client connected from 192.168.2.11
+[2025-08-20 21:05:22] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:05:52] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:05:52] Client 192.168.2.11 disconnected.
+[2025-08-20 21:05:52] Client connected from 192.168.2.11
+[2025-08-20 21:05:52] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:05:52] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:06:05] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:06:05] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:06:05] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:06:23] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:06:23] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:06:29] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:06:30] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:06:50] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:07:20] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:07:20] Client 192.168.2.11 disconnected.
+[2025-08-20 21:07:20] Client connected from 192.168.2.11
+[2025-08-20 21:07:20] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:07:20] [INFO] Idle client 192.168.2.11 disconnected (no request).
+[2025-08-20 21:07:20] Client 192.168.2.11 disconnected.
+[2025-08-20 21:07:20] Client connected from 192.168.2.11
+[2025-08-20 21:07:20] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:07:50] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:07:50] Client 192.168.2.11 disconnected.
+[2025-08-20 21:07:50] Client connected from 192.168.2.11
+[2025-08-20 21:07:50] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:08:20] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:08:20] Client 192.168.2.11 disconnected.
+[2025-08-20 21:08:20] Client connected from 192.168.2.11
+[2025-08-20 21:08:20] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:08:20] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:08:50] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:08:50] Client 192.168.2.11 disconnected.
+[2025-08-20 21:10:23] Client connected from 192.168.2.11
+[2025-08-20 21:10:23] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:10:23] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:10:36] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:10:53] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:10:53] Client 192.168.2.11 disconnected.
+[2025-08-20 21:10:53] !!!Command issue!!!
+[2025-08-20 21:10:53] [ALERT] Server will stop in 0 seconds...
+[2025-08-20 21:10:53] 🛑 Server stopped gracefully.
+[2025-08-20 21:10:53] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 21:10:53] ===== SESSION END =====
+
+[2025-08-20 21:11:04] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:11:04] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:11:06] !!!Command issue!!!
+[2025-08-20 21:11:06] [ALERT] Server will stop in 0 seconds...
+[2025-08-20 21:11:06] 🛑 Server stopped gracefully.
+[2025-08-20 21:11:06] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 21:11:06] ===== SESSION END =====
+
+[2025-08-20 21:11:11] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:11:11] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:12:00] Client connected from 192.168.2.11
+[2025-08-20 21:12:00] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:12:00] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:12:30] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:12:30] Client 192.168.2.11 disconnected.
+[2025-08-20 21:12:31] Client connected from 192.168.2.11
+[2025-08-20 21:12:31] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:13:01] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:13:01] Client 192.168.2.11 disconnected.
+[2025-08-20 21:13:14] Client connected from 192.168.2.11
+[2025-08-20 21:13:14] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:13:14] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:13:44] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:13:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:13:45] Client connected from 192.168.2.11
+[2025-08-20 21:13:45] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:14:15] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:14:15] Client 192.168.2.11 disconnected.
+[2025-08-20 21:14:15] Client connected from 192.168.2.11
+[2025-08-20 21:14:15] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:14:45] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:14:45] Client 192.168.2.11 disconnected.
+[2025-08-20 21:19:06] Client connected from 192.168.2.11
+[2025-08-20 21:19:06] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:19:06] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:19:36] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:19:36] Client 192.168.2.11 disconnected.
+[2025-08-20 21:19:36] Client connected from 192.168.2.11
+[2025-08-20 21:19:36] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:20:06] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:20:06] Client 192.168.2.11 disconnected.
+[2025-08-20 21:20:06] Client connected from 192.168.2.11
+[2025-08-20 21:20:06] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:20:36] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:20:36] Client 192.168.2.11 disconnected.
+[2025-08-20 21:20:36] Client connected from 192.168.2.11
+[2025-08-20 21:20:36] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:20:36] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:21:07] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:21:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:29:15] !!!Command issue!!!
+[2025-08-20 21:29:15] [ALERT] Server will stop in 3 seconds...
+[2025-08-20 21:29:18] 🛑 Server stopped gracefully.
+[2025-08-20 21:29:18] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 21:29:18] ===== SESSION END =====
+
+[2025-08-20 21:29:25] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:29:25] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:29:31] Client connected from 192.168.2.11
+[2025-08-20 21:29:31] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:29:31] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:29:31] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:30:31] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:30:31] Client 192.168.2.11 disconnected.
+[2025-08-20 21:30:31] Client connected from 192.168.2.11
+[2025-08-20 21:30:31] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:31:31] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:31:31] Client 192.168.2.11 disconnected.
+[2025-08-20 21:31:31] Client connected from 192.168.2.11
+[2025-08-20 21:31:31] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:31:31] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:31:31] [PERF] Database.GetAllStorages took 487ms
+[2025-08-20 21:32:31] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:32:31] Client 192.168.2.11 disconnected.
+[2025-08-20 21:32:32] Client connected from 192.168.2.11
+[2025-08-20 21:32:32] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:32:32] [PERF] Database.GetAllStorages took 10ms
+[2025-08-20 21:33:04] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:26] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:27] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:29] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:29] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:29] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:29] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:29] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 21:33:32] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:33:32] Client 192.168.2.11 disconnected.
+[2025-08-20 21:33:32] !!!Command issue!!!
+[2025-08-20 21:33:32] [ALERT] Server will stop in 10 seconds...
+[2025-08-20 21:33:33] !!!Command issue!!!
+[2025-08-20 21:33:33] [ALERT] Server will stop in 0 seconds...
+[2025-08-20 21:33:33] 🛑 Server stopped gracefully.
+[2025-08-20 21:33:33] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 21:33:33] ===== SESSION END =====
+
+[2025-08-20 21:33:52] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:33:52] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:34:00] Client connected from 192.168.2.11
+[2025-08-20 21:34:00] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:34:00] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:35:00] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:35:00] Client 192.168.2.11 disconnected.
+[2025-08-20 21:35:00] Client connected from 192.168.2.11
+[2025-08-20 21:35:00] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:36:01] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:36:01] Client 192.168.2.11 disconnected.
+[2025-08-20 21:36:01] Client connected from 192.168.2.11
+[2025-08-20 21:36:01] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:37:01] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:37:01] Client 192.168.2.11 disconnected.
+[2025-08-20 21:37:01] Client connected from 192.168.2.11
+[2025-08-20 21:37:01] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:37:01] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:38:01] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 21:38:01] Client 192.168.2.11 disconnected.
+[2025-08-20 21:40:20] !!!Command issue!!!
+[2025-08-20 21:40:20] [ALERT] Server will stop in 2 seconds...
+[2025-08-20 21:40:22] 🛑 Server stopped gracefully.
+[2025-08-20 21:40:22] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 21:40:22] ===== SESSION END =====
+
+[2025-08-20 21:53:55] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 21:53:55] ====== SESSION ACTIVITIES =====
+[2025-08-20 21:53:59] Client connected from 192.168.2.11
+[2025-08-20 21:53:59] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:53:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:53:59] Client connected from 192.168.2.11
+[2025-08-20 21:53:59] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:53:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:53:59] Client connected from 192.168.2.11
+[2025-08-20 21:53:59] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:53:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:53:59] Client connected from 192.168.2.11
+[2025-08-20 21:53:59] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:53:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:53:59] Client connected from 192.168.2.11
+[2025-08-20 21:53:59] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:53:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:53:59] Client connected from 192.168.2.11
+[2025-08-20 21:53:59] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:53:59] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:07] Client connected from 192.168.2.11
+[2025-08-20 21:54:07] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:54:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:08] Client connected from 192.168.2.11
+[2025-08-20 21:54:08] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:54:08] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:08] Client connected from 192.168.2.11
+[2025-08-20 21:54:08] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:54:08] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:40] Client connected from 192.168.2.11
+[2025-08-20 21:54:40] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:54:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:40] Client connected from 192.168.2.11
+[2025-08-20 21:54:40] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:54:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:40] Client connected from 192.168.2.11
+[2025-08-20 21:54:40] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:54:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:40] Client connected from 192.168.2.11
+[2025-08-20 21:54:40] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:54:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:50] Client connected from 192.168.2.11
+[2025-08-20 21:54:50] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:54:50] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:50] Client connected from 192.168.2.11
+[2025-08-20 21:54:50] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:54:50] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:50] Client connected from 192.168.2.11
+[2025-08-20 21:54:50] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:54:50] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:58] Client connected from 192.168.2.11
+[2025-08-20 21:54:58] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:54:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:58] Client connected from 192.168.2.11
+[2025-08-20 21:54:58] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:54:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:58] Client connected from 192.168.2.11
+[2025-08-20 21:54:58] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:54:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:58] Client connected from 192.168.2.11
+[2025-08-20 21:54:58] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:54:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:58] Client connected from 192.168.2.11
+[2025-08-20 21:54:58] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:54:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:54:58] Client connected from 192.168.2.11
+[2025-08-20 21:54:58] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:54:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:43] Client connected from 192.168.2.11
+[2025-08-20 21:55:43] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:55:43] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:44] Client connected from 192.168.2.11
+[2025-08-20 21:55:44] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:55:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:44] Client connected from 192.168.2.11
+[2025-08-20 21:55:44] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:55:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:53] Client connected from 192.168.2.11
+[2025-08-20 21:55:53] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:55:53] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:53] Client connected from 192.168.2.11
+[2025-08-20 21:55:53] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:55:53] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:53] Client connected from 192.168.2.11
+[2025-08-20 21:55:53] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:55:53] Client 192.168.2.11 disconnected.
+[2025-08-20 21:55:53] Client connected from 192.168.2.11
+[2025-08-20 21:55:53] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:55:53] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:05] Client connected from 192.168.2.11
+[2025-08-20 21:56:05] [DEBUG] 192.168.2.11 -> POST /api/auth/login
+[2025-08-20 21:56:05] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:06] Client connected from 192.168.2.11
+[2025-08-20 21:56:06] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:56:06] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:07] Client connected from 192.168.2.11
+[2025-08-20 21:56:07] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:56:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:07] Client connected from 192.168.2.11
+[2025-08-20 21:56:07] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:56:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:07] Client connected from 192.168.2.11
+[2025-08-20 21:56:07] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:56:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:07] Client connected from 192.168.2.11
+[2025-08-20 21:56:07] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:56:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:07] Client connected from 192.168.2.11
+[2025-08-20 21:56:07] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:56:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:26] Client connected from 192.168.2.11
+[2025-08-20 21:56:26] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:56:26] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:26] Client connected from 192.168.2.11
+[2025-08-20 21:56:26] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:56:26] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:26] Client connected from 192.168.2.11
+[2025-08-20 21:56:26] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:56:26] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:26] Client connected from 192.168.2.11
+[2025-08-20 21:56:26] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:56:26] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:30] Client connected from 192.168.2.11
+[2025-08-20 21:56:30] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 21:56:30] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:31] Client connected from 192.168.2.11
+[2025-08-20 21:56:31] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 21:56:31] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:31] Client connected from 192.168.2.11
+[2025-08-20 21:56:31] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 21:56:31] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:52] Client connected from 192.168.2.11
+[2025-08-20 21:56:52] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:56:52] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:52] Client connected from 192.168.2.11
+[2025-08-20 21:56:52] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:56:52] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:52] Client connected from 192.168.2.11
+[2025-08-20 21:56:52] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:56:52] Client 192.168.2.11 disconnected.
+[2025-08-20 21:56:52] Client connected from 192.168.2.11
+[2025-08-20 21:56:52] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:56:52] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:12] Client connected from 192.168.2.11
+[2025-08-20 21:57:12] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:57:12] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:13] Client connected from 192.168.2.11
+[2025-08-20 21:57:13] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:57:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:13] Client connected from 192.168.2.11
+[2025-08-20 21:57:13] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:57:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:13] Client connected from 192.168.2.11
+[2025-08-20 21:57:13] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:57:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:16] Client connected from 192.168.2.11
+[2025-08-20 21:57:16] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 21:57:16] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:16] Client connected from 192.168.2.11
+[2025-08-20 21:57:16] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 21:57:16] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:16] Client connected from 192.168.2.11
+[2025-08-20 21:57:16] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 21:57:16] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:16] Client connected from 192.168.2.11
+[2025-08-20 21:57:16] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 21:57:16] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:43] Client connected from 192.168.2.11
+[2025-08-20 21:57:43] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:57:43] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:44] Client connected from 192.168.2.11
+[2025-08-20 21:57:44] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:57:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:44] Client connected from 192.168.2.11
+[2025-08-20 21:57:44] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:57:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:44] Client connected from 192.168.2.11
+[2025-08-20 21:57:44] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.png
+[2025-08-20 21:57:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:44] Client connected from 192.168.2.11
+[2025-08-20 21:57:44] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:57:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:44] Client connected from 192.168.2.11
+[2025-08-20 21:57:44] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:57:44] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:58] Client connected from 192.168.2.11
+[2025-08-20 21:57:58] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:57:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:58] Client connected from 192.168.2.11
+[2025-08-20 21:57:58] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:57:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:58] Client connected from 192.168.2.11
+[2025-08-20 21:57:58] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:57:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:58] Client connected from 192.168.2.11
+[2025-08-20 21:57:58] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:57:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:58] Client connected from 192.168.2.11
+[2025-08-20 21:57:58] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:57:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:57:58] Client connected from 192.168.2.11
+[2025-08-20 21:57:58] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:57:58] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:24] Client connected from 192.168.2.11
+[2025-08-20 21:58:24] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:58:24] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:24] Client connected from 192.168.2.11
+[2025-08-20 21:58:24] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:58:24] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:24] Client connected from 192.168.2.11
+[2025-08-20 21:58:24] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:58:24] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:24] Client connected from 192.168.2.11
+[2025-08-20 21:58:24] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:58:24] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:24] Client connected from 192.168.2.11
+[2025-08-20 21:58:24] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:58:24] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:24] Client connected from 192.168.2.11
+[2025-08-20 21:58:24] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:58:24] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:29] Client connected from 192.168.2.11
+[2025-08-20 21:58:29] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:58:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:29] Client connected from 192.168.2.11
+[2025-08-20 21:58:29] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:58:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:29] Client connected from 192.168.2.11
+[2025-08-20 21:58:29] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:58:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:29] Client connected from 192.168.2.11
+[2025-08-20 21:58:29] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:58:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:29] Client connected from 192.168.2.11
+[2025-08-20 21:58:29] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:58:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:29] Client connected from 192.168.2.11
+[2025-08-20 21:58:29] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:58:29] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:34] Client connected from 192.168.2.11
+[2025-08-20 21:58:34] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:58:34] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:34] Client connected from 192.168.2.11
+[2025-08-20 21:58:34] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:58:34] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:34] Client connected from 192.168.2.11
+[2025-08-20 21:58:34] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:58:34] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:34] Client connected from 192.168.2.11
+[2025-08-20 21:58:34] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:58:34] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:34] Client connected from 192.168.2.11
+[2025-08-20 21:58:34] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:58:34] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:34] Client connected from 192.168.2.11
+[2025-08-20 21:58:34] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:58:34] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:40] Client connected from 192.168.2.11
+[2025-08-20 21:58:40] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:58:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:40] Client connected from 192.168.2.11
+[2025-08-20 21:58:40] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:58:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:40] Client connected from 192.168.2.11
+[2025-08-20 21:58:40] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:58:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:40] Client connected from 192.168.2.11
+[2025-08-20 21:58:40] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:58:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:40] Client connected from 192.168.2.11
+[2025-08-20 21:58:40] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:58:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:40] Client connected from 192.168.2.11
+[2025-08-20 21:58:40] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:58:40] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:48] Client connected from 192.168.2.11
+[2025-08-20 21:58:48] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:58:48] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:48] Client connected from 192.168.2.11
+[2025-08-20 21:58:48] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:58:48] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:48] Client connected from 192.168.2.11
+[2025-08-20 21:58:48] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:58:48] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:48] Client connected from 192.168.2.11
+[2025-08-20 21:58:48] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:58:48] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:48] Client connected from 192.168.2.11
+[2025-08-20 21:58:48] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:58:48] Client 192.168.2.11 disconnected.
+[2025-08-20 21:58:48] Client connected from 192.168.2.11
+[2025-08-20 21:58:48] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:58:48] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:02] Client connected from 192.168.2.11
+[2025-08-20 21:59:02] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:02] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:02] Client connected from 192.168.2.11
+[2025-08-20 21:59:02] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:02] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:02] Client connected from 192.168.2.11
+[2025-08-20 21:59:02] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:02] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:02] Client connected from 192.168.2.11
+[2025-08-20 21:59:02] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:02] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:02] Client connected from 192.168.2.11
+[2025-08-20 21:59:02] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:02] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:02] Client connected from 192.168.2.11
+[2025-08-20 21:59:02] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:02] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:07] Client connected from 192.168.2.11
+[2025-08-20 21:59:07] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:07] Client connected from 192.168.2.11
+[2025-08-20 21:59:07] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:07] Client connected from 192.168.2.11
+[2025-08-20 21:59:07] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:07] Client connected from 192.168.2.11
+[2025-08-20 21:59:07] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:07] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:08] Client connected from 192.168.2.11
+[2025-08-20 21:59:08] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:08] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:08] Client connected from 192.168.2.11
+[2025-08-20 21:59:08] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:08] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:13] Client connected from 192.168.2.11
+[2025-08-20 21:59:13] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:13] Client connected from 192.168.2.11
+[2025-08-20 21:59:13] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:13] Client connected from 192.168.2.11
+[2025-08-20 21:59:13] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:13] Client connected from 192.168.2.11
+[2025-08-20 21:59:13] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:13] Client connected from 192.168.2.11
+[2025-08-20 21:59:13] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:13] Client connected from 192.168.2.11
+[2025-08-20 21:59:13] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:13] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:17] Client connected from 192.168.2.11
+[2025-08-20 21:59:17] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:17] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:17] Client connected from 192.168.2.11
+[2025-08-20 21:59:17] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:17] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:18] Client connected from 192.168.2.11
+[2025-08-20 21:59:18] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:18] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:18] Client connected from 192.168.2.11
+[2025-08-20 21:59:18] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:18] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:18] Client connected from 192.168.2.11
+[2025-08-20 21:59:18] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:18] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:18] Client connected from 192.168.2.11
+[2025-08-20 21:59:18] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:18] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:23] Client connected from 192.168.2.11
+[2025-08-20 21:59:23] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:23] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:23] Client connected from 192.168.2.11
+[2025-08-20 21:59:23] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:23] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:23] Client connected from 192.168.2.11
+[2025-08-20 21:59:23] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:23] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:23] Client connected from 192.168.2.11
+[2025-08-20 21:59:23] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:23] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:23] Client connected from 192.168.2.11
+[2025-08-20 21:59:23] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:23] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:23] Client connected from 192.168.2.11
+[2025-08-20 21:59:23] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:23] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:28] Client connected from 192.168.2.11
+[2025-08-20 21:59:28] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:28] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:28] Client connected from 192.168.2.11
+[2025-08-20 21:59:28] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:28] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:28] Client connected from 192.168.2.11
+[2025-08-20 21:59:28] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:28] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:28] Client connected from 192.168.2.11
+[2025-08-20 21:59:28] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:28] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:28] Client connected from 192.168.2.11
+[2025-08-20 21:59:28] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:28] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:28] Client connected from 192.168.2.11
+[2025-08-20 21:59:28] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:28] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:38] Client connected from 192.168.2.11
+[2025-08-20 21:59:38] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:38] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:38] Client connected from 192.168.2.11
+[2025-08-20 21:59:38] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:38] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:39] Client connected from 192.168.2.11
+[2025-08-20 21:59:39] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:39] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:39] Client connected from 192.168.2.11
+[2025-08-20 21:59:39] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:39] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:39] Client connected from 192.168.2.11
+[2025-08-20 21:59:39] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:39] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:39] Client connected from 192.168.2.11
+[2025-08-20 21:59:39] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:39] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:46] Client connected from 192.168.2.11
+[2025-08-20 21:59:46] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:46] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:46] Client connected from 192.168.2.11
+[2025-08-20 21:59:46] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:46] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:46] Client connected from 192.168.2.11
+[2025-08-20 21:59:46] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:46] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:46] Client connected from 192.168.2.11
+[2025-08-20 21:59:46] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:46] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:46] Client connected from 192.168.2.11
+[2025-08-20 21:59:46] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:46] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:46] Client connected from 192.168.2.11
+[2025-08-20 21:59:46] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:46] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:51] Client connected from 192.168.2.11
+[2025-08-20 21:59:51] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:51] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:51] Client connected from 192.168.2.11
+[2025-08-20 21:59:51] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:51] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:51] Client connected from 192.168.2.11
+[2025-08-20 21:59:51] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:51] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:51] Client connected from 192.168.2.11
+[2025-08-20 21:59:51] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:51] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:51] Client connected from 192.168.2.11
+[2025-08-20 21:59:51] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:51] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:51] Client connected from 192.168.2.11
+[2025-08-20 21:59:51] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:51] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:57] Client connected from 192.168.2.11
+[2025-08-20 21:59:57] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 21:59:57] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:57] Client connected from 192.168.2.11
+[2025-08-20 21:59:57] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 21:59:57] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:57] Client connected from 192.168.2.11
+[2025-08-20 21:59:57] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 21:59:57] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:57] Client connected from 192.168.2.11
+[2025-08-20 21:59:57] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 21:59:57] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:57] Client connected from 192.168.2.11
+[2025-08-20 21:59:57] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 21:59:57] Client 192.168.2.11 disconnected.
+[2025-08-20 21:59:57] Client connected from 192.168.2.11
+[2025-08-20 21:59:57] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 21:59:57] Client 192.168.2.11 disconnected.
+[2025-08-20 22:03:58] Client connected from 192.168.2.11
+[2025-08-20 22:03:58] [DEBUG] 192.168.2.11 -> GET /admin
+[2025-08-20 22:03:58] Client 192.168.2.11 disconnected.
+[2025-08-20 22:03:58] Client connected from 192.168.2.11
+[2025-08-20 22:03:58] [DEBUG] 192.168.2.11 -> GET /admin.css
+[2025-08-20 22:03:58] Client 192.168.2.11 disconnected.
+[2025-08-20 22:03:58] Client connected from 192.168.2.11
+[2025-08-20 22:03:58] [DEBUG] 192.168.2.11 -> GET /admin.js
+[2025-08-20 22:03:58] Client 192.168.2.11 disconnected.
+[2025-08-20 22:04:19] Client connected from 192.168.2.11
+[2025-08-20 22:04:19] [DEBUG] 192.168.2.11 -> GET /admin?
+[2025-08-20 22:04:19] Client 192.168.2.11 disconnected.
+[2025-08-20 22:04:20] Client connected from 192.168.2.11
+[2025-08-20 22:04:20] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 22:04:20] Client 192.168.2.11 disconnected.
+[2025-08-20 22:04:20] Client connected from 192.168.2.11
+[2025-08-20 22:04:20] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 22:04:20] Client 192.168.2.11 disconnected.
+[2025-08-20 22:04:24] Client connected from 192.168.2.11
+[2025-08-20 22:04:24] [DEBUG] 192.168.2.11 -> GET /admin
+[2025-08-20 22:04:24] Client 192.168.2.11 disconnected.
+[2025-08-20 22:04:24] Client connected from 192.168.2.11
+[2025-08-20 22:04:24] [DEBUG] 192.168.2.11 -> GET /admin.css
+[2025-08-20 22:04:24] Client 192.168.2.11 disconnected.
+[2025-08-20 22:04:24] Client connected from 192.168.2.11
+[2025-08-20 22:04:24] [DEBUG] 192.168.2.11 -> GET /admin.js
+[2025-08-20 22:04:24] Client 192.168.2.11 disconnected.
+[2025-08-20 22:18:58] !!!Command issue!!!
+[2025-08-20 22:18:58] [ALERT] Server will stop in 0 seconds...
+[2025-08-20 22:18:58] 🛑 Server stopped gracefully.
+[2025-08-20 22:18:58] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 22:18:58] ===== SESSION END =====
+
+[2025-08-20 22:20:23] ✅ Server started successfully at 192.168.2.11:9999
+[2025-08-20 22:20:23] ====== SESSION ACTIVITIES =====
+[2025-08-20 22:20:34] Client connected from 192.168.2.11
+[2025-08-20 22:21:04] [INFO] Keep-alive timeout for 192.168.2.11, closing connection.
+[2025-08-20 22:21:04] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:04] Client connected from 192.168.2.11
+[2025-08-20 22:21:04] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 22:21:04] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:45] Client connected from 192.168.2.11
+[2025-08-20 22:21:45] [DEBUG] 192.168.2.11 -> GET /
+[2025-08-20 22:21:45] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:45] Client connected from 192.168.2.11
+[2025-08-20 22:21:45] [DEBUG] 192.168.2.11 -> GET /default.css
+[2025-08-20 22:21:45] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:45] Client connected from 192.168.2.11
+[2025-08-20 22:21:45] [DEBUG] 192.168.2.11 -> GET /data/resources/mapBackground.png
+[2025-08-20 22:21:45] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:48] Client connected from 192.168.2.11
+[2025-08-20 22:21:48] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 22:21:48] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:48] Client connected from 192.168.2.11
+[2025-08-20 22:21:48] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 22:21:48] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:48] Client connected from 192.168.2.11
+[2025-08-20 22:21:48] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 22:21:48] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:48] Client connected from 192.168.2.11
+[2025-08-20 22:21:48] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 22:21:48] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:50] Client connected from 192.168.2.11
+[2025-08-20 22:21:50] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 22:21:50] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:50] Client connected from 192.168.2.11
+[2025-08-20 22:21:50] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 22:21:50] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:51] Client connected from 192.168.2.11
+[2025-08-20 22:21:51] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 22:21:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:51] Client connected from 192.168.2.11
+[2025-08-20 22:21:51] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 22:21:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:51] Client connected from 192.168.2.11
+[2025-08-20 22:21:51] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 22:21:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:54] Client connected from 192.168.2.11
+[2025-08-20 22:21:54] [DEBUG] 192.168.2.11 -> GET /admin
+[2025-08-20 22:21:54] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:54] Client connected from 192.168.2.11
+[2025-08-20 22:21:54] [DEBUG] 192.168.2.11 -> GET /login
+[2025-08-20 22:21:54] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:54] Client connected from 192.168.2.11
+[2025-08-20 22:21:54] [DEBUG] 192.168.2.11 -> GET /login.css
+[2025-08-20 22:21:54] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:54] Client connected from 192.168.2.11
+[2025-08-20 22:21:54] [DEBUG] 192.168.2.11 -> GET /data/resources/loginMap.jpg
+[2025-08-20 22:21:54] Client 192.168.2.11 disconnected.
+[2025-08-20 22:21:55] Client connected from 192.168.2.11
+[2025-08-20 22:21:55] [DEBUG] 192.168.2.11 -> GET /login.js
+[2025-08-20 22:21:55] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:01] Client connected from 192.168.2.11
+[2025-08-20 22:22:01] [DEBUG] 192.168.2.11 -> POST /api/auth/login
+[2025-08-20 22:22:02] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:03] Client connected from 192.168.2.11
+[2025-08-20 22:22:03] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 22:22:03] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:03] Client connected from 192.168.2.11
+[2025-08-20 22:22:03] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 22:22:03] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:03] Client connected from 192.168.2.11
+[2025-08-20 22:22:03] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 22:22:03] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:03] Client connected from 192.168.2.11
+[2025-08-20 22:22:03] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 22:22:03] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:03] Client connected from 192.168.2.11
+[2025-08-20 22:22:03] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 22:22:03] Client 192.168.2.11 disconnected.
+[2025-08-20 22:22:04] Client connected from 192.168.2.11
+[2025-08-20 22:22:04] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 22:22:04] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:42] Client connected from 192.168.2.11
+[2025-08-20 22:25:42] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 22:25:42] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:42] Client connected from 192.168.2.11
+[2025-08-20 22:25:42] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 22:25:42] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:42] Client connected from 192.168.2.11
+[2025-08-20 22:25:42] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 22:25:42] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:42] Client connected from 192.168.2.11
+[2025-08-20 22:25:42] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 22:25:42] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:42] Client connected from 192.168.2.11
+[2025-08-20 22:25:42] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 22:25:42] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:43] Client connected from 192.168.2.11
+[2025-08-20 22:25:43] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 22:25:43] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:51] Client connected from 192.168.2.11
+[2025-08-20 22:25:51] [DEBUG] 192.168.2.11 -> GET /home
+[2025-08-20 22:25:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:51] Client connected from 192.168.2.11
+[2025-08-20 22:25:51] [DEBUG] 192.168.2.11 -> GET /home.css
+[2025-08-20 22:25:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:51] Client connected from 192.168.2.11
+[2025-08-20 22:25:51] [DEBUG] 192.168.2.11 -> GET /login/login.css
+[2025-08-20 22:25:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:51] Client connected from 192.168.2.11
+[2025-08-20 22:25:51] [DEBUG] 192.168.2.11 -> GET /data/resources/detailMap.jpg
+[2025-08-20 22:25:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:51] Client connected from 192.168.2.11
+[2025-08-20 22:25:51] [DEBUG] 192.168.2.11 -> GET /home.js
+[2025-08-20 22:25:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:25:51] Client connected from 192.168.2.11
+[2025-08-20 22:25:51] [DEBUG] 192.168.2.11 -> GET /api/storages/all
+[2025-08-20 22:25:51] Client 192.168.2.11 disconnected.
+[2025-08-20 22:27:58] Client connected from 192.168.2.11
+[2025-08-20 22:27:58] [DEBUG] 192.168.2.11 -> GET /api/weapons/all
+[2025-08-20 22:27:58] [ERROR] AllWeaponHandler: Could not find specified column in results: yield_megatons
+[2025-08-20 22:27:58] Client 192.168.2.11 disconnected.
+[2025-08-20 22:38:30] !!!Command issue!!!
+[2025-08-20 22:38:30] [ALERT] Server will stop in 0 seconds...
+[2025-08-20 22:38:30] 🛑 Server stopped gracefully.
+[2025-08-20 22:38:30] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 22:38:30] ===== SESSION END =====
+

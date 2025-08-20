@@ -15,7 +15,7 @@ namespace project_nuclear_weapons_management_system.modules.server
             .Append("HTTP/1.1 ").Append(status).Append(' ').Append(reason).Append("\r\n")
             .Append("Content-Type: ").Append(contentType).Append("\r\n")
             .Append("Content-Length: ").Append(body.Length).Append("\r\n")
-            .Append("Connection: keep-alive\r\n");
+            .Append("Connection: close\r\n"); // đổi qua keep alive nếu mà log file quá nhiều
         if (extraHeaders != null)
             foreach (var kv in extraHeaders) sb.Append(kv.Key).Append(": ").Append(kv.Value).Append("\r\n");
         sb.Append("\r\n");
