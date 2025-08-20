@@ -27,6 +27,9 @@ bld/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+/bin
+/obj
+
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -47,7 +50,7 @@ CodeCoverage/
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-
+/obj
 # NUnit
 *.VisualState.xml
 TestResult.xml

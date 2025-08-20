@@ -1,0 +1,117 @@
+/* Reset & base */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0a0a0a;
+    overflow: hidden;
+}
+
+/* Background setup */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.map-bg {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.35;
+    filter: drop-shadow(0 0 32px #00bfff) brightness(1.15) grayscale(0.3);
+    pointer-events: none;
+}
+
+/* Blur layer */
+.blur-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+/* Overlay like login.css */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, rgba(30,30,50,0.55) 60%, rgba(0,191,255,0.10) 100%);
+    z-index: 1;
+}
+
+/* Centered content */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+/* Glowing title text */
+.glow-text {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem;
+    background: linear-gradient(90deg, #00bfff 60%, #005f8f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 24px #00bfff99, 0 2px 8px #005f8f44;
+    letter-spacing: 1.5px;
+}
+
+.highlight {
+    color: #00bfff;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #b0c4de;
+    font-weight: 500;
+    text-shadow: 0 0 8px #00bfff33;
+}
+
+/* Button with glow */
+.enter-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(90deg, #00bfff 60%, #005f8f 100%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px #00bfff55;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.enter-btn:hover {
+    background: linear-gradient(90deg, #005f8f 60%, #00bfff 100%);
+    box-shadow: 0 4px 16px #00bfff99;
+    transform: scale(1.05);
+}
+
+/* Responsive text */
+@media (max-width: 600px) {
+    .glow-text {
+        font-size: 1.8rem;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+}

@@ -180,14 +180,14 @@ namespace project_nuclear_weapons_management_system.modules.server
                                 //     response = BuildHttpResponse(200, "text/html; charset=UTF-8", html);
                                 // }
 
-                                // Factory Method + Adapter
+
+                                // Chuyển hết các request qua Router xử lí
+                                // Xong trả về response nhân được từ Router thôi
                                 var repo = new MySqlUserRepository();
-                                IRequestHandler handler = HandlerFactory.Create(path, repo);
-                                string response = handler.Handle(body);
+                                byte[] response = Router.Resolve(path, body, repo);
 
                                 // Gửi phản hồi
-                                byte[] responseBytes = Encoding.UTF8.GetBytes(response);
-                                stream.Write(responseBytes, 0, responseBytes.Length);
+                                stream.Write(response, 0, response.Length);
                                 stream.Flush();
 
                             }
