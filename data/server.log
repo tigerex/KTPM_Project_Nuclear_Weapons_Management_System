@@ -1933,3 +1933,62 @@
 [2025-08-20 08:36:51] [INFO] Server shut down due to ProcessExit (application end).
 [2025-08-20 08:36:51] ===== SESSION END =====
 
+[2025-08-20 18:05:10] ✅ Server started successfully at 192.168.1.178:9999
+[2025-08-20 18:05:10] ====== SESSION ACTIVITIES =====
+[2025-08-20 18:05:19] Client connected from 192.168.1.178
+[2025-08-20 18:05:19] [DEBUG] 192.168.1.178 -> GET /
+[2025-08-20 18:05:19] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:19] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:19] Client connected from 192.168.1.178
+[2025-08-20 18:05:19] [DEBUG] 192.168.1.178 -> GET /default.css
+[2025-08-20 18:05:19] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:19] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:19] Client connected from 192.168.1.178
+[2025-08-20 18:05:19] [DEBUG] 192.168.1.178 -> GET /data/resources/mapBackground.png
+[2025-08-20 18:05:19] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:19] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:19] Client connected from 192.168.1.178
+[2025-08-20 18:05:19] [DEBUG] 192.168.1.178 -> GET /favicon.ico
+[2025-08-20 18:05:19] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:19] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:21] Client connected from 192.168.1.178
+[2025-08-20 18:05:21] [DEBUG] 192.168.1.178 -> GET /home
+[2025-08-20 18:05:21] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:21] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:21] Client connected from 192.168.1.178
+[2025-08-20 18:05:21] [DEBUG] 192.168.1.178 -> GET /home.css
+[2025-08-20 18:05:21] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:21] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:21] Client connected from 192.168.1.178
+[2025-08-20 18:05:21] [DEBUG] 192.168.1.178 -> GET /login/login.css
+[2025-08-20 18:05:21] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:21] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:21] Client connected from 192.168.1.178
+[2025-08-20 18:05:21] [DEBUG] 192.168.1.178 -> GET /data/resources/mapBackground.png
+[2025-08-20 18:05:21] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:21] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:21] Client connected from 192.168.1.178
+[2025-08-20 18:05:21] [DEBUG] 192.168.1.178 -> GET /home.js
+[2025-08-20 18:05:21] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:21] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:21] Client connected from 192.168.1.178
+[2025-08-20 18:05:21] [DEBUG] 192.168.1.178 -> GET /api/storages/all
+[2025-08-20 18:05:22] [ERROR] AllStorageHandler: Connection must be valid and open.
+[2025-08-20 18:05:22] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:22] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:22] Client connected from 192.168.1.178
+[2025-08-20 18:05:22] [DEBUG] 192.168.1.178 -> GET /favicon.ico
+[2025-08-20 18:05:22] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:22] Client 192.168.1.178 disconnected.
+[2025-08-20 18:05:26] Client connected from 192.168.1.178
+[2025-08-20 18:05:26] [DEBUG] 192.168.1.178 -> GET /favicon.ico
+[2025-08-20 18:05:26] [INFO] Idle client 192.168.1.178 disconnected (no request).
+[2025-08-20 18:05:26] Client 192.168.1.178 disconnected.
+[2025-08-20 18:09:14] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 18:09:17] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 18:09:20] !!!Command issue!!!
+[2025-08-20 18:09:20] [ALERT] Server will stop in 1 seconds...
+[2025-08-20 18:09:21] 🛑 Server stopped gracefully.
+[2025-08-20 18:09:21] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 18:09:21] ===== SESSION END =====
+
