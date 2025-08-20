@@ -6,37 +6,66 @@ namespace project_nuclear_weapons_management_system.modules.server
     public static class Router
     {
         // Single entrypoint for server
-        public static byte[] Resolve(string path, string body, IUserRepository repo)
+        /// <summary>
+        /// Single entrypoint cho server.
+        /// path bắt đầu bằng /api/ → gọi handler; ngược lại → static files.
+        /// </summary>
+        public static byte[] Resolve(string path, string body, IUserRepository repo, Dictionary<string,string> headers)
         {
             if (path.StartsWith("/api/"))
             {
                 var handler = HandlerFactory.Create(path, repo);
-                return handler.Handle(body);
+                return handler.Handle(body, headers);
             }
             else
             {
-                return HandleStatic(path);
+                return HandleStatic(path, headers); // truyền headers vào static
             }
+        }
+        
+
+        // helper parse cookie
+        private static string? GetCookie(Dictionary<string,string> headers, string name)
+        {
+            if (!headers.TryGetValue("Cookie", out var cookie) || string.IsNullOrEmpty(cookie)) return null;
+            foreach (var part in cookie.Split(';'))
+            {
+                var kv = part.Split('=', 2, StringSplitOptions.TrimEntries);
+                if (kv.Length == 2 && kv[0] == name) return kv[1];
+            }
+            return null;
+        }
+
+        private static bool IsProtectedPath(string path)
+        {
+            // đánh dấu các trang phải đăng nhập
+            return path.StartsWith("/home") || path.StartsWith("/admin");
         }
 
         // --- Static file serving ---
-        private static byte[] HandleStatic(string path)
+        private static byte[] HandleStatic(string path, Dictionary<string, string> headers)
         {
+            
+            // Nếu vào trang "protected" mà CHƯA đăng nhập → ép về /login
+            if (IsProtectedPath(path))
+            {
+                var token = GetCookie(headers, "authToken");
+                bool ok = !string.IsNullOrEmpty(token) && AuthService.Instance.Validate($"Bearer {token}") != null;
+                if (!ok)
+                    return HttpHelper.Redirect("/login");
+            }
+
+            // ======= Phần resolve file như cũ =======
             if (path == "/" || string.IsNullOrEmpty(path))
-                path = "/default"; // default page
+                path = "/default";
 
-            path = path.Replace("..", ""); // prevent directory traversal
-            // Console.WriteLine("Request path: " + path);
-
+            path = path.Replace("..", "");
             string filePath;
 
-            // --- Case 0: direct /data/... route ---
             if (path.StartsWith("/data/"))
             {
-                filePath = Path.Combine(path.TrimStart('/')); 
-                // → stays in data/ folder, not under pages/
+                filePath = Path.Combine(path.TrimStart('/'));
             }
-            // --- Case 1: folder-style route (e.g. /login → pages/login/login.html) ---
             else if (!Path.HasExtension(path))
             {
                 string folder = path.TrimStart('/');
@@ -45,8 +74,6 @@ namespace project_nuclear_weapons_management_system.modules.server
             else
             {
                 string ext = Path.GetExtension(path).ToLowerInvariant();
-
-                // --- Case 2: special handling for "root-level" CSS/JS of a section ---
                 if ((ext == ".css" || ext == ".js") && path.Count(c => c == '/') == 1)
                 {
                     string name = Path.GetFileNameWithoutExtension(path);
@@ -54,13 +81,10 @@ namespace project_nuclear_weapons_management_system.modules.server
                 }
                 else
                 {
-                    // --- Case 3: regular assets inside /pages/... ---
                     filePath = Path.Combine("pages", path.TrimStart('/'));
                 }
             }
 
-            // Console.WriteLine("Resolved file: " + filePath);
-            // If requested file doesn't exist → fallback to default.html
             if (!File.Exists(filePath))
             {
                 filePath = Path.Combine("pages", "default", "default.html");
@@ -72,17 +96,20 @@ namespace project_nuclear_weapons_management_system.modules.server
             string contentType = ext2 switch
             {
                 ".html" => "text/html",
-                ".css"  => "text/css",
-                ".js"   => "application/javascript",
-                ".png"  => "image/png",
+                ".css" => "text/css",
+                ".js" => "application/javascript",
+                ".png" => "image/png",
                 ".jpg" or ".jpeg" => "image/jpeg",
-                ".gif"  => "image/gif",
-                ".svg"  => "image/svg+xml",
-                _       => "application/octet-stream"
+                ".gif" => "image/gif",
+                ".svg" => "image/svg+xml",
+                _ => "application/octet-stream"
             };
 
             byte[] fileBytes = File.ReadAllBytes(filePath);
             return HttpHelper.Raw(200, contentType, fileBytes);
         }
+
+        
+
     }
 }

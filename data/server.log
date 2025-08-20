@@ -1933,3 +1933,1113 @@
 [2025-08-20 08:36:51] [INFO] Server shut down due to ProcessExit (application end).
 [2025-08-20 08:36:51] ===== SESSION END =====
 
+[2025-08-20 08:55:52] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 08:55:52] ====== SESSION ACTIVITIES =====
+[2025-08-20 08:55:55] Client connected from 192.168.0.102
+[2025-08-20 08:55:55] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 08:55:55] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:55] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:55] Client connected from 192.168.0.102
+[2025-08-20 08:55:55] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 08:55:55] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:55] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:56] Client connected from 192.168.0.102
+[2025-08-20 08:55:56] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 08:55:56] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:56] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:56] Client connected from 192.168.0.102
+[2025-08-20 08:55:56] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:55:56] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:56] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:58] Client connected from 192.168.0.102
+[2025-08-20 08:55:58] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 08:55:58] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:58] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:58] Client connected from 192.168.0.102
+[2025-08-20 08:55:58] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 08:55:58] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:58] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:58] Client connected from 192.168.0.102
+[2025-08-20 08:55:58] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 08:55:58] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:58] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:58] Client connected from 192.168.0.102
+[2025-08-20 08:55:58] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 08:55:58] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:58] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:58] Client connected from 192.168.0.102
+[2025-08-20 08:55:58] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 08:55:58] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:55:58] Client 192.168.0.102 disconnected.
+[2025-08-20 08:55:58] Client connected from 192.168.0.102
+[2025-08-20 08:55:58] [DEBUG] 192.168.0.102 -> GET /api/storages/all
+[2025-08-20 08:55:59] [ERROR] AllStorageHandler: Connection must be valid and open.
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:56:01] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:01] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:01] Client connected from 192.168.0.102
+[2025-08-20 08:56:01] [DEBUG] 192.168.0.102 -> GET /api/storages/all
+[2025-08-20 08:56:01] [ERROR] AllStorageHandler: Connection must be valid and open.
+[2025-08-20 08:56:31] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 08:56:31] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:31] Client connected from 192.168.0.102
+[2025-08-20 08:56:31] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:56:31] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:31] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:32] Client connected from 192.168.0.102
+[2025-08-20 08:56:32] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:56:32] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:32] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:32] Client connected from 192.168.0.102
+[2025-08-20 08:56:32] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:56:32] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:32] Client 192.168.0.102 disconnected.
+[2025-08-20 08:56:32] Client connected from 192.168.0.102
+[2025-08-20 08:56:32] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 08:56:32] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 08:56:32] Client 192.168.0.102 disconnected.
+[2025-08-20 09:11:44] Client connected from 192.168.0.102
+[2025-08-20 09:11:44] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 09:11:44] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:11:44] Client 192.168.0.102 disconnected.
+[2025-08-20 09:11:44] Client connected from 192.168.0.102
+[2025-08-20 09:11:44] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 09:11:44] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:11:44] Client 192.168.0.102 disconnected.
+[2025-08-20 09:11:44] Client connected from 192.168.0.102
+[2025-08-20 09:11:44] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 09:11:44] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:11:44] Client 192.168.0.102 disconnected.
+[2025-08-20 09:11:44] Client connected from 192.168.0.102
+[2025-08-20 09:11:44] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 09:11:44] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:11:44] Client 192.168.0.102 disconnected.
+[2025-08-20 09:11:44] Client connected from 192.168.0.102
+[2025-08-20 09:11:44] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 09:11:44] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:11:44] Client 192.168.0.102 disconnected.
+[2025-08-20 09:11:44] Client connected from 192.168.0.102
+[2025-08-20 09:11:44] [DEBUG] 192.168.0.102 -> GET /api/storages/all
+[2025-08-20 09:11:44] [ERROR] AllStorageHandler: Connection must be valid and open.
+[2025-08-20 09:12:05] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 09:12:05] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:12:05] Client 192.168.0.102 disconnected.
+[2025-08-20 09:12:05] Client connected from 192.168.0.102
+[2025-08-20 09:12:05] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 09:12:05] [INFO] Idle client 192.168.0.102 disconnected (no request).
+[2025-08-20 09:12:05] Client 192.168.0.102 disconnected.
+[2025-08-20 09:45:00] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 09:45:00] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 09:45:00] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 09:45:10] 🛑 Server stopped gracefully.
+[2025-08-20 09:45:10] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 09:45:10] ===== SESSION END =====
+
+[2025-08-20 09:57:11] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 09:57:11] ====== SESSION ACTIVITIES =====
+[2025-08-20 09:57:22] Client connected from 192.168.0.102
+[2025-08-20 09:57:22] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-20 09:57:53] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 09:57:53] Client 192.168.0.102 disconnected.
+[2025-08-20 10:08:50] Client connected from 192.168.0.102
+[2025-08-20 10:08:50] [DEBUG] 192.168.0.102 -> POST /api/auth/logout
+[2025-08-20 10:09:04] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 10:09:20] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:09:20] Client 192.168.0.102 disconnected.
+[2025-08-20 10:09:20] 🛑 Server stopped gracefully.
+[2025-08-20 10:09:20] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 10:09:20] ===== SESSION END =====
+
+[2025-08-20 10:10:26] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 10:10:26] ====== SESSION ACTIVITIES =====
+[2025-08-20 10:10:31] Client connected from 192.168.0.102
+[2025-08-20 10:10:31] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-20 10:10:46] [DEBUG] 192.168.0.102 -> POST /api/auth/logout
+[2025-08-20 10:11:16] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:11:16] Client 192.168.0.102 disconnected.
+[2025-08-20 10:25:54] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 10:26:04] 🛑 Server stopped gracefully.
+[2025-08-20 10:26:04] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 10:26:04] ===== SESSION END =====
+
+[2025-08-20 10:32:11] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 10:32:11] ====== SESSION ACTIVITIES =====
+[2025-08-20 10:32:17] Client connected from 192.168.0.102
+[2025-08-20 10:32:17] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-20 10:32:32] [DEBUG] 192.168.0.102 -> POST /api/auth/logout
+[2025-08-20 10:33:02] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:33:02] Client 192.168.0.102 disconnected.
+[2025-08-20 10:39:15] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 10:39:25] 🛑 Server stopped gracefully.
+[2025-08-20 10:39:25] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 10:39:25] ===== SESSION END =====
+
+[2025-08-20 10:40:53] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 10:40:53] ====== SESSION ACTIVITIES =====
+[2025-08-20 10:40:55] Client connected from 192.168.0.102
+[2025-08-20 10:40:55] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 10:40:55] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 10:40:57] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 10:40:57] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 10:41:07] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 10:41:07] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 10:41:15] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 10:41:15] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 10:41:35] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:41:46] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 10:41:46] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 10:42:06] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:42:36] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:42:36] Client 192.168.0.102 disconnected.
+[2025-08-20 10:42:36] Client connected from 192.168.0.102
+[2025-08-20 10:42:36] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:43:06] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:43:06] Client 192.168.0.102 disconnected.
+[2025-08-20 10:43:06] Client connected from 192.168.0.102
+[2025-08-20 10:43:06] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:43:06] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:43:06] Client 192.168.0.102 disconnected.
+[2025-08-20 10:43:06] Client connected from 192.168.0.102
+[2025-08-20 10:43:06] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 10:43:06] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:43:06] Client 192.168.0.102 disconnected.
+[2025-08-20 10:43:06] Client connected from 192.168.0.102
+[2025-08-20 10:43:06] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 10:43:06] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:43:06] Client 192.168.0.102 disconnected.
+[2025-08-20 10:43:06] Client connected from 192.168.0.102
+[2025-08-20 10:43:06] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:43:06] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:43:06] Client 192.168.0.102 disconnected.
+[2025-08-20 10:43:06] Client connected from 192.168.0.102
+[2025-08-20 10:43:06] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:43:06] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 10:43:36] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:43:36] Client 192.168.0.102 disconnected.
+[2025-08-20 10:50:07] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 10:50:17] 🛑 Server stopped gracefully.
+[2025-08-20 10:50:17] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 10:50:17] ===== SESSION END =====
+
+[2025-08-20 10:50:33] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 10:50:33] ====== SESSION ACTIVITIES =====
+[2025-08-20 10:50:38] Client connected from 192.168.0.102
+[2025-08-20 10:50:39] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 10:50:39] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 10:50:48] [DEBUG] 192.168.0.102 -> GET /login?username=admin&password=admin123
+[2025-08-20 10:50:48] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 10:50:48] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:50:48] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 10:51:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:51:18] Client 192.168.0.102 disconnected.
+[2025-08-20 10:51:18] Client connected from 192.168.0.102
+[2025-08-20 10:51:18] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:51:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:51:18] Client 192.168.0.102 disconnected.
+[2025-08-20 10:51:18] Client connected from 192.168.0.102
+[2025-08-20 10:51:18] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:51:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:51:18] Client 192.168.0.102 disconnected.
+[2025-08-20 10:51:18] Client connected from 192.168.0.102
+[2025-08-20 10:51:20] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 10:51:20] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 10:51:28] [DEBUG] 192.168.0.102 -> GET /login?username=admin&password=admin123
+[2025-08-20 10:51:28] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:51:58] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:51:58] Client 192.168.0.102 disconnected.
+[2025-08-20 10:51:58] Client connected from 192.168.0.102
+[2025-08-20 10:51:58] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:51:58] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:51:58] Client 192.168.0.102 disconnected.
+[2025-08-20 10:51:58] Client connected from 192.168.0.102
+[2025-08-20 10:51:58] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:51:58] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:51:58] Client 192.168.0.102 disconnected.
+[2025-08-20 10:51:58] Client connected from 192.168.0.102
+[2025-08-20 10:51:58] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 10:51:58] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 10:52:28] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:52:28] Client 192.168.0.102 disconnected.
+[2025-08-20 10:53:11] Client connected from 192.168.0.102
+[2025-08-20 10:53:11] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:53:11] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 10:53:17] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 10:53:41] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:53:41] Client 192.168.0.102 disconnected.
+[2025-08-20 10:53:41] 🛑 Server stopped gracefully.
+[2025-08-20 10:53:41] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 10:53:41] ===== SESSION END =====
+
+[2025-08-20 10:53:50] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 10:53:50] ====== SESSION ACTIVITIES =====
+[2025-08-20 10:53:53] Client connected from 192.168.0.102
+[2025-08-20 10:53:53] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 10:53:53] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 10:53:54] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 10:53:54] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 10:54:07] [DEBUG] 192.168.0.102 -> GET /login?username=admin&password=admin123
+[2025-08-20 10:54:07] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 10:54:27] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:54:27] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 10:54:57] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:54:57] Client 192.168.0.102 disconnected.
+[2025-08-20 10:54:57] Client connected from 192.168.0.102
+[2025-08-20 10:54:57] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 10:54:57] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:54:57] Client 192.168.0.102 disconnected.
+[2025-08-20 10:54:57] Client connected from 192.168.0.102
+[2025-08-20 10:54:57] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 10:54:57] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 10:54:57] Client 192.168.0.102 disconnected.
+[2025-08-20 11:00:32] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 11:00:42] 🛑 Server stopped gracefully.
+[2025-08-20 11:00:42] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 11:00:42] ===== SESSION END =====
+
+[2025-08-20 11:00:45] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 11:00:45] ====== SESSION ACTIVITIES =====
+[2025-08-20 11:00:49] Client connected from 192.168.0.102
+[2025-08-20 11:00:49] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:00:49] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:01:13] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:01:13] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:01:14] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:01:14] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:01:16] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:01:16] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:01:16] Client 192.168.0.102 disconnected.
+[2025-08-20 11:01:16] Client connected from 192.168.0.102
+[2025-08-20 11:01:16] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:01:16] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:01:16] Client 192.168.0.102 disconnected.
+[2025-08-20 11:01:16] Client connected from 192.168.0.102
+[2025-08-20 11:01:16] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:01:16] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:01:16] Client 192.168.0.102 disconnected.
+[2025-08-20 11:01:16] Client connected from 192.168.0.102
+[2025-08-20 11:01:16] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 11:01:16] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:01:16] Client 192.168.0.102 disconnected.
+[2025-08-20 11:01:27] Client connected from 192.168.0.102
+[2025-08-20 11:01:27] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:01:27] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:01:44] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:01:44] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:01:46] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:01:46] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:02:06] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:02:11] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 11:02:36] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:02:36] Client 192.168.0.102 disconnected.
+[2025-08-20 11:02:36] !!!Command issue!!!
+[2025-08-20 11:02:36] 🛑 Server stopped gracefully.
+[2025-08-20 11:02:36] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 11:02:36] ===== SESSION END =====
+
+[2025-08-20 11:02:41] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 11:02:41] ====== SESSION ACTIVITIES =====
+[2025-08-20 11:02:45] Client connected from 192.168.0.102
+[2025-08-20 11:02:45] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:02:45] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:02:47] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:02:47] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 11:03:04] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:03:04] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:03:17] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 11:03:24] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:03:54] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:03:54] Client 192.168.0.102 disconnected.
+[2025-08-20 11:03:54] 🛑 Server stopped gracefully.
+[2025-08-20 11:03:54] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 11:03:54] ===== SESSION END =====
+
+[2025-08-20 11:04:03] ✅ Server started successfully at 192.168.0.102:9999
+[2025-08-20 11:04:03] ====== SESSION ACTIVITIES =====
+[2025-08-20 11:04:07] Client connected from 192.168.0.102
+[2025-08-20 11:04:07] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:04:07] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:04:37] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:04:37] Client 192.168.0.102 disconnected.
+[2025-08-20 11:04:37] Client connected from 192.168.0.102
+[2025-08-20 11:04:37] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:04:37] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:04:40] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:04:40] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:05:10] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:05:10] Client 192.168.0.102 disconnected.
+[2025-08-20 11:05:10] Client connected from 192.168.0.102
+[2025-08-20 11:05:10] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:05:40] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:05:40] Client 192.168.0.102 disconnected.
+[2025-08-20 11:05:40] Client connected from 192.168.0.102
+[2025-08-20 11:05:40] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 11:05:40] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:06:10] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:06:10] Client 192.168.0.102 disconnected.
+[2025-08-20 11:06:35] Client connected from 192.168.0.102
+[2025-08-20 11:06:35] [DEBUG] 192.168.0.102 -> GET /login?username=admin&password=admin123
+[2025-08-20 11:06:35] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:07:05] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:07:05] Client 192.168.0.102 disconnected.
+[2025-08-20 11:07:05] Client connected from 192.168.0.102
+[2025-08-20 11:07:05] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:07:05] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:07:13] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:07:13] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:07:24] [DEBUG] 192.168.0.102 -> GET /login?username=admin+&password=admin123
+[2025-08-20 11:07:24] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:07:24] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:07:24] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:07:38] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:07:38] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:08:08] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:08:08] Client 192.168.0.102 disconnected.
+[2025-08-20 11:08:08] Client connected from 192.168.0.102
+[2025-08-20 11:08:08] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:08:08] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:08:08] Client 192.168.0.102 disconnected.
+[2025-08-20 11:08:08] Client connected from 192.168.0.102
+[2025-08-20 11:08:08] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 11:08:08] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:08:08] Client 192.168.0.102 disconnected.
+[2025-08-20 11:08:08] Client connected from 192.168.0.102
+[2025-08-20 11:08:08] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 11:08:38] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:08:38] Client 192.168.0.102 disconnected.
+[2025-08-20 11:08:38] Client connected from 192.168.0.102
+[2025-08-20 11:08:38] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:08:38] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:09:08] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:09:08] Client 192.168.0.102 disconnected.
+[2025-08-20 11:11:24] Client connected from 192.168.0.102
+[2025-08-20 11:11:24] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-20 11:11:34] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 11:11:34] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 11:12:04] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:12:04] Client 192.168.0.102 disconnected.
+[2025-08-20 11:12:04] Client connected from 192.168.0.102
+[2025-08-20 11:12:04] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 11:12:34] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:12:34] Client 192.168.0.102 disconnected.
+[2025-08-20 11:12:34] Client connected from 192.168.0.102
+[2025-08-20 11:12:34] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 11:12:34] [DEBUG] 192.168.0.102 -> GET /api/storages/all
+[2025-08-20 11:13:04] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:13:04] Client 192.168.0.102 disconnected.
+[2025-08-20 11:13:04] Client connected from 192.168.0.102
+[2025-08-20 11:13:04] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:13:04] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:13:34] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:13:34] Client 192.168.0.102 disconnected.
+[2025-08-20 11:25:39] Client connected from 192.168.0.102
+[2025-08-20 11:25:39] [DEBUG] 192.168.0.102 -> GET /
+[2025-08-20 11:25:39] [DEBUG] 192.168.0.102 -> GET /default.css
+[2025-08-20 11:26:09] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:26:09] Client 192.168.0.102 disconnected.
+[2025-08-20 11:26:09] Client connected from 192.168.0.102
+[2025-08-20 11:26:09] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:26:10] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:26:13] [DEBUG] 192.168.0.102 -> GET /login
+[2025-08-20 11:26:13] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:26:43] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:26:43] Client 192.168.0.102 disconnected.
+[2025-08-20 11:26:43] Client connected from 192.168.0.102
+[2025-08-20 11:26:43] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:27:13] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:27:13] Client 192.168.0.102 disconnected.
+[2025-08-20 11:27:13] Client connected from 192.168.0.102
+[2025-08-20 11:27:13] [DEBUG] 192.168.0.102 -> GET /login.js
+[2025-08-20 11:27:13] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:27:19] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-20 11:27:21] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 11:27:21] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 11:27:40] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:27:40] [DEBUG] 192.168.0.102 -> GET /login.css
+[2025-08-20 11:27:46] [DEBUG] 192.168.0.102 -> POST /api/auth/login
+[2025-08-20 11:27:48] [DEBUG] 192.168.0.102 -> GET /home
+[2025-08-20 11:27:48] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 11:27:48] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 11:28:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:28:18] Client 192.168.0.102 disconnected.
+[2025-08-20 11:28:18] Client connected from 192.168.0.102
+[2025-08-20 11:28:18] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 11:28:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:28:18] Client 192.168.0.102 disconnected.
+[2025-08-20 11:28:18] Client connected from 192.168.0.102
+[2025-08-20 11:28:18] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:28:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:28:18] Client 192.168.0.102 disconnected.
+[2025-08-20 11:28:18] Client connected from 192.168.0.102
+[2025-08-20 11:28:18] [DEBUG] 192.168.0.102 -> GET /home.js
+[2025-08-20 11:28:18] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:28:18] Client 192.168.0.102 disconnected.
+[2025-08-20 11:28:18] Client connected from 192.168.0.102
+[2025-08-20 11:28:18] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 11:28:18] [DEBUG] 192.168.0.102 -> GET /api/storages/all
+[2025-08-20 11:28:40] [DEBUG] 192.168.0.102 -> GET /login/login.html
+[2025-08-20 11:28:40] [DEBUG] 192.168.0.102 -> GET /login/login.css
+[2025-08-20 11:29:00] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:29:11] [DEBUG] 192.168.0.102 -> GET /login/login.html?username=admin&password=admin123
+[2025-08-20 11:29:11] [DEBUG] 192.168.0.102 -> GET /login/default.css
+[2025-08-20 11:29:23] [DEBUG] 192.168.0.102 -> GET /login/login.js
+[2025-08-20 11:29:23] [DEBUG] 192.168.0.102 -> GET /home.css
+[2025-08-20 11:29:24] [DEBUG] 192.168.0.102 -> GET /favicon.ico
+[2025-08-20 11:29:43] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:30:13] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:30:13] Client 192.168.0.102 disconnected.
+[2025-08-20 11:30:13] Client connected from 192.168.0.102
+[2025-08-20 11:30:13] [DEBUG] 192.168.0.102 -> GET /data/resources/mapBackground.png
+[2025-08-20 11:30:16] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 11:30:43] [INFO] Keep-alive timeout for 192.168.0.102, closing connection.
+[2025-08-20 11:30:43] Client 192.168.0.102 disconnected.
+[2025-08-20 11:30:43] 🛑 Server stopped gracefully.
+[2025-08-20 11:30:43] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 11:30:43] ===== SESSION END =====
+
+[2025-08-20 13:10:10] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 13:10:10] ====== SESSION ACTIVITIES =====
+[2025-08-20 13:10:14] Client connected from 10.106.40.172
+[2025-08-20 13:10:14] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 13:10:14] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 13:10:16] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 13:10:16] Client 10.106.40.172 disconnected.
+[2025-08-20 13:10:16] Client connected from 10.106.40.172
+[2025-08-20 13:10:16] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:10:16] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 13:10:16] Client 10.106.40.172 disconnected.
+[2025-08-20 13:10:16] Client connected from 10.106.40.172
+[2025-08-20 13:10:16] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:10:17] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 13:10:17] Client 10.106.40.172 disconnected.
+[2025-08-20 13:10:18] Client connected from 10.106.40.172
+[2025-08-20 13:10:18] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 13:10:18] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 13:10:48] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:10:48] Client 10.106.40.172 disconnected.
+[2025-08-20 13:10:48] Client connected from 10.106.40.172
+[2025-08-20 13:10:48] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 13:11:18] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:11:18] Client 10.106.40.172 disconnected.
+[2025-08-20 13:11:18] Client connected from 10.106.40.172
+[2025-08-20 13:11:18] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:11:18] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:11:48] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:11:48] Client 10.106.40.172 disconnected.
+[2025-08-20 13:11:58] Client connected from 10.106.40.172
+[2025-08-20 13:11:58] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 13:12:00] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 13:12:00] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 13:12:30] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:12:30] Client 10.106.40.172 disconnected.
+[2025-08-20 13:12:30] Client connected from 10.106.40.172
+[2025-08-20 13:12:30] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 13:13:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:13:00] Client 10.106.40.172 disconnected.
+[2025-08-20 13:13:00] Client connected from 10.106.40.172
+[2025-08-20 13:13:00] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 13:13:00] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 13:13:30] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:13:30] Client 10.106.40.172 disconnected.
+[2025-08-20 13:13:30] Client connected from 10.106.40.172
+[2025-08-20 13:13:30] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:13:30] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:14:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:14:00] Client 10.106.40.172 disconnected.
+[2025-08-20 13:14:44] Client connected from 10.106.40.172
+[2025-08-20 13:14:44] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 13:14:44] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 13:15:14] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:15:14] Client 10.106.40.172 disconnected.
+[2025-08-20 13:15:14] Client connected from 10.106.40.172
+[2025-08-20 13:15:14] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 13:15:44] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:15:44] Client 10.106.40.172 disconnected.
+[2025-08-20 13:15:44] Client connected from 10.106.40.172
+[2025-08-20 13:15:44] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 13:15:44] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 13:16:14] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:16:14] Client 10.106.40.172 disconnected.
+[2025-08-20 13:16:14] Client connected from 10.106.40.172
+[2025-08-20 13:16:14] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:16:14] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:16:44] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:16:44] Client 10.106.40.172 disconnected.
+[2025-08-20 13:19:44] Client connected from 10.106.40.172
+[2025-08-20 13:19:44] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 13:19:44] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 13:19:44] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 13:20:14] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:20:14] Client 10.106.40.172 disconnected.
+[2025-08-20 13:20:14] Client connected from 10.106.40.172
+[2025-08-20 13:20:14] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:20:14] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:20:44] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:20:44] Client 10.106.40.172 disconnected.
+[2025-08-20 13:20:44] Client connected from 10.106.40.172
+[2025-08-20 13:21:14] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:21:14] Client 10.106.40.172 disconnected.
+[2025-08-20 13:23:43] Client connected from 10.106.40.172
+[2025-08-20 13:23:43] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 13:23:43] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 13:23:45] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:23:46] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 13:23:46] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 13:24:16] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:24:16] Client 10.106.40.172 disconnected.
+[2025-08-20 13:24:16] Client connected from 10.106.40.172
+[2025-08-20 13:24:16] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:24:16] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:24:16] Client 10.106.40.172 disconnected.
+[2025-08-20 13:24:16] Client connected from 10.106.40.172
+[2025-08-20 13:24:17] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 13:24:17] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:24:17] Client 10.106.40.172 disconnected.
+[2025-08-20 13:24:17] Client connected from 10.106.40.172
+[2025-08-20 13:24:17] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 13:24:47] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:24:47] Client 10.106.40.172 disconnected.
+[2025-08-20 13:24:47] Client connected from 10.106.40.172
+[2025-08-20 13:24:47] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 13:25:17] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:25:17] Client 10.106.40.172 disconnected.
+[2025-08-20 13:25:17] Client connected from 10.106.40.172
+[2025-08-20 13:25:17] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 13:25:17] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 13:25:17] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 13:25:47] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:25:47] Client 10.106.40.172 disconnected.
+[2025-08-20 13:25:54] Client connected from 10.106.40.172
+[2025-08-20 13:25:54] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 13:26:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:26:24] Client 10.106.40.172 disconnected.
+[2025-08-20 13:26:24] Client connected from 10.106.40.172
+[2025-08-20 13:26:24] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 13:26:54] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 13:26:54] Client 10.106.40.172 disconnected.
+[2025-08-20 14:02:18] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 14:02:29] 🛑 Server stopped gracefully.
+[2025-08-20 14:02:29] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 14:02:29] ===== SESSION END =====
+
+[2025-08-20 14:03:47] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 14:03:47] ====== SESSION ACTIVITIES =====
+[2025-08-20 14:03:49] Client connected from 10.106.40.172
+[2025-08-20 14:03:49] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 14:03:49] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 14:04:19] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:04:19] Client 10.106.40.172 disconnected.
+[2025-08-20 14:04:19] Client connected from 10.106.40.172
+[2025-08-20 14:04:19] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:04:19] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:04:32] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 14:04:33] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 14:05:03] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:05:03] Client 10.106.40.172 disconnected.
+[2025-08-20 14:05:03] Client connected from 10.106.40.172
+[2025-08-20 14:05:03] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:05:33] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:05:33] Client 10.106.40.172 disconnected.
+[2025-08-20 14:05:33] Client connected from 10.106.40.172
+[2025-08-20 14:05:33] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:05:33] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:05:37] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 14:05:40] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:05:40] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 14:06:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:06:10] Client 10.106.40.172 disconnected.
+[2025-08-20 14:06:10] Client connected from 10.106.40.172
+[2025-08-20 14:06:10] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:06:40] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:06:40] Client 10.106.40.172 disconnected.
+[2025-08-20 14:06:40] Client connected from 10.106.40.172
+[2025-08-20 14:06:40] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 14:06:40] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 14:07:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:07:10] Client 10.106.40.172 disconnected.
+[2025-08-20 14:07:10] Client connected from 10.106.40.172
+[2025-08-20 14:07:10] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:07:10] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:07:36] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 14:07:36] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 14:08:06] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:08:06] Client 10.106.40.172 disconnected.
+[2025-08-20 14:08:06] Client connected from 10.106.40.172
+[2025-08-20 14:08:06] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:08:36] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:08:36] Client 10.106.40.172 disconnected.
+[2025-08-20 14:08:36] Client connected from 10.106.40.172
+[2025-08-20 14:08:36] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:08:36] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:08:47] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:09:17] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:09:17] Client 10.106.40.172 disconnected.
+[2025-08-20 14:10:16] Client connected from 10.106.40.172
+[2025-08-20 14:10:16] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 14:10:25] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 14:10:25] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 14:10:29] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:10:32] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:10:49] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:10:49] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 14:10:49] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:11:09] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:11:39] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:11:39] Client 10.106.40.172 disconnected.
+[2025-08-20 14:11:39] Client connected from 10.106.40.172
+[2025-08-20 14:11:39] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:12:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:12:09] Client 10.106.40.172 disconnected.
+[2025-08-20 14:12:09] Client connected from 10.106.40.172
+[2025-08-20 14:12:09] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:12:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:12:09] Client 10.106.40.172 disconnected.
+[2025-08-20 14:12:09] Client connected from 10.106.40.172
+[2025-08-20 14:12:09] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:12:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:12:09] Client 10.106.40.172 disconnected.
+[2025-08-20 14:12:09] Client connected from 10.106.40.172
+[2025-08-20 14:12:09] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:12:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:12:09] Client 10.106.40.172 disconnected.
+[2025-08-20 14:12:09] Client connected from 10.106.40.172
+[2025-08-20 14:12:09] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 14:12:09] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 14:12:09] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:12:39] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:12:39] Client 10.106.40.172 disconnected.
+[2025-08-20 14:14:32] Client connected from 10.106.40.172
+[2025-08-20 14:14:32] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 14:14:32] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 14:14:32] [DEBUG] 10.106.40.172 -> GET /data/resources/@mapBackground.png
+[2025-08-20 14:14:32] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:14:50] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 14:14:50] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 14:15:20] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:15:20] Client 10.106.40.172 disconnected.
+[2025-08-20 14:15:20] Client connected from 10.106.40.172
+[2025-08-20 14:15:20] [DEBUG] 10.106.40.172 -> GET /data/resources/@mapBackground.png
+[2025-08-20 14:15:20] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:15:24] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 14:15:24] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 14:15:40] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:15:40] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 14:15:40] [DEBUG] 10.106.40.172 -> GET /data/resources/@mapBackground.png
+[2025-08-20 14:16:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:16:10] Client 10.106.40.172 disconnected.
+[2025-08-20 14:16:10] Client connected from 10.106.40.172
+[2025-08-20 14:16:10] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:16:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:16:10] Client 10.106.40.172 disconnected.
+[2025-08-20 14:16:10] Client connected from 10.106.40.172
+[2025-08-20 14:16:10] [DEBUG] 10.106.40.172 -> GET /data/resources/@mapBackground.png
+[2025-08-20 14:16:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:16:10] Client 10.106.40.172 disconnected.
+[2025-08-20 14:16:10] Client connected from 10.106.40.172
+[2025-08-20 14:16:10] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:16:40] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:16:40] Client 10.106.40.172 disconnected.
+[2025-08-20 14:16:40] Client connected from 10.106.40.172
+[2025-08-20 14:16:40] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 14:16:40] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:16:40] Client 10.106.40.172 disconnected.
+[2025-08-20 14:16:40] Client connected from 10.106.40.172
+[2025-08-20 14:16:40] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:16:40] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 14:17:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:17:10] Client 10.106.40.172 disconnected.
+[2025-08-20 14:17:10] Client connected from 10.106.40.172
+[2025-08-20 14:17:10] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 14:17:41] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:17:41] Client 10.106.40.172 disconnected.
+[2025-08-20 14:17:41] Client connected from 10.106.40.172
+[2025-08-20 14:17:41] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:17:41] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 14:18:11] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:18:11] Client 10.106.40.172 disconnected.
+[2025-08-20 14:18:11] Client connected from 10.106.40.172
+[2025-08-20 14:18:11] [DEBUG] 10.106.40.172 -> GET /data/resources/@mapBackground.png
+[2025-08-20 14:18:11] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:18:41] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:18:41] Client 10.106.40.172 disconnected.
+[2025-08-20 14:23:56] Client connected from 10.106.40.172
+[2025-08-20 14:23:56] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:23:56] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 14:23:56] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 14:24:26] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:24:26] Client 10.106.40.172 disconnected.
+[2025-08-20 14:24:26] Client connected from 10.106.40.172
+[2025-08-20 14:24:26] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:24:26] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 14:24:56] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:24:56] Client 10.106.40.172 disconnected.
+[2025-08-20 14:24:56] Client connected from 10.106.40.172
+[2025-08-20 14:24:56] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:24:56] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:25:26] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:25:26] Client 10.106.40.172 disconnected.
+[2025-08-20 14:25:27] Client connected from 10.106.40.172
+[2025-08-20 14:25:27] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 14:25:27] Client 10.106.40.172 disconnected.
+[2025-08-20 14:34:08] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 14:34:18] 🛑 Server stopped gracefully.
+[2025-08-20 14:34:18] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 14:34:18] ===== SESSION END =====
+
+[2025-08-20 14:36:51] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 14:36:51] ====== SESSION ACTIVITIES =====
+[2025-08-20 14:37:05] Client connected from 10.106.40.172
+[2025-08-20 14:37:05] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 14:37:05] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 14:37:23] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:37:23] [DEBUG] 10.106.40.172 -> GET /login/login.html
+[2025-08-20 14:37:23] [DEBUG] 10.106.40.172 -> GET /login/login.js
+[2025-08-20 14:37:53] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:37:53] Client 10.106.40.172 disconnected.
+[2025-08-20 14:37:54] Client connected from 10.106.40.172
+[2025-08-20 14:37:54] [DEBUG] 10.106.40.172 -> GET /data/resources/blabla.jpg
+[2025-08-20 14:37:54] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:38:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:38:24] Client 10.106.40.172 disconnected.
+[2025-08-20 14:38:24] Client connected from 10.106.40.172
+[2025-08-20 14:38:24] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:38:54] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:38:54] Client 10.106.40.172 disconnected.
+[2025-08-20 14:38:54] Client connected from 10.106.40.172
+[2025-08-20 14:38:54] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:38:54] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:39:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:39:24] Client 10.106.40.172 disconnected.
+[2025-08-20 14:40:12] Client connected from 10.106.40.172
+[2025-08-20 14:40:12] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 14:40:14] [DEBUG] 10.106.40.172 -> GET /login/home
+[2025-08-20 14:40:14] [DEBUG] 10.106.40.172 -> GET /login/default.css
+[2025-08-20 14:40:23] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:40:23] [DEBUG] 10.106.40.172 -> GET /login/login.html
+[2025-08-20 14:40:23] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:40:53] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:40:53] Client 10.106.40.172 disconnected.
+[2025-08-20 14:40:53] Client connected from 10.106.40.172
+[2025-08-20 14:40:53] [DEBUG] 10.106.40.172 -> GET /data/resources/blabla.jpg
+[2025-08-20 14:41:14] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 14:41:23] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:41:23] Client 10.106.40.172 disconnected.
+[2025-08-20 14:41:23] Client connected from 10.106.40.172
+[2025-08-20 14:41:23] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:41:53] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:41:53] Client 10.106.40.172 disconnected.
+[2025-08-20 14:41:53] 🛑 Server stopped gracefully.
+[2025-08-20 14:41:53] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 14:41:53] ===== SESSION END =====
+
+[2025-08-20 14:42:15] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 14:42:15] ====== SESSION ACTIVITIES =====
+[2025-08-20 14:43:55] Client connected from 10.106.40.172
+[2025-08-20 14:43:55] [DEBUG] 10.106.40.172 -> GET /login/login.html
+[2025-08-20 14:43:55] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 14:44:02] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:44:02] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 14:44:02] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:44:32] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:44:32] Client 10.106.40.172 disconnected.
+[2025-08-20 14:44:32] Client connected from 10.106.40.172
+[2025-08-20 14:44:32] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:44:32] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:44:32] Client 10.106.40.172 disconnected.
+[2025-08-20 14:44:32] Client connected from 10.106.40.172
+[2025-08-20 14:44:32] [DEBUG] 10.106.40.172 -> GET /login/login.js
+[2025-08-20 14:44:32] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:44:32] Client 10.106.40.172 disconnected.
+[2025-08-20 14:44:32] Client connected from 10.106.40.172
+[2025-08-20 14:44:32] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 14:45:02] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:45:02] Client 10.106.40.172 disconnected.
+[2025-08-20 14:45:02] Client connected from 10.106.40.172
+[2025-08-20 14:45:02] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:45:02] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:45:13] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 14:45:15] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 14:45:15] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 14:45:15] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 14:45:45] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:45:45] Client 10.106.40.172 disconnected.
+[2025-08-20 14:45:45] Client connected from 10.106.40.172
+[2025-08-20 14:45:45] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 14:46:15] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:46:15] Client 10.106.40.172 disconnected.
+[2025-08-20 14:46:15] Client connected from 10.106.40.172
+[2025-08-20 14:46:15] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 14:46:15] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 14:46:45] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 14:46:45] Client 10.106.40.172 disconnected.
+[2025-08-20 15:02:24] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 15:02:35] 🛑 Server stopped gracefully.
+[2025-08-20 15:02:35] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 15:02:35] ===== SESSION END =====
+
+[2025-08-20 15:03:08] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 15:03:08] ====== SESSION ACTIVITIES =====
+[2025-08-20 15:03:20] Client connected from 10.106.40.172
+[2025-08-20 15:03:20] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 15:03:20] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 15:03:30] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 15:03:30] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 15:04:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:04:00] Client 10.106.40.172 disconnected.
+[2025-08-20 15:04:00] Client connected from 10.106.40.172
+[2025-08-20 15:04:00] [DEBUG] 10.106.40.172 -> GET /data/resources/blabla.jpg
+[2025-08-20 15:04:30] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:04:30] Client 10.106.40.172 disconnected.
+[2025-08-20 15:04:30] Client connected from 10.106.40.172
+[2025-08-20 15:04:30] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 15:05:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:05:00] Client 10.106.40.172 disconnected.
+[2025-08-20 15:05:00] Client connected from 10.106.40.172
+[2025-08-20 15:05:00] [DEBUG] 10.106.40.172 -> GET /data/resources/mapBackground.png
+[2025-08-20 15:05:00] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:05:05] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 15:05:11] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 15:05:41] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:05:41] Client 10.106.40.172 disconnected.
+[2025-08-20 15:05:59] Client connected from 10.106.40.172
+[2025-08-20 15:05:59] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 15:05:59] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.png
+[2025-08-20 15:06:29] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:06:29] Client 10.106.40.172 disconnected.
+[2025-08-20 15:06:29] Client connected from 10.106.40.172
+[2025-08-20 15:06:29] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 15:06:59] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:06:59] Client 10.106.40.172 disconnected.
+[2025-08-20 15:06:59] Client connected from 10.106.40.172
+[2025-08-20 15:06:59] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 15:06:59] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:07:29] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:07:29] Client 10.106.40.172 disconnected.
+[2025-08-20 15:07:37] Client connected from 10.106.40.172
+[2025-08-20 15:07:37] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 15:07:37] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:08:07] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:08:07] Client 10.106.40.172 disconnected.
+[2025-08-20 15:08:07] Client connected from 10.106.40.172
+[2025-08-20 15:08:07] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 15:08:37] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:08:37] Client 10.106.40.172 disconnected.
+[2025-08-20 15:08:37] Client connected from 10.106.40.172
+[2025-08-20 15:08:37] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 15:08:37] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:09:07] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:09:07] Client 10.106.40.172 disconnected.
+[2025-08-20 15:09:38] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 15:09:48] 🛑 Server stopped gracefully.
+[2025-08-20 15:09:48] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 15:09:48] ===== SESSION END =====
+
+[2025-08-20 15:10:04] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 15:10:04] ====== SESSION ACTIVITIES =====
+[2025-08-20 15:10:08] Client connected from 10.106.40.172
+[2025-08-20 15:10:08] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 15:10:08] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 15:10:10] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 15:10:10] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 15:10:15] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 15:10:15] [DEBUG] 10.106.40.172 -> GET /login/login.html
+[2025-08-20 15:10:15] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 15:10:15] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:10:25] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 15:10:25] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:10:34] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 15:10:39] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 15:10:55] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 15:11:10] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:11:10] Client 10.106.40.172 disconnected.
+[2025-08-20 15:11:10] 🛑 Server stopped gracefully.
+[2025-08-20 15:11:10] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 15:11:10] ===== SESSION END =====
+
+[2025-08-20 15:11:36] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 15:11:36] ====== SESSION ACTIVITIES =====
+[2025-08-20 15:11:39] Client connected from 10.106.40.172
+[2025-08-20 15:11:40] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 15:11:40] [DEBUG] 10.106.40.172 -> GET /data/resources/blabla.jpg
+[2025-08-20 15:11:54] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 15:11:54] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 15:12:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:12:24] Client 10.106.40.172 disconnected.
+[2025-08-20 15:12:24] Client connected from 10.106.40.172
+[2025-08-20 15:12:24] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 15:12:54] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:12:54] Client 10.106.40.172 disconnected.
+[2025-08-20 15:12:54] Client connected from 10.106.40.172
+[2025-08-20 15:12:54] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 15:13:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:13:24] Client 10.106.40.172 disconnected.
+[2025-08-20 15:13:24] Client connected from 10.106.40.172
+[2025-08-20 15:13:24] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:13:39] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 15:13:39] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 15:14:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:14:09] Client 10.106.40.172 disconnected.
+[2025-08-20 15:14:09] Client connected from 10.106.40.172
+[2025-08-20 15:14:09] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 15:14:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:14:09] Client 10.106.40.172 disconnected.
+[2025-08-20 15:14:09] Client connected from 10.106.40.172
+[2025-08-20 15:14:09] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 15:14:39] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:14:39] Client 10.106.40.172 disconnected.
+[2025-08-20 15:14:39] Client connected from 10.106.40.172
+[2025-08-20 15:14:39] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 15:14:39] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 15:15:09] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:15:09] Client 10.106.40.172 disconnected.
+[2025-08-20 15:15:09] Client connected from 10.106.40.172
+[2025-08-20 15:15:09] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:15:09] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:15:39] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:15:39] Client 10.106.40.172 disconnected.
+[2025-08-20 15:15:49] Client connected from 10.106.40.172
+[2025-08-20 15:15:49] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 15:15:49] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 15:16:14] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 15:16:14] Client 10.106.40.172 disconnected.
+[2025-08-20 15:16:14] Client connected from 10.106.40.172
+[2025-08-20 15:16:14] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 15:16:14] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 15:16:14] Client 10.106.40.172 disconnected.
+[2025-08-20 15:16:14] Client connected from 10.106.40.172
+[2025-08-20 15:16:14] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 15:16:14] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 15:16:14] Client 10.106.40.172 disconnected.
+[2025-08-20 15:16:14] Client connected from 10.106.40.172
+[2025-08-20 15:16:14] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:16:14] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 15:16:14] Client 10.106.40.172 disconnected.
+[2025-08-20 15:16:14] Client connected from 10.106.40.172
+[2025-08-20 15:16:14] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 15:16:30] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 15:16:30] [DEBUG] 10.106.40.172 -> GET /home.css
+[2025-08-20 15:17:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:17:00] Client 10.106.40.172 disconnected.
+[2025-08-20 15:17:00] Client connected from 10.106.40.172
+[2025-08-20 15:17:00] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:17:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:17:00] Client 10.106.40.172 disconnected.
+[2025-08-20 15:17:00] Client connected from 10.106.40.172
+[2025-08-20 15:17:00] [DEBUG] 10.106.40.172 -> GET /login/login.css
+[2025-08-20 15:17:30] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:17:30] Client 10.106.40.172 disconnected.
+[2025-08-20 15:17:30] Client connected from 10.106.40.172
+[2025-08-20 15:17:30] [DEBUG] 10.106.40.172 -> GET /home.js
+[2025-08-20 15:17:30] [DEBUG] 10.106.40.172 -> GET /api/storages/all
+[2025-08-20 15:18:00] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:18:00] Client 10.106.40.172 disconnected.
+[2025-08-20 15:18:00] Client connected from 10.106.40.172
+[2025-08-20 15:18:00] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:18:00] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:18:30] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:18:30] Client 10.106.40.172 disconnected.
+[2025-08-20 15:19:26] Client connected from 10.106.40.172
+[2025-08-20 15:19:26] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 15:19:26] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 15:19:55] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 15:19:55] ===== SESSION END =====
+
+[2025-08-20 15:45:15] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 15:45:16] ====== SESSION ACTIVITIES =====
+[2025-08-20 15:45:19] Client connected from 10.106.40.172
+[2025-08-20 15:45:19] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 15:45:19] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 15:45:24] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 15:45:24] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 15:45:54] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:45:54] Client 10.106.40.172 disconnected.
+[2025-08-20 15:45:54] Client connected from 10.106.40.172
+[2025-08-20 15:45:54] [DEBUG] 10.106.40.172 -> GET /data/resources/blabla.jpg
+[2025-08-20 15:46:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:46:24] Client 10.106.40.172 disconnected.
+[2025-08-20 15:46:24] Client connected from 10.106.40.172
+[2025-08-20 15:46:24] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 15:46:54] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:46:54] Client 10.106.40.172 disconnected.
+[2025-08-20 15:46:54] Client connected from 10.106.40.172
+[2025-08-20 15:46:54] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 15:46:54] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 15:47:24] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:47:24] Client 10.106.40.172 disconnected.
+[2025-08-20 15:58:30] Client connected from 10.106.40.172
+[2025-08-20 15:58:30] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 15:58:42] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 15:59:12] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 15:59:12] Client 10.106.40.172 disconnected.
+[2025-08-20 16:33:25] Client connected from 10.106.40.172
+[2025-08-20 16:33:25] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 16:33:33] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-20 16:33:55] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:33:55] Client 10.106.40.172 disconnected.
+[2025-08-20 16:33:55] 🛑 Server stopped gracefully.
+[2025-08-20 16:33:55] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 16:33:55] ===== SESSION END =====
+
+[2025-08-20 16:33:59] ✅ Server started successfully at 10.106.40.172:9999
+[2025-08-20 16:33:59] ====== SESSION ACTIVITIES =====
+[2025-08-20 16:34:02] Client connected from 10.106.40.172
+[2025-08-20 16:34:02] [DEBUG] 10.106.40.172 -> GET /
+[2025-08-20 16:34:02] [DEBUG] 10.106.40.172 -> GET /default.css
+[2025-08-20 16:34:04] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 16:34:04] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 16:34:34] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:34:34] Client 10.106.40.172 disconnected.
+[2025-08-20 16:34:34] Client connected from 10.106.40.172
+[2025-08-20 16:34:34] [DEBUG] 10.106.40.172 -> GET /data/resources/blabla.jpg
+[2025-08-20 16:35:04] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:35:04] Client 10.106.40.172 disconnected.
+[2025-08-20 16:35:04] Client connected from 10.106.40.172
+[2025-08-20 16:35:04] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 16:35:34] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:35:34] Client 10.106.40.172 disconnected.
+[2025-08-20 16:35:34] Client connected from 10.106.40.172
+[2025-08-20 16:35:34] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 16:35:34] [DEBUG] 10.106.40.172 -> GET /favicon.ico
+[2025-08-20 16:36:04] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:36:04] Client 10.106.40.172 disconnected.
+[2025-08-20 16:36:15] Client connected from 10.106.40.172
+[2025-08-20 16:36:15] [DEBUG] 10.106.40.172 -> POST /api/auth/login
+[2025-08-20 16:36:17] [DEBUG] 10.106.40.172 -> GET /home
+[2025-08-20 16:36:17] [DEBUG] 10.106.40.172 -> GET /login
+[2025-08-20 16:36:17] [DEBUG] 10.106.40.172 -> GET /login.css
+[2025-08-20 16:36:23] [INFO] Idle client 10.106.40.172 disconnected (no request).
+[2025-08-20 16:36:23] Client 10.106.40.172 disconnected.
+[2025-08-20 16:36:23] Client connected from 10.106.40.172
+[2025-08-20 16:36:23] [DEBUG] 10.106.40.172 -> GET /data/resources/@blabla.jpg
+[2025-08-20 16:36:23] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:36:23] Client 10.106.40.172 disconnected.
+[2025-08-20 16:36:23] Client connected from 10.106.40.172
+[2025-08-20 16:36:23] [DEBUG] 10.106.40.172 -> GET /login.js
+[2025-08-20 16:36:23] [INFO] Keep-alive timeout for 10.106.40.172, closing connection.
+[2025-08-20 16:36:23] Client 10.106.40.172 disconnected.
+[2025-08-20 16:36:24] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-20 16:36:24] ===== SESSION END =====
+

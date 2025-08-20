@@ -90,3 +90,34 @@ function renderDots(storages) {
     // Re-render on resize
     window.addEventListener('resize', () => renderDots(storages));
 })();
+
+
+
+
+// ======================================= LOGOUT
+// Hàm logout
+function logout() {
+    // Xóa token (tùy m lưu chỗ nào, ở đây tạm localStorage)
+    console.log("token no deleted: ", localStorage.getItem("authToken"));
+
+    localStorage.removeItem("authToken");
+
+    console.log("token deleted: ", localStorage.getItem("authToken"));
+
+    // (Optional) Xóa luôn thông tin user nếu có
+    // localStorage.removeItem("user");
+
+    // Redirect về trang login
+    window.location.href = "login";
+}
+
+// Gắn sự kiện click cho link Logout trên top-bar
+document.addEventListener("DOMContentLoaded", () => {
+    const logoutLinks = document.querySelectorAll("a[title='Logout'], .profile-dropdown a[href='#']:last-child");
+    logoutLinks.forEach(link => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault(); // chặn link # reload
+            logout();
+        });
+    });
+});

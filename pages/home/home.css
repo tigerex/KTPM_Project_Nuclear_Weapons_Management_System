@@ -1,9 +1,9 @@
 /* Map background and overlay are inherited from loginPage.css */
 
-.map-bg {
+/* .map-bg {
     opacity: 0.35;
     filter: drop-shadow(0 0 32px #00bfff) brightness(1.15) grayscale(0.3);
-}
+} */
 
 .dot {
     position: absolute;

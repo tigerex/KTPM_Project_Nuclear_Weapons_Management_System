@@ -184,7 +184,7 @@ namespace project_nuclear_weapons_management_system.modules.server
                                 // Chuyển hết các request qua Router xử lí
                                 // Xong trả về response nhân được từ Router thôi
                                 var repo = new MySqlUserRepository();
-                                byte[] response = Router.Resolve(path, body, repo);
+                                byte[] response = Router.Resolve(path, body, repo, headers);
 
                                 // Gửi phản hồi
                                 stream.Write(response, 0, response.Length);
