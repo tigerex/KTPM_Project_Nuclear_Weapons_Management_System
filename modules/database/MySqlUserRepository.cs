@@ -14,6 +14,7 @@ namespace project_nuclear_weapons_management_system.modules.database
                 SELECT 
                     user_id,
                     username,
+                    full_name,
                     password_hash,
                     role,
                     is_admin,
@@ -32,6 +33,7 @@ namespace project_nuclear_weapons_management_system.modules.database
                 return new UserDto(
                     Id: reader.GetInt32("user_id"),
                     Username: reader.GetString("username"),
+                    Fullname: reader.GetString("full_name"),
                     PasswordHash: reader.GetString("password_hash"),
                     Role: reader.GetString("role"),
                     IsAdmin: reader.GetBoolean("is_admin"),

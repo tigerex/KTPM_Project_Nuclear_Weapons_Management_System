@@ -4,10 +4,11 @@ namespace project_nuclear_weapons_management_system.modules.database
 {
     public sealed class UserDto
     {
-        public UserDto(int Id, string Username, string PasswordHash, string Role, bool IsAdmin, string ClearanceLevel)
+        public UserDto(int Id, string Username, string Fullname, string PasswordHash, string Role, bool IsAdmin, string ClearanceLevel)
         {
             this.Id = Id;
             this.Username = Username;
+            this.Fullname = Fullname;
             this.PasswordHash = PasswordHash;
             this.Role = Role;
             this.IsAdmin = IsAdmin;
@@ -16,6 +17,7 @@ namespace project_nuclear_weapons_management_system.modules.database
 
         public int Id { get; init; }
         public string Username { get; init; } = "";
+        public string Fullname { get; init; } = "";
         public string PasswordHash { get; init; } = "";
         public string Role { get; init; } = "";
         public bool IsAdmin { get; init; }

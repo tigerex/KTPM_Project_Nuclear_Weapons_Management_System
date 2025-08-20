@@ -38,9 +38,12 @@ namespace project_nuclear_weapons_management_system.modules.server
 
         // private static bool IsProtectedPath(string path)
         // {
-        //     // đánh dấu các trang phải đăng nhập
-        //     return path.StartsWith("/home") || path.StartsWith("/admin");
+        //     path = (path ?? "").ToLowerInvariant();
+        //     return path.StartsWith("/home") 
+        //         || path.StartsWith("/admin")
+        //         || path.StartsWith("/profile"); // 👈 thêm dòng này
         // }
+
 
         // --- Static file serving ---
         private static byte[] HandleStatic(string path, Dictionary<string, string> headers)

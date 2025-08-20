@@ -83,13 +83,14 @@ namespace project_nuclear_weapons_management_system.modules.server
             // API cho user
             "/api/auth/login" => new LoginHandler(repo),
             "/api/auth/logout" => new LogoutHandler(),
+            "/api/auth/me"     => new MeHandler(repo),
 
             // API cho kho vũ khí
             "/api/storages/" => new StorageHandler(), // GET một kho vũ khí (với ID hay gì đó)
             "/api/storages/all" => new AllStorageHandler(), // GET all kho vũ khí
             "/api/storages/add" => new AddStorageHandler(), // POST kho vũ khí
-                                                            // "/api/storages/delete" => new DeleteStorageHandler(), // DELETE một kho vũ khí
-                                                            // "/api/storages/update" => new UpdateStorageHandler(), // PUT kho vũ khí
+            "/api/storages/delete" => new DeleteStorageHandler(), // DELETE một kho vũ khí
+            "/api/storages/update" => new UpdateStorageHandler(), // PUT kho vũ khí
 
             // API cho vũ khí
             "/api/weapons/all" => new AllWeaponHandler(), // GET all vũ khí
@@ -113,14 +114,78 @@ namespace project_nuclear_weapons_management_system.modules.server
             HttpHelper.Json(404, new { error = "Endpoint Not found" });
     }
 
-    //Endpoint login (tui tui chưa đụng vô)
+    /// <summary>
+    /// /api/auth/me
+    /// - Trả về thông tin user đang đăng nhập dựa trên token.
+    /// - Ưu tiên đọc từ Authorization: Bearer <token>; nếu không có thì fallback cookie 'authToken'.
+    /// </summary>
+    
+    // Helper nhỏ để lấy cookie (nếu cần)
+    static class CookieUtil
+    {
+        public static string? GetCookie(Dictionary<string,string> headers, string name)
+        {
+            if (!headers.TryGetValue("Cookie", out var cookie) || string.IsNullOrEmpty(cookie)) return null;
+            foreach (var part in cookie.Split(';'))
+            {
+                var kv = part.Split('=', 2, StringSplitOptions.TrimEntries);
+                if (kv.Length == 2 && kv[0] == name) return kv[1];
+            }
+            return null;
+        }
+    }
+    public sealed class MeHandler(IUserRepository repo) : IRequestHandler
+    {
+        private readonly IUserRepository _repo = repo;
+
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                // 1) Lấy token: Authorization (ưu tiên) hoặc cookie authToken
+                headers.TryGetValue("Authorization", out var authHeader);
+                if (string.IsNullOrWhiteSpace(authHeader))
+                {
+                    var cookieToken = CookieUtil.GetCookie(headers, "authToken");
+                    if (!string.IsNullOrEmpty(cookieToken))
+                        authHeader = "Bearer " + cookieToken;
+                }
+
+                // 2) Validate token qua AuthService
+                var session = AuthService.Instance.Validate(authHeader);
+                if (session is null) return HttpHelper.Json(401, new { error = "Unauthorized" });
+
+                // 3) Lấy profile đầy đủ từ DB (dựa vào Username có trong session)
+                var user = _repo.FindByUsernameAsync(session.Username).GetAwaiter().GetResult();
+                if (user is null) return HttpHelper.Json(404, new { error = "User not found" });
+
+                // 4) Trả JSON gọn cho UI
+                return HttpHelper.Json(200, new
+                {
+                    id = user.Id,
+                    username = user.Username,
+                    fullname = user.Fullname,
+                    role = user.Role,
+                    is_admin = user.IsAdmin,
+                    clearance = user.ClearanceLevel
+                });
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] MeHandler: {ex}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+
+    //Endpoint login (tui đụng rồi nhé)
     public sealed class LoginHandler(IUserRepository repo) : IRequestHandler
     {
         private readonly IUserRepository _repo = repo;
 
         private sealed record LoginRequest(string Username, string Password);
 
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -138,10 +203,11 @@ namespace project_nuclear_weapons_management_system.modules.server
                 var token = AuthService.Instance.Issue(user.Id, user.Username, user.Role);
                 return HttpHelper.Json(200,
                     new { token, user = new { user.Id, user.Username, user.Role } },
-                    new() {
+                    new()
+                    {
                         // HttpOnly để JS không đọc được cookie (an toàn hơn); SameSite=Lax ok cho điều hướng nội bộ
                         ["Set-Cookie"] = $"auth={token}; Path=/; HttpOnly; SameSite=Lax"
-                });
+                    });
             }
             catch (Exception ex)
             {
