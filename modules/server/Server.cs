@@ -183,10 +183,21 @@ namespace project_nuclear_weapons_management_system.modules.server
 
                                 // Chuyển hết các request qua Router xử lí
                                 // Xong trả về response nhân được từ Router thôi
-                                byte[] response = Router.Resolve(path, body, headers);
-
-                                // Gửi phản hồi
-                                stream.Write(response, 0, response.Length);
+                                // byte[] response = Router.Resolve(path, body, headers);
+                                if (headers.ContainsKey("Upgrade") 
+                                    && headers["Upgrade"].ToLower() == "websocket"
+                                    && path.Equals("/ws/chat", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    HandleWebSocket.Handle(client, stream, headers);
+                                }
+                                else
+                                {
+                                    // Pass everything else to your router for normal HTTP handling
+                                    byte[] response = Router.Resolve(path, body, headers);
+                                    stream.Write(response, 0, response.Length);
+                                }
+                                // // Gửi phản hồi
+                                // stream.Write(response, 0, response.Length);
                                 stream.Flush();
                                 break;
                             }

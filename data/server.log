@@ -10670,3 +10670,2537 @@
 [2025-08-21 10:36:08] [INFO] Server shut down due to ProcessExit (application end).
 [2025-08-21 10:36:08] ===== SESSION END =====
 
+[2025-08-21 10:36:48] ✅ Server started successfully at 10.106.42.149:9999
+[2025-08-21 10:36:48] ====== SESSION ACTIVITIES =====
+[2025-08-21 10:46:27] Client connected from 10.106.42.149
+[2025-08-21 10:46:27] [DEBUG] 10.106.42.149 -> GET /
+[2025-08-21 10:46:27] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:27] Client connected from 10.106.42.149
+[2025-08-21 10:46:27] [DEBUG] 10.106.42.149 -> GET /default.css
+[2025-08-21 10:46:27] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:27] Client connected from 10.106.42.149
+[2025-08-21 10:46:27] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 10:46:27] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:28] Client connected from 10.106.42.149
+[2025-08-21 10:46:28] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 10:46:28] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:28] Client connected from 10.106.42.149
+[2025-08-21 10:46:28] [DEBUG] 10.106.42.149 -> GET /login
+[2025-08-21 10:46:28] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:28] Client connected from 10.106.42.149
+[2025-08-21 10:46:28] [DEBUG] 10.106.42.149 -> GET /login.css
+[2025-08-21 10:46:28] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:29] Client connected from 10.106.42.149
+[2025-08-21 10:46:29] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 10:46:29] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:29] Client connected from 10.106.42.149
+[2025-08-21 10:46:29] [DEBUG] 10.106.42.149 -> GET /login.js
+[2025-08-21 10:46:29] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:29] Client connected from 10.106.42.149
+[2025-08-21 10:46:29] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 10:46:29] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:33] Client connected from 10.106.42.149
+[2025-08-21 10:46:33] [DEBUG] 10.106.42.149 -> POST /api/auth/login
+[2025-08-21 10:46:33] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:43] Client connected from 10.106.42.149
+[2025-08-21 10:46:43] [DEBUG] 10.106.42.149 -> POST /api/auth/login
+[2025-08-21 10:46:44] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:50] Client connected from 10.106.42.149
+[2025-08-21 10:46:50] [DEBUG] 10.106.42.149 -> POST /api/auth/login
+[2025-08-21 10:46:50] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:51] Client connected from 10.106.42.149
+[2025-08-21 10:46:51] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 10:46:51] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:51] Client connected from 10.106.42.149
+[2025-08-21 10:46:51] [DEBUG] 10.106.42.149 -> GET /home.css
+[2025-08-21 10:46:51] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:51] Client connected from 10.106.42.149
+[2025-08-21 10:46:51] [DEBUG] 10.106.42.149 -> GET /login/login.css
+[2025-08-21 10:46:51] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:51] Client connected from 10.106.42.149
+[2025-08-21 10:46:51] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 10:46:51] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:51] Client connected from 10.106.42.149
+[2025-08-21 10:46:51] [DEBUG] 10.106.42.149 -> GET /home.js
+[2025-08-21 10:46:51] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:51] Client connected from 10.106.42.149
+[2025-08-21 10:46:51] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 10:46:51] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:52] Client connected from 10.106.42.149
+[2025-08-21 10:46:52] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 10:46:52] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:52] Client connected from 10.106.42.149
+[2025-08-21 10:46:52] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 10:46:52] Client 10.106.42.149 disconnected.
+[2025-08-21 10:46:52] Client connected from 10.106.42.149
+[2025-08-21 10:46:52] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 10:46:52] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:05] Client connected from 10.106.42.149
+[2025-08-21 10:47:05] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 10:47:05] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:08] Client connected from 10.106.42.158
+[2025-08-21 10:47:08] [DEBUG] 10.106.42.158 -> GET /
+[2025-08-21 10:47:08] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:08] Client connected from 10.106.42.158
+[2025-08-21 10:47:08] [DEBUG] 10.106.42.158 -> GET /default.css
+[2025-08-21 10:47:08] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:08] Client connected from 10.106.42.158
+[2025-08-21 10:47:08] [DEBUG] 10.106.42.158 -> GET /data/resources/loginMap.jpg
+[2025-08-21 10:47:08] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:09] Client connected from 10.106.42.158
+[2025-08-21 10:47:09] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 10:47:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:09] Client connected from 10.106.42.149
+[2025-08-21 10:47:09] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 10:47:09] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:20] Client connected from 10.106.42.158
+[2025-08-21 10:47:20] [DEBUG] 10.106.42.158 -> GET /login
+[2025-08-21 10:47:20] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:20] Client connected from 10.106.42.158
+[2025-08-21 10:47:20] [DEBUG] 10.106.42.158 -> GET /login.css
+[2025-08-21 10:47:20] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:20] Client connected from 10.106.42.158
+[2025-08-21 10:47:20] [DEBUG] 10.106.42.158 -> GET /data/resources/loginMap.jpg
+[2025-08-21 10:47:20] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:20] Client connected from 10.106.42.158
+[2025-08-21 10:47:20] [DEBUG] 10.106.42.158 -> GET /login.js
+[2025-08-21 10:47:20] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:21] Client connected from 10.106.42.158
+[2025-08-21 10:47:21] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 10:47:21] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:22] Client connected from 10.106.42.149
+[2025-08-21 10:47:22] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 10:47:22] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:43] Client connected from 10.106.42.158
+[2025-08-21 10:47:43] [DEBUG] 10.106.42.158 -> POST /api/auth/login
+[2025-08-21 10:47:43] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /home.css
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /home.js
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /login/login.css
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /data/resources/detailMap.jpg
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /api/auth/me
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /api/storages/all
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:45] Client connected from 10.106.42.158
+[2025-08-21 10:47:45] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 10:47:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:54] Client connected from 10.106.42.158
+[2025-08-21 10:47:54] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:47:54] Client 10.106.42.158 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:47:59] Client connected from 10.106.42.149
+[2025-08-21 10:47:59] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 10:47:59] Client 10.106.42.149 disconnected.
+[2025-08-21 10:48:00] Client connected from 10.106.42.149
+[2025-08-21 10:48:00] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 10:48:00] Client 10.106.42.149 disconnected.
+[2025-08-21 10:48:15] Client connected from 10.106.42.158
+[2025-08-21 10:48:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:48:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:48:16] Client connected from 10.106.42.158
+[2025-08-21 10:48:16] [DEBUG] 10.106.42.158 -> GET /api/weapons/all
+[2025-08-21 10:48:16] Client 10.106.42.158 disconnected.
+[2025-08-21 10:48:20] Client connected from 10.106.42.158
+[2025-08-21 10:48:20] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:48:20] Client 10.106.42.158 disconnected.
+[2025-08-21 10:48:22] Client connected from 10.106.42.158
+[2025-08-21 10:48:22] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:48:22] Client 10.106.42.158 disconnected.
+[2025-08-21 10:48:22] Client connected from 10.106.42.158
+[2025-08-21 10:48:22] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:48:22] Client 10.106.42.158 disconnected.
+[2025-08-21 10:48:30] Client connected from 10.106.42.158
+[2025-08-21 10:48:30] [DEBUG] 10.106.42.158 -> GET /api/weapons/all
+[2025-08-21 10:48:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:49:05] Client connected from 10.106.42.158
+[2025-08-21 10:49:05] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:49:05] Client 10.106.42.158 disconnected.
+[2025-08-21 10:49:15] Client connected from 10.106.42.158
+[2025-08-21 10:49:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:49:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:49:24] Client connected from 10.106.42.158
+[2025-08-21 10:49:24] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:49:24] Client 10.106.42.158 disconnected.
+[2025-08-21 10:49:32] Client connected from 10.106.42.158
+[2025-08-21 10:49:32] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:49:32] Client 10.106.42.158 disconnected.
+[2025-08-21 10:49:49] Client connected from 10.106.42.158
+[2025-08-21 10:49:49] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:49:49] Client 10.106.42.158 disconnected.
+[2025-08-21 10:49:54] Client connected from 10.106.42.158
+[2025-08-21 10:49:54] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:49:54] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:00] Client connected from 10.106.42.158
+[2025-08-21 10:50:00] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:00] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:00] Client connected from 10.106.42.158
+[2025-08-21 10:50:00] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:00] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:01] Client connected from 10.106.42.158
+[2025-08-21 10:50:01] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:02] Client connected from 10.106.42.158
+[2025-08-21 10:50:02] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:02] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:02] Client connected from 10.106.42.158
+[2025-08-21 10:50:02] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:02] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:02] Client connected from 10.106.42.158
+[2025-08-21 10:50:02] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:02] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:07] Client connected from 10.106.42.158
+[2025-08-21 10:50:07] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:07] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:07] Client connected from 10.106.42.158
+[2025-08-21 10:50:07] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:07] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:08] Client connected from 10.106.42.158
+[2025-08-21 10:50:08] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:08] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:09] Client connected from 10.106.42.158
+[2025-08-21 10:50:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:09] Client connected from 10.106.42.158
+[2025-08-21 10:50:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:09] Client connected from 10.106.42.158
+[2025-08-21 10:50:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:12] Client connected from 10.106.42.158
+[2025-08-21 10:50:12] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:12] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:18] Client connected from 10.106.42.158
+[2025-08-21 10:50:18] [DEBUG] 10.106.42.158 -> GET /api/weapons/all
+[2025-08-21 10:50:18] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:23] Client connected from 10.106.42.158
+[2025-08-21 10:50:23] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:23] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:27] Client connected from 10.106.42.158
+[2025-08-21 10:50:27] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:27] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:27] Client connected from 10.106.42.158
+[2025-08-21 10:50:27] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:27] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:28] Client connected from 10.106.42.158
+[2025-08-21 10:50:28] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:28] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:29] Client connected from 10.106.42.158
+[2025-08-21 10:50:29] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:29] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:30] Client connected from 10.106.42.158
+[2025-08-21 10:50:30] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:30] Client connected from 10.106.42.158
+[2025-08-21 10:50:30] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:30] Client connected from 10.106.42.158
+[2025-08-21 10:50:30] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:30] Client connected from 10.106.42.158
+[2025-08-21 10:50:30] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:30] Client connected from 10.106.42.158
+[2025-08-21 10:50:30] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:45] Client connected from 10.106.42.158
+[2025-08-21 10:50:45] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:50:45] Client 10.106.42.158 disconnected.
+[2025-08-21 10:50:58] Client connected from 10.106.42.158
+[2025-08-21 10:50:58] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:50:58] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:13] Client connected from 10.106.42.158
+[2025-08-21 10:51:13] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:13] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:16] Client connected from 10.106.42.158
+[2025-08-21 10:51:16] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:51:16] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:23] Client connected from 10.106.42.158
+[2025-08-21 10:51:23] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:23] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:28] Client connected from 10.106.42.158
+[2025-08-21 10:51:28] [DEBUG] 10.106.42.158 -> GET /api/weapons/all
+[2025-08-21 10:51:28] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:30] Client connected from 10.106.42.158
+[2025-08-21 10:51:30] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:51:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:30] Client connected from 10.106.42.158
+[2025-08-21 10:51:30] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:51:30] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:30] Client connected from 10.106.42.158
+[2025-08-21 10:51:30] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:51:31] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:31] Client connected from 10.106.42.158
+[2025-08-21 10:51:31] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:51:31] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:32] Client connected from 10.106.42.158
+[2025-08-21 10:51:32] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:32] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:33] Client connected from 10.106.42.158
+[2025-08-21 10:51:33] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:33] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:34] Client connected from 10.106.42.158
+[2025-08-21 10:51:34] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:34] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:34] Client connected from 10.106.42.158
+[2025-08-21 10:51:34] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:34] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:35] Client connected from 10.106.42.158
+[2025-08-21 10:51:35] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:35] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:35] Client connected from 10.106.42.158
+[2025-08-21 10:51:35] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:35] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:35] Client connected from 10.106.42.158
+[2025-08-21 10:51:35] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:35] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:35] Client connected from 10.106.42.158
+[2025-08-21 10:51:35] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:35] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:35] Client connected from 10.106.42.158
+[2025-08-21 10:51:35] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:51:35] Client 10.106.42.158 disconnected.
+[2025-08-21 10:51:40] Client connected from 10.106.42.158
+[2025-08-21 10:51:40] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:51:40] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:00] Client connected from 10.106.42.158
+[2025-08-21 10:52:00] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:00] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:04] Client connected from 10.106.42.158
+[2025-08-21 10:52:04] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:04] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:06] Client connected from 10.106.42.158
+[2025-08-21 10:52:06] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:06] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:06] Client connected from 10.106.42.158
+[2025-08-21 10:52:06] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:06] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:06] Client connected from 10.106.42.158
+[2025-08-21 10:52:06] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:06] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:06] Client connected from 10.106.42.158
+[2025-08-21 10:52:06] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:06] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:07] Client connected from 10.106.42.158
+[2025-08-21 10:52:07] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:07] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:08] Client connected from 10.106.42.158
+[2025-08-21 10:52:08] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:08] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:09] Client connected from 10.106.42.158
+[2025-08-21 10:52:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:09] Client connected from 10.106.42.158
+[2025-08-21 10:52:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:09] Client connected from 10.106.42.158
+[2025-08-21 10:52:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:09] Client connected from 10.106.42.158
+[2025-08-21 10:52:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:09] Client connected from 10.106.42.158
+[2025-08-21 10:52:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:09] Client connected from 10.106.42.158
+[2025-08-21 10:52:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:17] Client connected from 10.106.42.158
+[2025-08-21 10:52:17] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:17] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:22] Client connected from 10.106.42.158
+[2025-08-21 10:52:22] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:22] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:28] Client connected from 10.106.42.158
+[2025-08-21 10:52:28] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:28] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:32] Client connected from 10.106.42.158
+[2025-08-21 10:52:32] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:32] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:35] Client connected from 10.106.42.158
+[2025-08-21 10:52:35] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:35] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:47] Client connected from 10.106.42.158
+[2025-08-21 10:52:47] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:47] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:56] Client connected from 10.106.42.158
+[2025-08-21 10:52:56] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:56] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:56] Client connected from 10.106.42.158
+[2025-08-21 10:52:56] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:56] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:56] Client connected from 10.106.42.158
+[2025-08-21 10:52:56] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:56] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:56] Client connected from 10.106.42.158
+[2025-08-21 10:52:56] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:52:56] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:57] Client connected from 10.106.42.158
+[2025-08-21 10:52:57] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:57] Client 10.106.42.158 disconnected.
+[2025-08-21 10:52:58] Client connected from 10.106.42.158
+[2025-08-21 10:52:58] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:52:58] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:01] Client connected from 10.106.42.158
+[2025-08-21 10:53:01] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:01] Client connected from 10.106.42.158
+[2025-08-21 10:53:01] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:01] Client connected from 10.106.42.158
+[2025-08-21 10:53:01] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:01] Client connected from 10.106.42.158
+[2025-08-21 10:53:01] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:01] Client connected from 10.106.42.158
+[2025-08-21 10:53:01] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:02] Client connected from 10.106.42.158
+[2025-08-21 10:53:02] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:02] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:04] Client connected from 10.106.42.158
+[2025-08-21 10:53:04] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:53:04] Client 10.106.42.158 disconnected.
+[2025-08-21 10:53:54] Client connected from 10.106.42.158
+[2025-08-21 10:53:54] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:53:54] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:01] Client connected from 10.106.42.158
+[2025-08-21 10:54:01] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:54:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:01] Client connected from 10.106.42.158
+[2025-08-21 10:54:01] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:54:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:01] Client connected from 10.106.42.158
+[2025-08-21 10:54:01] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:54:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:01] Client connected from 10.106.42.158
+[2025-08-21 10:54:01] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 10:54:01] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:06] Client connected from 10.106.42.158
+[2025-08-21 10:54:06] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:06] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:09] Client connected from 10.106.42.158
+[2025-08-21 10:54:09] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:09] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:10] Client connected from 10.106.42.158
+[2025-08-21 10:54:10] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:10] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:15] Client connected from 10.106.42.158
+[2025-08-21 10:54:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:15] Client connected from 10.106.42.158
+[2025-08-21 10:54:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:15] Client connected from 10.106.42.158
+[2025-08-21 10:54:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:15] Client connected from 10.106.42.158
+[2025-08-21 10:54:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:15] Client connected from 10.106.42.158
+[2025-08-21 10:54:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:15] Client 10.106.42.158 disconnected.
+[2025-08-21 10:54:48] Client connected from 10.106.42.158
+[2025-08-21 10:54:48] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 10:54:48] Client 10.106.42.158 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:56] Client connected from 10.106.42.149
+[2025-08-21 10:59:56] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 10:59:56] Client 10.106.42.149 disconnected.
+[2025-08-21 10:59:57] Client connected from 10.106.42.149
+[2025-08-21 10:59:57] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 10:59:57] Client 10.106.42.149 disconnected.
+[2025-08-21 11:00:02] Client connected from 10.106.42.149
+[2025-08-21 11:00:02] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:00:02] Client 10.106.42.149 disconnected.
+[2025-08-21 11:00:18] Client connected from 10.106.42.149
+[2025-08-21 11:00:18] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:00:18] Client 10.106.42.149 disconnected.
+[2025-08-21 11:00:21] Client connected from 10.106.42.149
+[2025-08-21 11:00:21] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:00:21] Client 10.106.42.149 disconnected.
+[2025-08-21 11:00:24] Client connected from 10.106.42.149
+[2025-08-21 11:00:24] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:00:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:00:38] Client connected from 10.106.42.152
+[2025-08-21 11:00:38] [DEBUG] 10.106.42.152 -> GET /
+[2025-08-21 11:00:38] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:39] Client connected from 10.106.42.152
+[2025-08-21 11:00:39] [DEBUG] 10.106.42.152 -> GET /default.css
+[2025-08-21 11:00:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:39] Client connected from 10.106.42.152
+[2025-08-21 11:00:39] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:00:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:39] Client connected from 10.106.42.152
+[2025-08-21 11:00:39] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:00:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:40] Client connected from 10.106.42.152
+[2025-08-21 11:00:41] [DEBUG] 10.106.42.152 -> GET /login
+[2025-08-21 11:00:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:41] Client connected from 10.106.42.152
+[2025-08-21 11:00:41] [DEBUG] 10.106.42.152 -> GET /login.css
+[2025-08-21 11:00:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:41] Client connected from 10.106.42.152
+[2025-08-21 11:00:41] [DEBUG] 10.106.42.152 -> GET /login.js
+[2025-08-21 11:00:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:41] Client connected from 10.106.42.152
+[2025-08-21 11:00:41] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:00:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:41] Client connected from 10.106.42.152
+[2025-08-21 11:00:41] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:00:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:41] Client connected from 10.106.42.158
+[2025-08-21 11:00:41] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:48] Client connected from 10.106.42.158
+[2025-08-21 11:00:48] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:00:48] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:48] Client connected from 10.106.42.158
+[2025-08-21 11:00:48] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:00:48] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:48] Client connected from 10.106.42.158
+[2025-08-21 11:00:48] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:00:48] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:48] Client connected from 10.106.42.158
+[2025-08-21 11:00:48] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:00:48] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:49] Client connected from 10.106.42.158
+[2025-08-21 11:00:49] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:49] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:50] Client connected from 10.106.42.152
+[2025-08-21 11:00:50] [DEBUG] 10.106.42.152 -> POST /api/auth/login
+[2025-08-21 11:00:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:51] Client connected from 10.106.42.158
+[2025-08-21 11:00:51] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:51] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.158
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:52] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:52] Client connected from 10.106.42.152
+[2025-08-21 11:00:52] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:00:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.152
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:00:53] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.152
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:00:53] Client 10.106.42.152 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.158
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:53] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.158
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:53] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.158
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:53] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.158
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:53] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:53] Client connected from 10.106.42.158
+[2025-08-21 11:00:53] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:00:53] Client 10.106.42.158 disconnected.
+[2025-08-21 11:00:55] Client connected from 10.106.42.158
+[2025-08-21 11:00:55] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:00:55] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:01] !!!Command issue!!!
+[2025-08-21 11:01:01] [ALERT] Server will stop in 1 seconds...
+[2025-08-21 11:01:02] 🛑 Server stopped gracefully.
+[2025-08-21 11:01:02] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 11:01:02] ===== SESSION END =====
+
+[2025-08-21 11:01:45] ✅ Server started successfully at 10.106.42.149:9999
+[2025-08-21 11:01:45] ====== SESSION ACTIVITIES =====
+[2025-08-21 11:01:45] Client connected from 10.106.42.158
+[2025-08-21 11:01:45] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:01:45] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:45] Client connected from 10.106.42.158
+[2025-08-21 11:01:52] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 11:01:52] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:52] Client connected from 10.106.42.158
+[2025-08-21 11:01:52] [DEBUG] 10.106.42.158 -> GET /login
+[2025-08-21 11:01:52] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:52] Client connected from 10.106.42.158
+[2025-08-21 11:01:52] [DEBUG] 10.106.42.158 -> GET /login.css
+[2025-08-21 11:01:52] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:52] Client connected from 10.106.42.158
+[2025-08-21 11:01:52] [DEBUG] 10.106.42.158 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:01:52] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:52] Client connected from 10.106.42.158
+[2025-08-21 11:01:52] [DEBUG] 10.106.42.158 -> GET /login.js
+[2025-08-21 11:01:52] Client 10.106.42.158 disconnected.
+[2025-08-21 11:01:53] Client connected from 10.106.42.158
+[2025-08-21 11:01:53] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 11:01:53] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:01] Client connected from 10.106.42.149
+[2025-08-21 11:02:01] [DEBUG] 10.106.42.149 -> GET /
+[2025-08-21 11:02:01] Client 10.106.42.149 disconnected.
+[2025-08-21 11:02:01] Client connected from 10.106.42.149
+[2025-08-21 11:02:02] [DEBUG] 10.106.42.149 -> GET /default.css
+[2025-08-21 11:02:02] Client 10.106.42.149 disconnected.
+[2025-08-21 11:02:02] Client connected from 10.106.42.149
+[2025-08-21 11:02:02] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:02:02] Client 10.106.42.149 disconnected.
+[2025-08-21 11:02:02] Client connected from 10.106.42.149
+[2025-08-21 11:02:02] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:02:02] Client 10.106.42.149 disconnected.
+[2025-08-21 11:02:04] Client connected from 10.106.42.158
+[2025-08-21 11:02:04] [DEBUG] 10.106.42.158 -> POST /api/auth/login
+[2025-08-21 11:02:04] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /home.css
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /login/login.css
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /home.js
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /api/auth/me
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /api/storages/all
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:02:08] Client connected from 10.106.42.158
+[2025-08-21 11:02:08] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 11:02:08] Client 10.106.42.158 disconnected.
+[2025-08-21 11:03:44] Client connected from 10.106.42.158
+[2025-08-21 11:03:44] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:03:44] Client 10.106.42.158 disconnected.
+[2025-08-21 11:03:48] Client connected from 10.106.42.158
+[2025-08-21 11:03:48] [DEBUG] 10.106.42.158 -> GET /api/weapons/all
+[2025-08-21 11:03:48] Client 10.106.42.158 disconnected.
+[2025-08-21 11:03:56] Client connected from 10.106.42.152
+[2025-08-21 11:03:56] [DEBUG] 10.106.42.152 -> GET /
+[2025-08-21 11:03:56] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:56] Client connected from 10.106.42.152
+[2025-08-21 11:03:56] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:03:56] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:56] Client connected from 10.106.42.152
+[2025-08-21 11:03:56] [DEBUG] 10.106.42.152 -> GET /default.css
+[2025-08-21 11:03:56] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:56] Client connected from 10.106.42.152
+[2025-08-21 11:03:56] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:03:56] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:57] Client connected from 10.106.42.152
+[2025-08-21 11:03:57] [DEBUG] 10.106.42.152 -> GET /login
+[2025-08-21 11:03:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:57] Client connected from 10.106.42.152
+[2025-08-21 11:03:57] [DEBUG] 10.106.42.152 -> GET /login.css
+[2025-08-21 11:03:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:57] Client connected from 10.106.42.152
+[2025-08-21 11:03:57] [DEBUG] 10.106.42.152 -> GET /login.js
+[2025-08-21 11:03:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:57] Client connected from 10.106.42.152
+[2025-08-21 11:03:57] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:03:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:58] Client connected from 10.106.42.152
+[2025-08-21 11:03:58] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:03:58] Client 10.106.42.152 disconnected.
+[2025-08-21 11:03:58] Client connected from 10.106.42.158
+[2025-08-21 11:03:58] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:03:58] Client 10.106.42.158 disconnected.
+[2025-08-21 11:04:00] Client connected from 10.106.42.158
+[2025-08-21 11:04:00] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:04:00] Client 10.106.42.158 disconnected.
+[2025-08-21 11:04:00] Client connected from 10.106.42.158
+[2025-08-21 11:04:00] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:04:00] Client 10.106.42.158 disconnected.
+[2025-08-21 11:04:00] Client connected from 10.106.42.149
+[2025-08-21 11:04:01] [DEBUG] 10.106.42.149 -> GET /login
+[2025-08-21 11:04:01] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:01] Client connected from 10.106.42.149
+[2025-08-21 11:04:01] [DEBUG] 10.106.42.149 -> GET /login.css
+[2025-08-21 11:04:01] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:01] Client connected from 10.106.42.149
+[2025-08-21 11:04:01] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:04:01] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:01] Client connected from 10.106.42.149
+[2025-08-21 11:04:01] [DEBUG] 10.106.42.149 -> GET /login.js
+[2025-08-21 11:04:01] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:01] Client connected from 10.106.42.149
+[2025-08-21 11:04:01] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:04:01] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:01] Client connected from 10.106.42.158
+[2025-08-21 11:04:01] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:04:01] Client 10.106.42.158 disconnected.
+[2025-08-21 11:04:02] Client connected from 10.106.42.152
+[2025-08-21 11:04:02] [DEBUG] 10.106.42.152 -> POST /api/auth/login
+[2025-08-21 11:04:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:03] Client connected from 10.106.42.152
+[2025-08-21 11:04:03] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:04:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.152
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:04:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:04:04] Client connected from 10.106.42.149
+[2025-08-21 11:04:04] [DEBUG] 10.106.42.149 -> POST /api/auth/login
+[2025-08-21 11:04:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /home.css
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /login/login.css
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /home.js
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:06] Client connected from 10.106.42.149
+[2025-08-21 11:04:06] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:04:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:28] Client connected from 10.106.42.149
+[2025-08-21 11:04:28] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:04:28] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:29] Client connected from 10.106.42.149
+[2025-08-21 11:04:29] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:04:29] Client 10.106.42.149 disconnected.
+[2025-08-21 11:04:32] Client connected from 10.106.42.149
+[2025-08-21 11:04:32] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:04:32] Client 10.106.42.149 disconnected.
+[2025-08-21 11:05:00] Client connected from 10.106.42.152
+[2025-08-21 11:05:00] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:00] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:01] Client connected from 10.106.42.152
+[2025-08-21 11:05:01] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:05:01] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:12] Client connected from 10.106.42.152
+[2025-08-21 11:05:12] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:05:12] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:13] Client connected from 10.106.42.152
+[2025-08-21 11:05:13] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:13] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:13] Client connected from 10.106.42.152
+[2025-08-21 11:05:13] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:13] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:20] Client connected from 10.106.42.152
+[2025-08-21 11:05:20] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:05:20] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:39] Client connected from 10.106.42.152
+[2025-08-21 11:05:39] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:39] Client connected from 10.106.42.152
+[2025-08-21 11:05:39] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:52] Client connected from 10.106.42.152
+[2025-08-21 11:05:52] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:05:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:53] Client connected from 10.106.42.152
+[2025-08-21 11:05:53] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:53] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:53] Client connected from 10.106.42.152
+[2025-08-21 11:05:53] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:53] Client 10.106.42.152 disconnected.
+[2025-08-21 11:05:59] Client connected from 10.106.42.152
+[2025-08-21 11:05:59] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:05:59] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:02] Client connected from 10.106.42.152
+[2025-08-21 11:06:02] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:04] Client connected from 10.106.42.152
+[2025-08-21 11:06:04] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:06] Client connected from 10.106.42.158
+[2025-08-21 11:06:06] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:06] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:11] Client connected from 10.106.42.152
+[2025-08-21 11:06:11] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:06:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:12] Client connected from 10.106.42.158
+[2025-08-21 11:06:12] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:06:12] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:12] Client connected from 10.106.42.152
+[2025-08-21 11:06:12] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:12] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:12] Client connected from 10.106.42.152
+[2025-08-21 11:06:12] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:12] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:15] Client connected from 10.106.42.152
+[2025-08-21 11:06:15] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:15] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:15] Client connected from 10.106.42.158
+[2025-08-21 11:06:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:15] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:15] Client connected from 10.106.42.158
+[2025-08-21 11:06:15] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:15] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:18] Client connected from 10.106.42.158
+[2025-08-21 11:06:18] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:06:18] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:22] Client connected from 10.106.42.152
+[2025-08-21 11:06:22] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:06:22] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:23] Client connected from 10.106.42.158
+[2025-08-21 11:06:23] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:23] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:32] Client connected from 10.106.42.158
+[2025-08-21 11:06:32] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:06:32] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:33] Client connected from 10.106.42.158
+[2025-08-21 11:06:33] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:33] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:33] Client connected from 10.106.42.158
+[2025-08-21 11:06:33] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:33] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:34] Client connected from 10.106.42.158
+[2025-08-21 11:06:34] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:06:34] Client 10.106.42.158 disconnected.
+[2025-08-21 11:06:36] Client connected from 10.106.42.152
+[2025-08-21 11:06:36] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:36] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:41] Client connected from 10.106.42.152
+[2025-08-21 11:06:41] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:06:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:50] Client connected from 10.106.42.152
+[2025-08-21 11:06:50] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:06:50] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:51] Client connected from 10.106.42.152
+[2025-08-21 11:06:51] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:06:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:53] Client connected from 10.106.42.152
+[2025-08-21 11:06:53] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:06:53] Client 10.106.42.152 disconnected.
+[2025-08-21 11:06:54] Client connected from 10.106.42.158
+[2025-08-21 11:06:54] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:06:54] Client 10.106.42.158 disconnected.
+[2025-08-21 11:07:06] Client connected from 10.106.42.152
+[2025-08-21 11:07:06] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:07:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:17] Client connected from 10.106.42.152
+[2025-08-21 11:07:17] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:07:17] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:18] Client connected from 10.106.42.152
+[2025-08-21 11:07:18] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:18] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:18] Client connected from 10.106.42.152
+[2025-08-21 11:07:18] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:18] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:25] Client connected from 10.106.42.152
+[2025-08-21 11:07:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:26] Client connected from 10.106.42.152
+[2025-08-21 11:07:26] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:07:26] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:30] Client connected from 10.106.42.152
+[2025-08-21 11:07:30] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:07:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:31] Client connected from 10.106.42.152
+[2025-08-21 11:07:31] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:31] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:32] Client connected from 10.106.42.152
+[2025-08-21 11:07:32] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:07:32] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:39] Client connected from 10.106.42.152
+[2025-08-21 11:07:39] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:07:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:40] Client connected from 10.106.42.152
+[2025-08-21 11:07:40] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:40] Client connected from 10.106.42.152
+[2025-08-21 11:07:40] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:43] Client connected from 10.106.42.152
+[2025-08-21 11:07:43] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:43] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:48] Client connected from 10.106.42.152
+[2025-08-21 11:07:48] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:07:48] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:49] Client connected from 10.106.42.149
+[2025-08-21 11:07:49] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:07:49] Client 10.106.42.149 disconnected.
+[2025-08-21 11:07:51] Client connected from 10.106.42.152
+[2025-08-21 11:07:51] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:07:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:51] Client connected from 10.106.42.152
+[2025-08-21 11:07:51] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:07:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:51] Client connected from 10.106.42.152
+[2025-08-21 11:07:51] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:07:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:51] Client connected from 10.106.42.152
+[2025-08-21 11:07:51] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:07:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:51] Client connected from 10.106.42.152
+[2025-08-21 11:07:51] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:07:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:51] Client connected from 10.106.42.152
+[2025-08-21 11:07:51] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:07:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:52] Client connected from 10.106.42.152
+[2025-08-21 11:07:52] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:07:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:52] Client connected from 10.106.42.152
+[2025-08-21 11:07:52] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:07:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:52] Client connected from 10.106.42.152
+[2025-08-21 11:07:52] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:07:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:53] Client connected from 10.106.42.152
+[2025-08-21 11:07:53] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:07:53] Client 10.106.42.152 disconnected.
+[2025-08-21 11:07:54] Client connected from 10.106.42.152
+[2025-08-21 11:07:54] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:07:54] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:02] Client connected from 10.106.42.152
+[2025-08-21 11:08:02] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:03] Client connected from 10.106.42.152
+[2025-08-21 11:08:03] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:03] Client connected from 10.106.42.152
+[2025-08-21 11:08:03] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:05] Client connected from 10.106.42.152
+[2025-08-21 11:08:05] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:05] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:11] Client connected from 10.106.42.152
+[2025-08-21 11:08:11] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:12] Client connected from 10.106.42.152
+[2025-08-21 11:08:12] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:12] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:12] Client connected from 10.106.42.152
+[2025-08-21 11:08:12] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:12] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:18] Client connected from 10.106.42.158
+[2025-08-21 11:08:18] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:18] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:19] Client connected from 10.106.42.158
+[2025-08-21 11:08:19] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:08:19] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:19] Client connected from 10.106.42.158
+[2025-08-21 11:08:19] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 11:08:19] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:20] Client connected from 10.106.42.152
+[2025-08-21 11:08:20] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:20] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:21] Client connected from 10.106.42.152
+[2025-08-21 11:08:21] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:21] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:21] Client connected from 10.106.42.152
+[2025-08-21 11:08:21] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:21] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:21] Client connected from 10.106.42.158
+[2025-08-21 11:08:21] [DEBUG] 10.106.42.158 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:21] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:24] Client connected from 10.106.42.152
+[2025-08-21 11:08:24] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:24] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:31] Client connected from 10.106.42.152
+[2025-08-21 11:08:31] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:31] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:32] Client connected from 10.106.42.152
+[2025-08-21 11:08:32] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:32] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:32] Client connected from 10.106.42.152
+[2025-08-21 11:08:32] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:32] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:38] Client connected from 10.106.42.158
+[2025-08-21 11:08:38] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 11:08:38] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:39] Client connected from 10.106.42.152
+[2025-08-21 11:08:39] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:08:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:40] Client connected from 10.106.42.152
+[2025-08-21 11:08:40] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:40] Client connected from 10.106.42.152
+[2025-08-21 11:08:40] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:08:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /admin
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /admin.css
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /admin.js
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /api/auth/me
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /api/admin/allUser
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /api/weapons/all
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /api/storages/all
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:08:41] Client connected from 10.106.42.158
+[2025-08-21 11:08:41] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 11:08:41] Client 10.106.42.158 disconnected.
+[2025-08-21 11:09:13] Client connected from 10.106.42.152
+[2025-08-21 11:09:13] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:09:13] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:14] Client connected from 10.106.42.152
+[2025-08-21 11:09:14] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:14] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:14] Client connected from 10.106.42.152
+[2025-08-21 11:09:14] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:14] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:14] Client connected from 10.106.42.158
+[2025-08-21 11:09:14] [DEBUG] 10.106.42.158 -> POST /api/weapons/add
+[2025-08-21 11:09:14] [ERROR] AddWeaponHandler: The given key was not present in the dictionary.
+[2025-08-21 11:09:14] Client 10.106.42.158 disconnected.
+[2025-08-21 11:09:16] Client connected from 10.106.42.152
+[2025-08-21 11:09:16] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:16] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:37] Client connected from 10.106.42.152
+[2025-08-21 11:09:37] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:09:37] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:39] Client connected from 10.106.42.152
+[2025-08-21 11:09:39] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:39] Client connected from 10.106.42.152
+[2025-08-21 11:09:39] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:51] Client connected from 10.106.42.152
+[2025-08-21 11:09:51] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:09:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:52] Client connected from 10.106.42.152
+[2025-08-21 11:09:52] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:09:52] Client connected from 10.106.42.152
+[2025-08-21 11:09:52] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:09:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:10:04] Client connected from 10.106.42.152
+[2025-08-21 11:10:04] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:10:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:10:06] Client connected from 10.106.42.152
+[2025-08-21 11:10:06] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:10:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:10:06] Client connected from 10.106.42.152
+[2025-08-21 11:10:06] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:10:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:10:24] Client connected from 10.106.42.152
+[2025-08-21 11:10:24] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:10:24] Client 10.106.42.152 disconnected.
+[2025-08-21 11:10:32] Client connected from 10.106.42.152
+[2025-08-21 11:10:32] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:10:32] Client 10.106.42.152 disconnected.
+[2025-08-21 11:10:39] Client connected from 10.106.42.152
+[2025-08-21 11:10:39] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:10:39] Client 10.106.42.152 disconnected.
+[2025-08-21 11:11:00] Client connected from 10.106.42.152
+[2025-08-21 11:11:00] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:11:00] Client 10.106.42.152 disconnected.
+[2025-08-21 11:11:01] Client connected from 10.106.42.152
+[2025-08-21 11:11:01] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:11:01] Client 10.106.42.152 disconnected.
+[2025-08-21 11:11:20] Client connected from 10.106.42.152
+[2025-08-21 11:11:20] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:11:20] Client 10.106.42.152 disconnected.
+[2025-08-21 11:11:21] Client connected from 10.106.42.152
+[2025-08-21 11:11:21] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:11:21] Client 10.106.42.152 disconnected.
+[2025-08-21 11:11:21] Client connected from 10.106.42.152
+[2025-08-21 11:11:21] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:11:21] Client 10.106.42.152 disconnected.
+[2025-08-21 11:11:25] Client connected from 10.106.42.152
+[2025-08-21 11:11:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:11:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:14] Client connected from 10.106.42.152
+[2025-08-21 11:12:14] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:12:14] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:15] Client connected from 10.106.42.152
+[2025-08-21 11:12:15] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:15] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:15] Client connected from 10.106.42.152
+[2025-08-21 11:12:15] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:15] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:25] Client connected from 10.106.42.152
+[2025-08-21 11:12:25] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:12:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:26] Client connected from 10.106.42.152
+[2025-08-21 11:12:26] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:26] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:26] Client connected from 10.106.42.152
+[2025-08-21 11:12:26] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:26] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:30] Client connected from 10.106.42.152
+[2025-08-21 11:12:30] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:33] Client connected from 10.106.42.152
+[2025-08-21 11:12:33] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:33] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:38] Client connected from 10.106.42.149
+[2025-08-21 11:12:38] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:12:38] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:38] Client connected from 10.106.42.149
+[2025-08-21 11:12:38] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:12:38] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:38] Client connected from 10.106.42.149
+[2025-08-21 11:12:38] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:12:38] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:38] Client connected from 10.106.42.149
+[2025-08-21 11:12:38] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:12:38] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:38] Client connected from 10.106.42.149
+[2025-08-21 11:12:38] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:12:38] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:39] Client connected from 10.106.42.149
+[2025-08-21 11:12:39] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:12:39] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:39] Client connected from 10.106.42.149
+[2025-08-21 11:12:39] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:12:39] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:39] Client connected from 10.106.42.149
+[2025-08-21 11:12:39] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:12:39] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:39] Client connected from 10.106.42.149
+[2025-08-21 11:12:39] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:12:39] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:40] Client connected from 10.106.42.152
+[2025-08-21 11:12:40] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:12:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:41] Client connected from 10.106.42.152
+[2025-08-21 11:12:41] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:41] Client connected from 10.106.42.152
+[2025-08-21 11:12:41] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:54] Client connected from 10.106.42.149
+[2025-08-21 11:12:54] [DEBUG] 10.106.42.149 -> POST /api/admin/addUser
+[2025-08-21 11:12:54] [ERROR] AddUserHandler: The given key was not present in the dictionary.
+[2025-08-21 11:12:54] Client 10.106.42.149 disconnected.
+[2025-08-21 11:12:58] Client connected from 10.106.42.152
+[2025-08-21 11:12:58] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:12:58] Client 10.106.42.152 disconnected.
+[2025-08-21 11:12:59] Client connected from 10.106.42.152
+[2025-08-21 11:12:59] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:12:59] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:00] Client connected from 10.106.42.152
+[2025-08-21 11:13:00] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:00] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:02] Client connected from 10.106.42.152
+[2025-08-21 11:13:02] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:04] Client connected from 10.106.42.152
+[2025-08-21 11:13:04] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:05] Client connected from 10.106.42.152
+[2025-08-21 11:13:05] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:05] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:05] Client connected from 10.106.42.152
+[2025-08-21 11:13:05] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:05] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:14] Client connected from 10.106.42.152
+[2025-08-21 11:13:14] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:14] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:15] Client connected from 10.106.42.152
+[2025-08-21 11:13:15] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:15] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:15] Client connected from 10.106.42.152
+[2025-08-21 11:13:15] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:15] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:21] Client connected from 10.106.42.152
+[2025-08-21 11:13:21] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:21] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:24] Client connected from 10.106.42.152
+[2025-08-21 11:13:24] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:24] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:25] Client connected from 10.106.42.152
+[2025-08-21 11:13:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:25] Client connected from 10.106.42.152
+[2025-08-21 11:13:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:27] Client connected from 10.106.42.152
+[2025-08-21 11:13:27] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:27] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:28] Client connected from 10.106.42.152
+[2025-08-21 11:13:28] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:28] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:28] Client connected from 10.106.42.152
+[2025-08-21 11:13:28] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:28] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:31] Client connected from 10.106.42.152
+[2025-08-21 11:13:31] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:31] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:46] Client connected from 10.106.42.152
+[2025-08-21 11:13:46] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:46] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:47] Client connected from 10.106.42.152
+[2025-08-21 11:13:47] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:47] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:49] Client connected from 10.106.42.152
+[2025-08-21 11:13:49] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:49] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:49] Client connected from 10.106.42.152
+[2025-08-21 11:13:49] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:49] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:49] Client connected from 10.106.42.152
+[2025-08-21 11:13:49] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:49] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:54] Client connected from 10.106.42.152
+[2025-08-21 11:13:54] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:13:54] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:55] Client connected from 10.106.42.152
+[2025-08-21 11:13:55] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:13:55] Client connected from 10.106.42.152
+[2025-08-21 11:13:55] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:13:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:00] Client connected from 10.106.42.152
+[2025-08-21 11:14:00] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:00] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:03] Client connected from 10.106.42.152
+[2025-08-21 11:14:03] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:03] Client connected from 10.106.42.152
+[2025-08-21 11:14:03] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:16] Client connected from 10.106.42.152
+[2025-08-21 11:14:16] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:16] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:17] Client connected from 10.106.42.152
+[2025-08-21 11:14:17] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:17] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:17] Client connected from 10.106.42.152
+[2025-08-21 11:14:17] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:17] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:18] Client connected from 10.106.42.152
+[2025-08-21 11:14:18] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:18] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:22] Client connected from 10.106.42.152
+[2025-08-21 11:14:22] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:22] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:24] Client connected from 10.106.42.152
+[2025-08-21 11:14:24] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:24] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:25] Client connected from 10.106.42.152
+[2025-08-21 11:14:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:25] Client connected from 10.106.42.152
+[2025-08-21 11:14:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:26] Client connected from 10.106.42.152
+[2025-08-21 11:14:26] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:14:26] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:34] Client connected from 10.106.42.152
+[2025-08-21 11:14:34] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:34] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:34] Client connected from 10.106.42.152
+[2025-08-21 11:14:34] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:34] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:35] Client connected from 10.106.42.152
+[2025-08-21 11:14:35] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:35] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:36] Client connected from 10.106.42.152
+[2025-08-21 11:14:36] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:36] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:36] Client connected from 10.106.42.152
+[2025-08-21 11:14:36] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:36] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:36] Client connected from 10.106.42.152
+[2025-08-21 11:14:36] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:36] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:37] Client connected from 10.106.42.152
+[2025-08-21 11:14:37] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:14:37] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:40] Client connected from 10.106.42.152
+[2025-08-21 11:14:40] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:14:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:41] Client connected from 10.106.42.152
+[2025-08-21 11:14:41] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:14:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:41] Client connected from 10.106.42.152
+[2025-08-21 11:14:41] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:14:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:41] Client connected from 10.106.42.152
+[2025-08-21 11:14:41] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:44] Client connected from 10.106.42.152
+[2025-08-21 11:14:44] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:14:44] Client 10.106.42.152 disconnected.
+[2025-08-21 11:14:57] Client connected from 10.106.42.152
+[2025-08-21 11:14:57] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:14:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:00] Client connected from 10.106.42.152
+[2025-08-21 11:15:00] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:15:00] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:02] Client connected from 10.106.42.152
+[2025-08-21 11:15:02] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:15:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:02] Client connected from 10.106.42.152
+[2025-08-21 11:15:02] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:15:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:04] Client connected from 10.106.42.152
+[2025-08-21 11:15:04] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:15:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:06] Client connected from 10.106.42.152
+[2025-08-21 11:15:06] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:15:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:08] Client connected from 10.106.42.152
+[2025-08-21 11:15:08] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:15:08] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:10] Client connected from 10.106.42.152
+[2025-08-21 11:15:10] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:15:10] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:12] Client connected from 10.106.42.152
+[2025-08-21 11:15:41] [DEBUG] 10.106.42.152 -> POST /api/auth/logout
+[2025-08-21 11:15:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:41] !!!Command issue!!!
+[2025-08-21 11:15:41] Client connected from 10.106.42.152
+[2025-08-21 11:15:41] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:15:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:41] !!!Command issue!!!
+[2025-08-21 11:15:41] Client connected from 10.106.42.152
+[2025-08-21 11:15:41] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:15:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:41] Client connected from 10.106.42.152
+[2025-08-21 11:15:41] [DEBUG] 10.106.42.152 -> GET /login
+[2025-08-21 11:15:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:41] Client connected from 10.106.42.152
+[2025-08-21 11:15:41] [DEBUG] 10.106.42.152 -> GET /login.css
+[2025-08-21 11:15:41] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:41] Client connected from 10.106.42.152
+[2025-08-21 11:15:41] [DEBUG] 10.106.42.152 -> GET /login.js
+[2025-08-21 11:15:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:42] Client connected from 10.106.42.152
+[2025-08-21 11:15:42] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:15:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:42] Client connected from 10.106.42.152
+[2025-08-21 11:15:42] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:15:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:15:57] Client connected from 10.106.42.149
+[2025-08-21 11:15:57] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:15:57] Client 10.106.42.149 disconnected.
+[2025-08-21 11:16:02] Client connected from 10.106.42.149
+[2025-08-21 11:16:02] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 11:16:02] Client 10.106.42.149 disconnected.
+[2025-08-21 11:16:04] Client connected from 10.106.42.152
+[2025-08-21 11:16:04] [DEBUG] 10.106.42.152 -> POST /api/auth/login
+[2025-08-21 11:16:05] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:05] Client connected from 10.106.42.149
+[2025-08-21 11:16:05] [DEBUG] 10.106.42.149 -> DELETE /api/storages/delete
+[2025-08-21 11:16:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:16:06] Client connected from 10.106.42.152
+[2025-08-21 11:16:06] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:16:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:06] Client connected from 10.106.42.152
+[2025-08-21 11:16:06] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:16:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:06] Client connected from 10.106.42.152
+[2025-08-21 11:16:06] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:16:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:06] Client connected from 10.106.42.152
+[2025-08-21 11:16:06] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:16:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:06] Client connected from 10.106.42.152
+[2025-08-21 11:16:06] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:16:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:07] Client connected from 10.106.42.152
+[2025-08-21 11:16:07] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:16:07] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:07] Client connected from 10.106.42.152
+[2025-08-21 11:16:07] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:16:07] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:07] Client connected from 10.106.42.152
+[2025-08-21 11:16:07] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:16:07] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:07] Client connected from 10.106.42.152
+[2025-08-21 11:16:07] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:16:07] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:11] Client connected from 10.106.42.152
+[2025-08-21 11:16:11] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:16] Client connected from 10.106.42.152
+[2025-08-21 11:16:16] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:16:16] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:18] Client connected from 10.106.42.149
+[2025-08-21 11:16:18] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:16:18] Client 10.106.42.149 disconnected.
+[2025-08-21 11:16:23] Client connected from 10.106.42.152
+[2025-08-21 11:16:23] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:23] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:24] Client connected from 10.106.42.152
+[2025-08-21 11:16:24] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:24] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:25] Client connected from 10.106.42.152
+[2025-08-21 11:16:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:25] Client connected from 10.106.42.152
+[2025-08-21 11:16:25] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:28] Client connected from 10.106.42.152
+[2025-08-21 11:16:28] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:28] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:30] Client connected from 10.106.42.152
+[2025-08-21 11:16:30] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:30] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:32] Client connected from 10.106.42.152
+[2025-08-21 11:16:32] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:32] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:35] Client connected from 10.106.42.152
+[2025-08-21 11:16:35] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:35] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:35] Client connected from 10.106.42.152
+[2025-08-21 11:16:35] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:35] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:40] Client connected from 10.106.42.152
+[2025-08-21 11:16:40] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:40] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:42] Client connected from 10.106.42.152
+[2025-08-21 11:16:42] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:42] Client connected from 10.106.42.152
+[2025-08-21 11:16:42] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:43] Client connected from 10.106.42.152
+[2025-08-21 11:16:43] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:43] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:46] Client connected from 10.106.42.152
+[2025-08-21 11:16:46] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:46] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:48] Client connected from 10.106.42.152
+[2025-08-21 11:16:48] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:48] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:49] Client connected from 10.106.42.152
+[2025-08-21 11:16:49] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:49] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:49] Client connected from 10.106.42.152
+[2025-08-21 11:16:49] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:49] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:55] Client connected from 10.106.42.152
+[2025-08-21 11:16:55] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:57] Client connected from 10.106.42.152
+[2025-08-21 11:16:57] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:57] Client connected from 10.106.42.152
+[2025-08-21 11:16:57] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:16:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:16:57] Client connected from 10.106.42.152
+[2025-08-21 11:16:57] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:16:57] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:02] Client connected from 10.106.42.152
+[2025-08-21 11:17:02] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:04] Client connected from 10.106.42.152
+[2025-08-21 11:17:04] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:04] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:06] Client connected from 10.106.42.152
+[2025-08-21 11:17:06] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:06] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:06] Client connected from 10.106.42.149
+[2025-08-21 11:17:06] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:17:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:07] Client connected from 10.106.42.149
+[2025-08-21 11:17:07] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:17:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:17:08] Client connected from 10.106.42.152
+[2025-08-21 11:17:08] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:08] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:09] Client connected from 10.106.42.152
+[2025-08-21 11:17:09] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:09] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:09] Client connected from 10.106.42.152
+[2025-08-21 11:17:09] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:09] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:16] Client connected from 10.106.42.152
+[2025-08-21 11:17:16] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:16] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:18] Client connected from 10.106.42.152
+[2025-08-21 11:17:18] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:18] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:18] Client connected from 10.106.42.152
+[2025-08-21 11:17:18] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:18] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:19] Client connected from 10.106.42.152
+[2025-08-21 11:17:19] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:19] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:22] Client connected from 10.106.42.152
+[2025-08-21 11:17:22] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:22] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:24] Client connected from 10.106.42.152
+[2025-08-21 11:17:24] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:24] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:25] Client connected from 10.106.42.152
+[2025-08-21 11:17:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:25] Client connected from 10.106.42.152
+[2025-08-21 11:17:25] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:25] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:26] Client connected from 10.106.42.152
+[2025-08-21 11:17:26] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:26] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:31] Client connected from 10.106.42.152
+[2025-08-21 11:17:31] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:31] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:33] Client connected from 10.106.42.152
+[2025-08-21 11:17:33] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:33] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:34] Client connected from 10.106.42.152
+[2025-08-21 11:17:34] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:34] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:34] Client connected from 10.106.42.152
+[2025-08-21 11:17:34] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:34] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:35] Client connected from 10.106.42.152
+[2025-08-21 11:17:35] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:35] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:37] Client connected from 10.106.42.152
+[2025-08-21 11:17:37] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:37] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:42] Client connected from 10.106.42.152
+[2025-08-21 11:17:42] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:42] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:44] Client connected from 10.106.42.152
+[2025-08-21 11:17:44] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:17:44] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:44] Client connected from 10.106.42.152
+[2025-08-21 11:17:44] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:17:44] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:44] Client connected from 10.106.42.152
+[2025-08-21 11:17:44] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:17:44] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:44] Client connected from 10.106.42.152
+[2025-08-21 11:17:44] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:17:44] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:44] Client connected from 10.106.42.152
+[2025-08-21 11:17:44] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:17:44] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:45] Client connected from 10.106.42.152
+[2025-08-21 11:17:45] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:17:45] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:45] Client connected from 10.106.42.152
+[2025-08-21 11:17:45] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:17:45] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:45] Client connected from 10.106.42.152
+[2025-08-21 11:17:45] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:17:45] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:45] Client connected from 10.106.42.152
+[2025-08-21 11:17:45] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:17:45] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:46] Client connected from 10.106.42.152
+[2025-08-21 11:17:46] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:46] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:47] Client connected from 10.106.42.152
+[2025-08-21 11:17:47] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:17:47] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:49] Client connected from 10.106.42.152
+[2025-08-21 11:17:49] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:49] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:51] Client connected from 10.106.42.152
+[2025-08-21 11:17:51] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:51] Client connected from 10.106.42.152
+[2025-08-21 11:17:51] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:51] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:52] Client connected from 10.106.42.152
+[2025-08-21 11:17:52] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:17:52] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:55] Client connected from 10.106.42.152
+[2025-08-21 11:17:55] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:17:55] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:56] Client connected from 10.106.42.152
+[2025-08-21 11:17:56] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:56] Client 10.106.42.152 disconnected.
+[2025-08-21 11:17:58] Client connected from 10.106.42.152
+[2025-08-21 11:17:58] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:17:58] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:00] Client connected from 10.106.42.152
+[2025-08-21 11:18:00] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:00] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:01] Client connected from 10.106.42.152
+[2025-08-21 11:18:01] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:03] Client connected from 10.106.42.152
+[2025-08-21 11:18:03] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:03] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:05] Client connected from 10.106.42.152
+[2025-08-21 11:18:05] [DEBUG] 10.106.42.152 -> GET /api/weapons/all
+[2025-08-21 11:18:05] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:07] Client connected from 10.106.42.152
+[2025-08-21 11:18:07] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:18:07] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:09] Client connected from 10.106.42.152
+[2025-08-21 11:18:09] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:09] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:09] Client connected from 10.106.42.152
+[2025-08-21 11:18:09] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:09] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:26] Client connected from 10.106.42.152
+[2025-08-21 11:18:26] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:18:26] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:27] Client connected from 10.106.42.152
+[2025-08-21 11:18:27] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:27] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:27] Client connected from 10.106.42.152
+[2025-08-21 11:18:27] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:18:27] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:29] Client connected from 10.106.42.152
+[2025-08-21 11:18:29] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:18:29] Client 10.106.42.152 disconnected.
+[2025-08-21 11:18:58] Client connected from 10.106.42.152
+[2025-08-21 11:18:58] [DEBUG] 10.106.42.152 -> PUT /api/invenroty/edit
+[2025-08-21 11:18:58] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:02] Client connected from 10.106.42.152
+[2025-08-21 11:19:02] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:19:02] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:05] Client connected from 10.106.42.152
+[2025-08-21 11:19:05] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:19:05] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:07] Client connected from 10.106.42.152
+[2025-08-21 11:19:07] [DEBUG] 10.106.42.152 -> POST /api/inventory
+[2025-08-21 11:19:07] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /home.css
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /home.js
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /login/login.css
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /home
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /api/auth/me
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:19:11] Client connected from 10.106.42.152
+[2025-08-21 11:19:11] [DEBUG] 10.106.42.152 -> GET /api/storages/all
+[2025-08-21 11:19:11] Client 10.106.42.152 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:16] Client connected from 10.106.42.149
+[2025-08-21 11:20:16] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:20:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:17] Client connected from 10.106.42.149
+[2025-08-21 11:20:17] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:20:17] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:17] Client connected from 10.106.42.149
+[2025-08-21 11:20:17] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:20:17] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:34] Client connected from 10.106.42.149
+[2025-08-21 11:20:34] [DEBUG] 10.106.42.149 -> POST /api/admin/addUser
+[2025-08-21 11:20:34] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:36] Client connected from 10.106.42.149
+[2025-08-21 11:20:36] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:20:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:36] Client connected from 10.106.42.149
+[2025-08-21 11:20:36] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:20:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:20:36] Client connected from 10.106.42.149
+[2025-08-21 11:20:36] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:20:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:21:06] Client connected from 10.106.42.149
+[2025-08-21 11:21:06] [DEBUG] 10.106.42.149 -> POST /api/weapons/add
+[2025-08-21 11:21:06] [ERROR] AddWeaponHandler: The given key was not present in the dictionary.
+[2025-08-21 11:21:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:11] Client connected from 10.106.42.149
+[2025-08-21 11:23:11] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:23:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:11] Client connected from 10.106.42.149
+[2025-08-21 11:23:11] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:23:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:11] Client connected from 10.106.42.149
+[2025-08-21 11:23:11] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:23:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:12] Client connected from 10.106.42.149
+[2025-08-21 11:23:12] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:23:12] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:12] Client connected from 10.106.42.149
+[2025-08-21 11:23:12] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:23:12] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:12] Client connected from 10.106.42.149
+[2025-08-21 11:23:12] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:23:12] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:12] Client connected from 10.106.42.149
+[2025-08-21 11:23:12] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:23:12] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:12] Client connected from 10.106.42.149
+[2025-08-21 11:23:12] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:23:12] Client 10.106.42.149 disconnected.
+[2025-08-21 11:23:12] Client connected from 10.106.42.149
+[2025-08-21 11:23:12] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:23:12] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:05] Client connected from 10.106.42.149
+[2025-08-21 11:24:05] [DEBUG] 10.106.42.149 -> POST /api/weapons/add
+[2025-08-21 11:24:05] [ERROR] AddWeaponHandler: Out of range value for column 'yield_megatons' at row 1
+[2025-08-21 11:24:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:19] Client connected from 10.106.42.149
+[2025-08-21 11:24:19] [DEBUG] 10.106.42.149 -> POST /api/weapons/add
+[2025-08-21 11:24:19] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:20] Client connected from 10.106.42.149
+[2025-08-21 11:24:20] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:24:20] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:20] Client connected from 10.106.42.149
+[2025-08-21 11:24:20] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:24:20] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:20] Client connected from 10.106.42.149
+[2025-08-21 11:24:20] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:24:20] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:49] Client connected from 10.106.42.149
+[2025-08-21 11:24:49] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:24:49] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:59] Client connected from 10.106.42.149
+[2025-08-21 11:24:59] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:24:59] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:59] Client connected from 10.106.42.149
+[2025-08-21 11:24:59] [DEBUG] 10.106.42.149 -> GET /home.css
+[2025-08-21 11:24:59] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:59] Client connected from 10.106.42.149
+[2025-08-21 11:24:59] [DEBUG] 10.106.42.149 -> GET /login/login.css
+[2025-08-21 11:24:59] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:59] Client connected from 10.106.42.149
+[2025-08-21 11:24:59] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:24:59] Client 10.106.42.149 disconnected.
+[2025-08-21 11:24:59] Client connected from 10.106.42.149
+[2025-08-21 11:24:59] [DEBUG] 10.106.42.149 -> GET /home.js
+[2025-08-21 11:24:59] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:00] Client connected from 10.106.42.149
+[2025-08-21 11:25:00] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:25:00] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:00] Client connected from 10.106.42.149
+[2025-08-21 11:25:00] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:25:00] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:00] Client connected from 10.106.42.149
+[2025-08-21 11:25:00] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:25:00] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:00] Client connected from 10.106.42.149
+[2025-08-21 11:25:00] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:25:00] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:25:04] Client connected from 10.106.42.149
+[2025-08-21 11:25:04] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:25:04] Client 10.106.42.149 disconnected.
+[2025-08-21 11:27:16] Client connected from 10.106.42.149
+[2025-08-21 11:27:16] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:27:16] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:10] Client connected from 10.106.42.149
+[2025-08-21 11:28:10] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:28:10] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:10] Client connected from 10.106.42.149
+[2025-08-21 11:28:10] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:28:10] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:11] Client connected from 10.106.42.149
+[2025-08-21 11:28:11] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:28:11] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:28:24] Client connected from 10.106.42.149
+[2025-08-21 11:28:24] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:28:24] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:09] Client connected from 10.106.42.149
+[2025-08-21 11:29:09] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:29:09] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:44] Client connected from 10.106.42.149
+[2025-08-21 11:29:44] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:29:44] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:44] Client connected from 10.106.42.149
+[2025-08-21 11:29:44] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:29:44] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:44] Client connected from 10.106.42.149
+[2025-08-21 11:29:44] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:29:44] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:45] Client connected from 10.106.42.149
+[2025-08-21 11:29:45] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:29:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:45] Client connected from 10.106.42.149
+[2025-08-21 11:29:45] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:29:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:45] Client connected from 10.106.42.149
+[2025-08-21 11:29:45] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:29:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:45] Client connected from 10.106.42.149
+[2025-08-21 11:29:45] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:29:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:45] Client connected from 10.106.42.149
+[2025-08-21 11:29:45] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:29:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:29:45] Client connected from 10.106.42.149
+[2025-08-21 11:29:45] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:29:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:51] Client connected from 10.106.42.149
+[2025-08-21 11:30:51] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 11:30:51] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:51] Client connected from 10.106.42.149
+[2025-08-21 11:30:51] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 11:30:51] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:51] Client connected from 10.106.42.149
+[2025-08-21 11:30:51] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:30:51] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:51] Client connected from 10.106.42.149
+[2025-08-21 11:30:51] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 11:30:51] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:51] Client connected from 10.106.42.149
+[2025-08-21 11:30:51] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:30:51] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:52] Client connected from 10.106.42.149
+[2025-08-21 11:30:52] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:30:52] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:52] Client connected from 10.106.42.149
+[2025-08-21 11:30:52] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 11:30:52] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:52] Client connected from 10.106.42.149
+[2025-08-21 11:30:52] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 11:30:52] Client 10.106.42.149 disconnected.
+[2025-08-21 11:30:52] Client connected from 10.106.42.149
+[2025-08-21 11:30:52] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:30:52] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:06] Client connected from 10.106.42.149
+[2025-08-21 11:31:06] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:31:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:06] Client connected from 10.106.42.149
+[2025-08-21 11:31:06] [DEBUG] 10.106.42.149 -> GET /home.css
+[2025-08-21 11:31:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:06] Client connected from 10.106.42.149
+[2025-08-21 11:31:06] [DEBUG] 10.106.42.149 -> GET /login/login.css
+[2025-08-21 11:31:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:06] Client connected from 10.106.42.149
+[2025-08-21 11:31:06] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:31:06] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:07] Client connected from 10.106.42.149
+[2025-08-21 11:31:07] [DEBUG] 10.106.42.149 -> GET /home.js
+[2025-08-21 11:31:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:07] Client connected from 10.106.42.149
+[2025-08-21 11:31:07] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:31:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:07] Client connected from 10.106.42.149
+[2025-08-21 11:31:07] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:31:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:07] Client connected from 10.106.42.149
+[2025-08-21 11:31:07] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:31:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:07] Client connected from 10.106.42.149
+[2025-08-21 11:31:07] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:31:07] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:15] Client connected from 10.106.42.149
+[2025-08-21 11:31:15] [DEBUG] 10.106.42.149 -> GET /profile
+[2025-08-21 11:31:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:15] Client connected from 10.106.42.149
+[2025-08-21 11:31:15] [DEBUG] 10.106.42.149 -> GET /profile.css
+[2025-08-21 11:31:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:15] Client connected from 10.106.42.149
+[2025-08-21 11:31:15] [DEBUG] 10.106.42.149 -> GET /profile.js
+[2025-08-21 11:31:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:15] Client connected from 10.106.42.149
+[2025-08-21 11:31:15] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:31:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:15] Client connected from 10.106.42.149
+[2025-08-21 11:31:15] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:31:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:31:15] Client connected from 10.106.42.149
+[2025-08-21 11:31:15] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:31:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:45:19] !!!Command issue!!!
+[2025-08-21 11:45:19] [ALERT] Server will stop in 0 seconds...
+[2025-08-21 11:45:19] 🛑 Server stopped gracefully.
+[2025-08-21 11:45:19] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 11:45:19] ===== SESSION END =====
+
+[2025-08-21 11:49:30] ✅ Server started successfully at 10.106.42.149:9999
+[2025-08-21 11:49:30] ====== SESSION ACTIVITIES =====
+[2025-08-21 11:49:36] Client connected from 10.106.42.149
+[2025-08-21 11:49:36] [DEBUG] 10.106.42.149 -> GET /profile
+[2025-08-21 11:49:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:36] Client connected from 10.106.42.149
+[2025-08-21 11:49:36] [DEBUG] 10.106.42.149 -> GET /login
+[2025-08-21 11:49:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:36] Client connected from 10.106.42.149
+[2025-08-21 11:49:36] [DEBUG] 10.106.42.149 -> GET /login.css
+[2025-08-21 11:49:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:36] Client connected from 10.106.42.149
+[2025-08-21 11:49:36] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:49:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:36] Client connected from 10.106.42.149
+[2025-08-21 11:49:36] [DEBUG] 10.106.42.149 -> GET /login.js
+[2025-08-21 11:49:36] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:37] Client connected from 10.106.42.149
+[2025-08-21 11:49:37] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:49:37] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:42] Client connected from 10.106.42.149
+[2025-08-21 11:49:42] [DEBUG] 10.106.42.149 -> POST /api/auth/login
+[2025-08-21 11:49:44] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /home.css
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /login/login.css
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /home.js
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:49:45] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:45] Client connected from 10.106.42.149
+[2025-08-21 11:49:45] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 11:49:46] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:48] Client connected from 10.106.42.149
+[2025-08-21 11:49:48] [DEBUG] 10.106.42.149 -> GET /chat
+[2025-08-21 11:49:48] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:48] Client connected from 10.106.42.149
+[2025-08-21 11:49:48] [DEBUG] 10.106.42.149 -> GET /chat.css
+[2025-08-21 11:49:48] Client 10.106.42.149 disconnected.
+[2025-08-21 11:49:48] Client connected from 10.106.42.149
+[2025-08-21 11:49:48] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:49:48] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:05] Client connected from 10.106.42.149
+[2025-08-21 11:50:05] [DEBUG] 10.106.42.149 -> GET /logout
+[2025-08-21 11:50:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:05] Client connected from 10.106.42.149
+[2025-08-21 11:50:05] [DEBUG] 10.106.42.149 -> GET /default.css
+[2025-08-21 11:50:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:05] Client connected from 10.106.42.149
+[2025-08-21 11:50:05] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:50:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:05] Client connected from 10.106.42.149
+[2025-08-21 11:50:05] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:50:05] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:15] Client connected from 10.106.42.149
+[2025-08-21 11:50:15] [DEBUG] 10.106.42.149 -> GET /
+[2025-08-21 11:50:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:15] Client connected from 10.106.42.149
+[2025-08-21 11:50:15] [DEBUG] 10.106.42.149 -> GET /default.css
+[2025-08-21 11:50:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:15] Client connected from 10.106.42.149
+[2025-08-21 11:50:15] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 11:50:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:15] Client connected from 10.106.42.149
+[2025-08-21 11:50:15] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 11:50:15] Client 10.106.42.149 disconnected.
+[2025-08-21 11:50:21] !!!Command issue!!!
+[2025-08-21 11:50:21] [ALERT] Server will stop in 0 seconds...
+[2025-08-21 11:50:21] 🛑 Server stopped gracefully.
+[2025-08-21 11:50:21] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 11:50:21] ===== SESSION END =====
+
+[2025-08-21 12:07:32] ✅ Server started successfully at 10.106.42.149:9999
+[2025-08-21 12:07:32] ====== SESSION ACTIVITIES =====
+[2025-08-21 12:07:59] Client connected from 10.106.42.158
+[2025-08-21 12:07:59] [DEBUG] 10.106.42.158 -> GET /
+[2025-08-21 12:07:59] Client 10.106.42.158 disconnected.
+[2025-08-21 12:07:59] Client connected from 10.106.42.158
+[2025-08-21 12:07:59] [DEBUG] 10.106.42.158 -> GET /default.css
+[2025-08-21 12:07:59] Client 10.106.42.158 disconnected.
+[2025-08-21 12:07:59] Client connected from 10.106.42.158
+[2025-08-21 12:07:59] [DEBUG] 10.106.42.158 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:07:59] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:01] Client connected from 10.106.42.158
+[2025-08-21 12:08:01] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 12:08:01] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:06] Client connected from 10.106.42.149
+[2025-08-21 12:08:06] [DEBUG] 10.106.42.149 -> GET /
+[2025-08-21 12:08:06] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:06] Client connected from 10.106.42.149
+[2025-08-21 12:08:06] [DEBUG] 10.106.42.149 -> GET /default.css
+[2025-08-21 12:08:06] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:06] Client connected from 10.106.42.149
+[2025-08-21 12:08:06] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:08:06] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:06] Client connected from 10.106.42.149
+[2025-08-21 12:08:06] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 12:08:06] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:15] Client connected from 10.106.42.158
+[2025-08-21 12:08:15] [DEBUG] 10.106.42.158 -> GET /login
+[2025-08-21 12:08:15] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:15] Client connected from 10.106.42.158
+[2025-08-21 12:08:15] [DEBUG] 10.106.42.158 -> GET /login.css
+[2025-08-21 12:08:15] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:15] Client connected from 10.106.42.158
+[2025-08-21 12:08:15] [DEBUG] 10.106.42.158 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:08:15] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:15] Client connected from 10.106.42.158
+[2025-08-21 12:08:15] [DEBUG] 10.106.42.158 -> GET /login.js
+[2025-08-21 12:08:15] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:16] Client connected from 10.106.42.158
+[2025-08-21 12:08:16] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 12:08:16] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:31] Client connected from 10.106.42.158
+[2025-08-21 12:08:31] [DEBUG] 10.106.42.158 -> POST /api/auth/login
+[2025-08-21 12:08:32] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:33] Client connected from 10.106.42.158
+[2025-08-21 12:08:33] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 12:08:33] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /home.css
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /login/login.css
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /home.js
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /data/resources/detailMap.jpg
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /home
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /api/auth/me
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /favicon.ico
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:34] Client connected from 10.106.42.158
+[2025-08-21 12:08:34] [DEBUG] 10.106.42.158 -> GET /api/storages/all
+[2025-08-21 12:08:34] Client 10.106.42.158 disconnected.
+[2025-08-21 12:08:45] Client connected from 10.106.42.149
+[2025-08-21 12:08:45] [DEBUG] 10.106.42.149 -> GET /login
+[2025-08-21 12:08:45] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:46] Client connected from 10.106.42.149
+[2025-08-21 12:08:46] [DEBUG] 10.106.42.149 -> GET /login.css
+[2025-08-21 12:08:46] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:46] Client connected from 10.106.42.149
+[2025-08-21 12:08:46] [DEBUG] 10.106.42.149 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:08:46] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:46] Client connected from 10.106.42.149
+[2025-08-21 12:08:46] [DEBUG] 10.106.42.149 -> GET /login.js
+[2025-08-21 12:08:46] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:46] Client connected from 10.106.42.149
+[2025-08-21 12:08:46] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 12:08:46] Client 10.106.42.149 disconnected.
+[2025-08-21 12:08:58] Client connected from 10.106.42.152
+[2025-08-21 12:08:58] [DEBUG] 10.106.42.152 -> GET /
+[2025-08-21 12:08:58] Client 10.106.42.152 disconnected.
+[2025-08-21 12:08:58] Client connected from 10.106.42.152
+[2025-08-21 12:08:58] [DEBUG] 10.106.42.152 -> GET /default.css
+[2025-08-21 12:08:58] Client 10.106.42.152 disconnected.
+[2025-08-21 12:08:58] Client connected from 10.106.42.152
+[2025-08-21 12:08:58] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:08:58] Client 10.106.42.152 disconnected.
+[2025-08-21 12:08:58] Client connected from 10.106.42.152
+[2025-08-21 12:08:58] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 12:08:58] Client 10.106.42.152 disconnected.
+[2025-08-21 12:08:59] Client connected from 10.106.42.149
+[2025-08-21 12:08:59] [DEBUG] 10.106.42.149 -> POST /api/auth/login
+[2025-08-21 12:09:00] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.152
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.152 -> GET /login
+[2025-08-21 12:09:01] Client 10.106.42.152 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.152
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.152 -> GET /login.css
+[2025-08-21 12:09:01] Client 10.106.42.152 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.152
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.152 -> GET /login.js
+[2025-08-21 12:09:01] Client 10.106.42.152 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.152
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.152 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:09:01] Client 10.106.42.152 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.149
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 12:09:01] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.149
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.149 -> GET /home.css
+[2025-08-21 12:09:01] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.152
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.152 -> GET /favicon.ico
+[2025-08-21 12:09:01] Client 10.106.42.152 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.149
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.149 -> GET /login/login.css
+[2025-08-21 12:09:01] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:01] Client connected from 10.106.42.149
+[2025-08-21 12:09:01] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 12:09:01] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:02] Client connected from 10.106.42.149
+[2025-08-21 12:09:02] [DEBUG] 10.106.42.149 -> GET /home.js
+[2025-08-21 12:09:02] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:02] Client connected from 10.106.42.149
+[2025-08-21 12:09:02] [DEBUG] 10.106.42.149 -> GET /home
+[2025-08-21 12:09:02] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:02] Client connected from 10.106.42.149
+[2025-08-21 12:09:02] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 12:09:02] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:02] Client connected from 10.106.42.149
+[2025-08-21 12:09:02] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 12:09:02] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:02] Client connected from 10.106.42.149
+[2025-08-21 12:09:02] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 12:09:02] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:07] Client connected from 10.106.42.158
+[2025-08-21 12:09:07] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 12:09:07] Client 10.106.42.158 disconnected.
+[2025-08-21 12:09:23] Client connected from 10.106.42.159
+[2025-08-21 12:09:23] [DEBUG] 10.106.42.159 -> GET /
+[2025-08-21 12:09:23] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:23] Client connected from 10.106.42.159
+[2025-08-21 12:09:23] [DEBUG] 10.106.42.159 -> GET /default.css
+[2025-08-21 12:09:23] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:23] Client connected from 10.106.42.159
+[2025-08-21 12:09:23] [DEBUG] 10.106.42.159 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:09:23] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:23] Client connected from 10.106.42.159
+[2025-08-21 12:09:23] [DEBUG] 10.106.42.159 -> GET /favicon.ico
+[2025-08-21 12:09:23] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:27] Client connected from 10.106.42.159
+[2025-08-21 12:09:27] [DEBUG] 10.106.42.159 -> GET /login
+[2025-08-21 12:09:27] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:27] Client connected from 10.106.42.159
+[2025-08-21 12:09:27] [DEBUG] 10.106.42.159 -> GET /login.css
+[2025-08-21 12:09:27] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:27] Client connected from 10.106.42.159
+[2025-08-21 12:09:27] [DEBUG] 10.106.42.159 -> GET /login.js
+[2025-08-21 12:09:27] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:27] Client connected from 10.106.42.159
+[2025-08-21 12:09:27] [DEBUG] 10.106.42.159 -> GET /data/resources/loginMap.jpg
+[2025-08-21 12:09:27] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:30] Client connected from 10.106.42.149
+[2025-08-21 12:09:30] [DEBUG] 10.106.42.149 -> POST /api/inventory
+[2025-08-21 12:09:30] Client 10.106.42.149 disconnected.
+[2025-08-21 12:09:32] Client connected from 10.106.42.159
+[2025-08-21 12:09:32] [DEBUG] 10.106.42.159 -> POST /api/auth/login
+[2025-08-21 12:09:33] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:34] Client connected from 10.106.42.159
+[2025-08-21 12:09:34] [DEBUG] 10.106.42.159 -> GET /home
+[2025-08-21 12:09:34] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:34] Client connected from 10.106.42.159
+[2025-08-21 12:09:34] [DEBUG] 10.106.42.159 -> GET /home.css
+[2025-08-21 12:09:34] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:34] Client connected from 10.106.42.159
+[2025-08-21 12:09:34] [DEBUG] 10.106.42.159 -> GET /login/login.css
+[2025-08-21 12:09:34] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:34] Client connected from 10.106.42.159
+[2025-08-21 12:09:34] [DEBUG] 10.106.42.159 -> GET /home.js
+[2025-08-21 12:09:34] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:34] Client connected from 10.106.42.159
+[2025-08-21 12:09:34] [DEBUG] 10.106.42.159 -> GET /data/resources/detailMap.jpg
+[2025-08-21 12:09:34] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:35] Client connected from 10.106.42.159
+[2025-08-21 12:09:35] [DEBUG] 10.106.42.159 -> GET /home
+[2025-08-21 12:09:35] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:35] Client connected from 10.106.42.159
+[2025-08-21 12:09:35] [DEBUG] 10.106.42.159 -> GET /api/auth/me
+[2025-08-21 12:09:35] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:35] Client connected from 10.106.42.159
+[2025-08-21 12:09:35] [DEBUG] 10.106.42.159 -> GET /api/storages/all
+[2025-08-21 12:09:35] Client 10.106.42.159 disconnected.
+[2025-08-21 12:09:57] Client connected from 10.106.42.158
+[2025-08-21 12:09:57] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 12:09:57] Client 10.106.42.158 disconnected.
+[2025-08-21 12:10:00] Client connected from 10.106.42.158
+[2025-08-21 12:10:00] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 12:10:00] Client 10.106.42.158 disconnected.
+[2025-08-21 12:10:02] Client connected from 10.106.42.158
+[2025-08-21 12:10:02] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 12:10:02] Client 10.106.42.158 disconnected.
+[2025-08-21 12:10:03] Client connected from 10.106.42.158
+[2025-08-21 12:10:03] [DEBUG] 10.106.42.158 -> POST /api/inventory
+[2025-08-21 12:10:03] Client 10.106.42.158 disconnected.
+[2025-08-21 12:10:16] Client connected from 10.106.42.149
+[2025-08-21 12:10:16] [DEBUG] 10.106.42.149 -> GET /admin
+[2025-08-21 12:10:16] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:16] Client connected from 10.106.42.149
+[2025-08-21 12:10:16] [DEBUG] 10.106.42.149 -> GET /admin.css
+[2025-08-21 12:10:16] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:16] Client connected from 10.106.42.159
+[2025-08-21 12:10:16] [DEBUG] 10.106.42.159 -> POST /api/storages/add
+[2025-08-21 12:10:16] Client 10.106.42.159 disconnected.
+[2025-08-21 12:10:16] Client connected from 10.106.42.149
+[2025-08-21 12:10:16] [DEBUG] 10.106.42.149 -> GET /data/resources/detailMap.jpg
+[2025-08-21 12:10:16] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:16] Client connected from 10.106.42.149
+[2025-08-21 12:10:16] [DEBUG] 10.106.42.149 -> GET /admin.js
+[2025-08-21 12:10:16] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:17] Client connected from 10.106.42.149
+[2025-08-21 12:10:17] [DEBUG] 10.106.42.149 -> GET /api/auth/me
+[2025-08-21 12:10:17] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:17] Client connected from 10.106.42.149
+[2025-08-21 12:10:17] [DEBUG] 10.106.42.149 -> GET /api/admin/allUser
+[2025-08-21 12:10:17] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:17] Client connected from 10.106.42.149
+[2025-08-21 12:10:17] [DEBUG] 10.106.42.149 -> GET /api/storages/all
+[2025-08-21 12:10:17] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:17] Client connected from 10.106.42.149
+[2025-08-21 12:10:17] [DEBUG] 10.106.42.149 -> GET /favicon.ico
+[2025-08-21 12:10:17] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:17] Client connected from 10.106.42.149
+[2025-08-21 12:10:17] [DEBUG] 10.106.42.149 -> GET /api/weapons/all
+[2025-08-21 12:10:17] Client 10.106.42.149 disconnected.
+[2025-08-21 12:10:17] Client connected from 10.106.42.159
+[2025-08-21 12:10:17] [DEBUG] 10.106.42.159 -> GET /api/storages/all
+[2025-08-21 12:10:17] Client 10.106.42.159 disconnected.
+[2025-08-21 12:16:17] !!!Command issue!!!
+[2025-08-21 12:16:17] [ALERT] Server will stop in 0 seconds...
+[2025-08-21 12:16:17] 🛑 Server stopped gracefully.
+[2025-08-21 12:16:17] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 12:16:17] ===== SESSION END =====
+

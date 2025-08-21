@@ -1,4 +1,4 @@
-// Admin.js - Complete functionality for admin panel
+// Admin.js - Fixed functionality for admin panel
 
 // Configuration
 const SERVER_URL = `${window.location.protocol}//${window.location.hostname}:9999`;
@@ -32,7 +32,8 @@ async function checkAuth() {
         }
         
         currentUser = await response.json();
-        if (!currentUser.is_admin && currentUser.role !== 'Admin') {
+        // Fixed: Check both IsAdmin and is_admin properties
+        if (!currentUser.IsAdmin && !currentUser.is_admin && currentUser.Role !== 'Admin') {
             alert("Access denied. Admin privileges required.");
             window.location.href = '/home';
             return false;
@@ -88,6 +89,43 @@ async function getUserById(userId) {
     }
 }
 
+async function addUser(userData) {
+    try {
+        // Map the frontend data to match the database schema
+        const mappedData = {
+            username: userData.username,
+            password: userData.password,
+            full_name: userData.fullname || userData.full_name,
+            clearance_level: userData.clearance || userData.clearance_level,
+            role: userData.role || 'User',
+            country: userData.country || null,
+            organization: userData.organization || null,
+            is_admin: userData.is_admin || false
+        };
+
+        console.log('Sending user data:', mappedData);
+        
+        const response = await fetch(`${SERVER_URL}/api/admin/addUser`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                ...createAuthHeaders()
+            },
+            body: JSON.stringify(mappedData)
+        });
+        
+        if (!response.ok) {
+            const error = await response.json();
+            throw new Error(error.error || 'Failed to add user');
+        }
+        
+        return await response.json();
+    } catch (error) {
+        console.error("Failed to add user:", error);
+        throw error;
+    }
+}
+
 // Weapon Management
 async function fetchAllWeapons() {
     try {
@@ -110,13 +148,28 @@ async function fetchAllWeapons() {
 
 async function addWeapon(weaponData) {
     try {
+        // Map the frontend data to match the database schema
+        const mappedData = {
+            name: weaponData.name,
+            type: weaponData.type,
+            yield_megatons: weaponData.yield_megatons ? parseFloat(weaponData.yield_megatons) : null,
+            range_km: weaponData.range_km ? parseInt(weaponData.range_km) : null,
+            weight_kg: weaponData.weight_kg ? parseInt(weaponData.weight_kg) : null,
+            status: weaponData.status || 'Prototype',
+            country_of_origin: weaponData.country_of_origin || null,
+            year_craeted: weaponData.year_craeted ? parseInt(weaponData.year_craeted) : null,
+            notes: weaponData.notes || null
+        };
+
+        console.log('Sending weapon data:', mappedData);
+        
         const response = await fetch(`${SERVER_URL}/api/weapons/add`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
                 ...createAuthHeaders()
             },
-            body: JSON.stringify(weaponData)
+            body: JSON.stringify(mappedData)
         });
         
         if (!response.ok) {
@@ -171,6 +224,31 @@ async function fetchAllStorages() {
     } catch (error) {
         console.error("Failed to fetch storages:", error);
         return [];
+    }
+}
+
+async function fetchStorageInventory(storageId) {
+    try {
+        const response = await fetch(`${SERVER_URL}/api/inventory`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                ...createAuthHeaders()
+            },
+            body: JSON.stringify({ storage_id: storageId })
+        });
+        
+        if (response.status === 404 || response.status === 204) {
+            // Empty inventory
+            return { StorageId: storageId, StorageName: null, Weapons: [] };
+        }
+        
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        
+        return await response.json();
+    } catch (error) {
+        console.error("Failed to fetch storage inventory:", error);
+        return null;
     }
 }
 
@@ -229,8 +307,9 @@ function renderUsers(users = allUsers) {
     
     users.forEach(user => {
         const li = document.createElement('li');
-        li.textContent = `${user.username} (${user.fullname || 'No name'}) - Level ${user.clearance || 'N/A'}`;
-        li.dataset.userId = user.id;
+        // Fixed: Use capital property names from API response
+        li.textContent = `${user.Username} - Level ${user.ClearanceLevel || '[REDACTED]'}`;
+        li.dataset.userId = user.Id; // Fixed: Use capital Id
         li.addEventListener('click', () => showUserDetails(user));
         userList.appendChild(li);
     });
@@ -251,8 +330,17 @@ function renderWeapons(weapons = allWeapons) {
     
     weapons.forEach(weapon => {
         const li = document.createElement('li');
-        li.textContent = `${weapon.name} (${weapon.type})`;
-        li.dataset.weaponId = weapon.weapon_id || weapon.id;
+        const name = weapon.name || weapon.Name;
+        const type = weapon.type || weapon.Type;
+        const status = weapon.status || weapon.Status || 'Unknown';
+        const yield_mt = weapon.yield_megatons || weapon.YieldMegatons;
+        
+        // Create more informative display text
+        let displayText = `${name} (${type})`;
+        if (status) displayText += ` - ${status}`;
+        
+        li.textContent = displayText;
+        li.dataset.weaponId = weapon.weapon_id || weapon.id || weapon.Id;
         li.addEventListener('click', () => showWeaponDetails(weapon));
         weaponList.appendChild(li);
     });
@@ -273,8 +361,11 @@ function renderStorages(storages = allStorages) {
     
     storages.forEach(storage => {
         const li = document.createElement('li');
-        li.textContent = `${storage.location_name} (${storage.latitude.toFixed(4)}, ${storage.longitude.toFixed(4)})`;
-        li.dataset.storageId = storage.storage_id || storage.id;
+        const locationName = storage.location_name || storage.LocationName;
+        const lat = storage.latitude || storage.Latitude || 0;
+        const lng = storage.longitude || storage.Longitude || 0;
+        li.textContent = `${locationName}`;
+        li.dataset.storageId = storage.storage_id || storage.id || storage.Id;
         li.addEventListener('click', () => showStorageDetails(storage));
         storageList.appendChild(li);
     });
@@ -296,12 +387,12 @@ function showUserDetails(user) {
         <span class="close-btn">&times;</span>
         <div class="user-details">
             <h3>User Details</h3>
-            <p><strong>ID:</strong> ${user.id}</p>
-            <p><strong>Username:</strong> ${user.username}</p>
-            <p><strong>Full Name:</strong> ${user.fullname || 'Not set'}</p>
-            <p><strong>Clearance Level:</strong> ${user.clearance || 'Not set'}</p>
-            <p><strong>Admin:</strong> ${user.is_admin ? 'Yes' : 'No'}</p>
-            <p><strong>Role:</strong> ${user.role || 'User'}</p>
+            <p><strong>ID:</strong> ${user.Id}</p>
+            <p><strong>Username:</strong> ${user.Username}</p>
+            <p><strong>Full Name:</strong> ${user.Fullname || 'Not set'}</p>
+            <p><strong>Clearance Level:</strong> ${user.ClearanceLevel || 'Not set'}</p>
+            <p><strong>Admin:</strong> ${user.IsAdmin ? 'Yes' : 'No'}</p>
+            <p><strong>Role:</strong> ${user.Role || 'User'}</p>
             <div class="modal-actions" style="margin-top: 20px;">
                 <button id="closeUserDetails" class="add-btn">Close</button>
             </div>
@@ -311,22 +402,38 @@ function showUserDetails(user) {
     modal.style.display = 'flex';
     
     // Event listeners
-    modalContent.querySelector('.close-btn').addEventListener('click', closeModal);
-    document.getElementById('closeUserDetails').addEventListener('click', closeModal);
+    setupModalCloseHandlers();
 }
 
 function showWeaponDetails(weapon) {
     const modal = document.getElementById('add-modal');
     const modalContent = modal.querySelector('.modal-content');
     
+    const weaponId = weapon.weapon_id || weapon.id || weapon.Id;
+    const weaponName = weapon.name || weapon.Name;
+    const weaponType = weapon.type || weapon.Type;
+    const yieldMt = weapon.yield_megatons || weapon.YieldMegatons;
+    const rangeKm = weapon.range_km || weapon.RangeKm;
+    const weightKg = weapon.weight_kg || weapon.WeightKg;
+    const status = weapon.status || weapon.Status;
+    const country = weapon.country_of_origin || weapon.CountryOfOrigin;
+    const yearCreated = weapon.year_craeted || weapon.YearCraeted; // Note the typo in DB
+    const notes = weapon.notes || weapon.Notes;
+    
     modalContent.innerHTML = `
         <span class="close-btn">&times;</span>
         <div class="weapon-details">
             <h3>Weapon Details</h3>
-            <p><strong>ID:</strong> ${weapon.weapon_id || weapon.id}</p>
-            <p><strong>Name:</strong> ${weapon.name}</p>
-            <p><strong>Type:</strong> ${weapon.type}</p>
-            <p><strong>Classification:</strong> ${weapon.classification || 'Not set'}</p>
+            <p><strong>ID:</strong> ${weaponId}</p>
+            <p><strong>Name:</strong> ${weaponName}</p>
+            <p><strong>Type:</strong> ${weaponType}</p>
+            <p><strong>Status:</strong> ${status || 'Not set'}</p>
+            <p><strong>Yield:</strong> ${yieldMt ? yieldMt + ' Megatons' : 'Not set'}</p>
+            <p><strong>Range:</strong> ${rangeKm ? rangeKm + ' KM' : 'Not set'}</p>
+            <p><strong>Weight:</strong> ${weightKg ? weightKg + ' KG' : 'Not set'}</p>
+            <p><strong>Country of Origin:</strong> ${country || 'Not set'}</p>
+            <p><strong>Year Created:</strong> ${yearCreated || 'Not set'}</p>
+            <p><strong>Notes:</strong> ${notes || 'None'}</p>
             <div class="modal-actions" style="margin-top: 20px;">
                 <button id="deleteWeaponBtn" class="add-btn" style="background: linear-gradient(135deg, #ef4444 60%, #dc2626 100%);">Delete Weapon</button>
                 <button id="closeWeaponDetails" class="add-btn">Close</button>
@@ -336,62 +443,145 @@ function showWeaponDetails(weapon) {
     
     modal.style.display = 'flex';
     
-    // Event listeners
-    modalContent.querySelector('.close-btn').addEventListener('click', closeModal);
-    document.getElementById('closeWeaponDetails').addEventListener('click', closeModal);
+    // Setup event handlers
+    setupModalCloseHandlers();
     
-    document.getElementById('deleteWeaponBtn').addEventListener('click', async () => {
-        if (confirm('Are you sure you want to delete this weapon? This action cannot be undone.')) {
-            try {
-                await deleteWeapon(weapon.weapon_id || weapon.id);
-                alert('Weapon deleted successfully!');
-                closeModal();
-                await loadAllData(); // Refresh data
-            } catch (error) {
-                alert(`Failed to delete weapon: ${error.message}`);
+    const deleteBtn = document.getElementById('deleteWeaponBtn');
+    if (deleteBtn) {
+        deleteBtn.addEventListener('click', async () => {
+            if (confirm('Are you sure you want to delete this weapon? This action cannot be undone.')) {
+                try {
+                    await deleteWeapon(weaponId);
+                    alert('Weapon deleted successfully!');
+                    closeModal();
+                    await loadAllData(); // Refresh data
+                } catch (error) {
+                    alert(`Failed to delete weapon: ${error.message}`);
+                }
             }
-        }
-    });
+        });
+    }
 }
 
 function showStorageDetails(storage) {
     const modal = document.getElementById('add-modal');
     const modalContent = modal.querySelector('.modal-content');
     
+    const storageId = storage.storage_id || storage.id || storage.Id;
+    const locationName = storage.location_name || storage.LocationName;
+    const lat = storage.latitude || storage.Latitude || 0;
+    const lng = storage.longitude || storage.Longitude || 0;
+    
     modalContent.innerHTML = `
         <span class="close-btn">&times;</span>
         <div class="storage-details">
-            <h3>Storage Details</h3>
-            <p><strong>ID:</strong> ${storage.storage_id || storage.id}</p>
-            <p><strong>Location:</strong> ${storage.location_name}</p>
-            <p><strong>Latitude:</strong> ${storage.latitude}</p>
-            <p><strong>Longitude:</strong> ${storage.longitude}</p>
-            <p><strong>Last Inspection:</strong> ${storage.last_inspection || 'Never'}</p>
-            <div class="modal-actions" style="margin-top: 20px;">
-                <button id="deleteStorageBtn" class="add-btn" style="background: linear-gradient(135deg, #ef4444 60%, #dc2626 100%);">Delete Storage</button>
-                <button id="closeStorageDetails" class="add-btn">Close</button>
-            </div>
+            <h3>${locationName}</h3>
+            <p><strong>Storage ID:</strong> ${storageId}</p>
+            <p><strong>Location:</strong> ${locationName}</p>
+            <p><strong>Coordinates:</strong> ${lat}, ${lng}</p>
+            <h4>Inventory:</h4>
+            <div id="inventory-content">Loading inventory...</div>
         </div>
     `;
     
     modal.style.display = 'flex';
     
-    // Event listeners
-    modalContent.querySelector('.close-btn').addEventListener('click', closeModal);
-    document.getElementById('closeStorageDetails').addEventListener('click', closeModal);
+    // Setup close handler
+    setupModalCloseHandlers();
     
-    document.getElementById('deleteStorageBtn').addEventListener('click', async () => {
-        if (confirm('Are you sure you want to delete this storage? This action cannot be undone.')) {
-            try {
-                await deleteStorage(storage.storage_id || storage.id);
-                alert('Storage deleted successfully!');
-                closeModal();
-                await loadAllData(); // Refresh data
-            } catch (error) {
-                alert(`Failed to delete storage: ${error.message}`);
+    // Load inventory asynchronously
+    loadStorageInventory(storageId, locationName);
+}
+
+async function loadStorageInventory(storageId, storageName) {
+    try {
+        const inventory = await fetchStorageInventory(storageId);
+        const inventoryDiv = document.getElementById('inventory-content');
+        
+        if (!inventory || !Array.isArray(inventory.Weapons)) {
+            inventoryDiv.innerHTML = `
+                <p style="color: #9cc7ff; opacity: 0.8;">No weapons found in this storage.</p>
+                <div class="modal-actions" style="margin-top: 20px;">
+                    <button id="deleteStorageBtn" class="add-btn" style="background: linear-gradient(135deg, #ef4444 60%, #dc2626 100%);">Delete Storage</button>
+                    <button id="closeStorageDetails" class="add-btn">Close</button>
+                </div>
+            `;
+        } else {
+            let weaponsHtml = '';
+            if (inventory.Weapons.length > 0) {
+                weaponsHtml = `
+                    <div class="inventory-list">
+                        ${inventory.Weapons.map(weapon => `
+                            <div class="inventory-item" style="background: rgba(0, 191, 255, 0.1); padding: 8px 12px; margin: 6px 0; border-radius: 6px; border: 1px solid rgba(23, 75, 114, 0.5);">
+                                <strong>${weapon.WeaponName}</strong> (${weapon.WeaponType})
+                                <div style="color: #9cc7ff; font-size: 0.9rem;">Quantity: ${weapon.Quantity}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            } else {
+                weaponsHtml = '<p style="color: #9cc7ff; opacity: 0.8;">No weapons in inventory.</p>';
             }
+            
+            inventoryDiv.innerHTML = `
+                ${weaponsHtml}
+                <div class="modal-actions" style="margin-top: 20px;">
+                    <button id="deleteStorageBtn" class="add-btn" style="background: linear-gradient(135deg, #ef4444 60%, #dc2626 100%);">Delete Storage</button>
+                    <button id="closeStorageDetails" class="add-btn">Close</button>
+                </div>
+            `;
         }
-    });
+        
+        // Setup action buttons
+        setupStorageActionHandlers(storageId);
+        
+    } catch (error) {
+        console.error("Failed to load inventory:", error);
+        const inventoryDiv = document.getElementById('inventory-content');
+        inventoryDiv.innerHTML = `
+            <p style="color: #ef4444;">Failed to load inventory. Please try again.</p>
+            <div class="modal-actions" style="margin-top: 20px;">
+                <button id="retryInventoryBtn" class="add-btn">Retry</button>
+                <button id="closeStorageDetails" class="add-btn">Close</button>
+            </div>
+        `;
+        
+        const retryBtn = document.getElementById('retryInventoryBtn');
+        if (retryBtn) {
+            retryBtn.addEventListener('click', () => {
+                loadStorageInventory(storageId, storageName);
+            });
+        }
+        
+        const closeBtn = document.getElementById('closeStorageDetails');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', closeModal);
+        }
+    }
+}
+
+function setupStorageActionHandlers(storageId) {
+    const deleteBtn = document.getElementById('deleteStorageBtn');
+    const closeBtn = document.getElementById('closeStorageDetails');
+    
+    if (deleteBtn) {
+        deleteBtn.addEventListener('click', async () => {
+            if (confirm('Are you sure you want to delete this storage? This action cannot be undone.')) {
+                try {
+                    await deleteStorage(storageId);
+                    alert('Storage deleted successfully!');
+                    closeModal();
+                    await loadAllData();
+                } catch (error) {
+                    alert(`Failed to delete storage: ${error.message}`);
+                }
+            }
+        });
+    }
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+    }
 }
 
 // Modal functions
@@ -400,18 +590,91 @@ function closeModal() {
     modal.style.display = 'none';
 }
 
+function setupModalCloseHandlers() {
+    const modal = document.getElementById('add-modal');
+    const closeBtn = modal.querySelector('.close-btn');
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', closeModal);
+    }
+    
+    // Setup any close detail buttons
+    const closeDetailBtns = modal.querySelectorAll('#closeUserDetails, #closeWeaponDetails, #closeStorageDetails');
+    closeDetailBtns.forEach(btn => {
+        btn.addEventListener('click', closeModal);
+    });
+}
+
 function showAddForm(type) {
     const modal = document.getElementById('add-modal');
-    const forms = modal.querySelectorAll('.add-popup-form');
     
-    // Hide all forms
-    forms.forEach(form => form.style.display = 'none');
+    // Reset modal content to original forms
+    modal.querySelector('.modal-content').innerHTML = `
+        <span class="close-btn">&times;</span>
+        <form id="add-user-form" class="add-popup-form" style="display:none;">
+            <h3>Add User</h3>
+            <input type="text" placeholder="Username" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="text" placeholder="Full Name" name="full_name" required>
+            <input type="text" placeholder="Country (Optional)" name="country">
+            <input type="text" placeholder="Organization (Optional)" name="organization">
+            <select name="clearance_level" required style="width: 100%; margin-bottom: 1rem; padding: 12px 16px; border: 1px solid #174b72; border-radius: 8px; background: rgba(0, 191, 255, 0.08); color: #e6f2ff; font-size: 1rem; outline: none; font-family: inherit;">
+                <option value="">Select Clearance Level</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+                <option value="Ultra-Secret">Ultra-Secret</option>
+            </select>
+            <select name="role" required style="width: 100%; margin-bottom: 1rem; padding: 12px 16px; border: 1px solid #174b72; border-radius: 8px; background: rgba(0, 191, 255, 0.08); color: #e6f2ff; font-size: 1rem; outline: none; font-family: inherit;">
+                <option value="">Select Role</option>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+                <option value="Operator">Operator</option>
+                <option value="Supervisor">Supervisor</option>
+            </select>
+            <label style="display: flex; align-items: center; color: #e6f2ff; margin-bottom: 1rem;">
+                <input type="checkbox" name="is_admin" style="margin-right: 8px;">
+                Admin Privileges
+            </label>
+            <button type="submit">Add User</button>
+        </form>
+        <form id="add-weapon-form" class="add-popup-form" style="display:none;">
+            <h3>Add Weapon</h3>
+            <input type="text" placeholder="Weapon Name" name="name" required>
+            <input type="text" placeholder="Type (e.g., ICBM, SLBM, Tactical)" name="type" required>
+            <input type="number" placeholder="Yield (Megatons)" name="yield_megatons" step="0.01" min="0">
+            <input type="number" placeholder="Range (KM)" name="range_km" min="0">
+            <input type="number" placeholder="Weight (KG)" name="weight_kg" min="0">
+            <select name="status" required style="width: 100%; margin-bottom: 1rem; padding: 12px 16px; border: 1px solid #174b72; border-radius: 8px; background: rgba(0, 191, 255, 0.08); color: #e6f2ff; font-size: 1rem; outline: none; font-family: inherit;">
+                <option value="">Select Status</option>
+                <option value="Active">Active</option>
+                <option value="Decommissioned">Decommissioned</option>
+                <option value="Prototype">Prototype</option>
+            </select>
+            <input type="text" placeholder="Country of Origin" name="country_of_origin">
+            <input type="number" placeholder="Year Created" name="year_craeted" min="1900" max="2100">
+            <textarea placeholder="Notes (Optional)" name="notes" rows="3" style="width: 100%; margin-bottom: 1rem; padding: 12px 16px; border: 1px solid #174b72; border-radius: 8px; background: rgba(0, 191, 255, 0.08); color: #e6f2ff; font-size: 1rem; outline: none; font-family: inherit; resize: vertical;"></textarea>
+            <button type="submit">Add Weapon</button>
+        </form>
+        <form id="add-storage-form" class="add-popup-form" style="display:none;">
+            <h3>Add Weapon Storage</h3>
+            <input type="text" placeholder="Storage Name" required>
+            <input type="text" placeholder="Location" required>
+            <input type="number" placeholder="Latitude" step="0.0001" required>
+            <input type="number" placeholder="Longitude" step="0.0001" required>
+            <button type="submit">Add Storage</button>
+        </form>
+    `;
     
     // Show specific form
     const targetForm = document.getElementById(`add-${type}-form`);
     if (targetForm) {
         targetForm.style.display = 'block';
         modal.style.display = 'flex';
+        
+        // Setup form handlers for this specific form
+        setupSpecificFormHandler(type);
+        setupModalCloseHandlers();
     }
 }
 
@@ -425,8 +688,8 @@ function setupSearchFunctionality() {
             const query = e.target.querySelector('input').value.toLowerCase().trim();
             if (query) {
                 const filtered = allUsers.filter(user => 
-                    user.username.toLowerCase().includes(query) ||
-                    (user.fullname && user.fullname.toLowerCase().includes(query))
+                    user.Username.toLowerCase().includes(query) ||
+                    (user.Fullname && user.Fullname.toLowerCase().includes(query))
                 );
                 renderUsers(filtered);
             } else {
@@ -442,10 +705,11 @@ function setupSearchFunctionality() {
             e.preventDefault();
             const query = e.target.querySelector('input').value.toLowerCase().trim();
             if (query) {
-                const filtered = allWeapons.filter(weapon => 
-                    weapon.name.toLowerCase().includes(query) ||
-                    weapon.type.toLowerCase().includes(query)
-                );
+                const filtered = allWeapons.filter(weapon => {
+                    const name = weapon.name || weapon.Name || '';
+                    const type = weapon.type || weapon.Type || '';
+                    return name.toLowerCase().includes(query) || type.toLowerCase().includes(query);
+                });
                 renderWeapons(filtered);
             } else {
                 renderWeapons(allWeapons);
@@ -460,9 +724,10 @@ function setupSearchFunctionality() {
             e.preventDefault();
             const query = e.target.querySelector('input').value.toLowerCase().trim();
             if (query) {
-                const filtered = allStorages.filter(storage => 
-                    storage.location_name.toLowerCase().includes(query)
-                );
+                const filtered = allStorages.filter(storage => {
+                    const locationName = storage.location_name || storage.LocationName || '';
+                    return locationName.toLowerCase().includes(query);
+                });
                 renderStorages(filtered);
             } else {
                 renderStorages(allStorages);
@@ -471,53 +736,144 @@ function setupSearchFunctionality() {
     }
 }
 
-// Form submission handlers
-function setupFormHandlers() {
-    // Add weapon form
-    const addWeaponForm = document.getElementById('add-weapon-form');
-    if (addWeaponForm) {
-        addWeaponForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const formData = new FormData(e.target);
-            const weaponData = {
-                name: formData.get('name') || e.target.querySelector('input[placeholder="Weapon Name"]').value,
-                type: formData.get('type') || e.target.querySelector('input[placeholder="Type"]').value,
-                classification: formData.get('classification') || e.target.querySelector('input[placeholder="Classification"]').value
-            };
-            
-            try {
-                await addWeapon(weaponData);
-                alert('Weapon added successfully!');
-                closeModal();
-                await loadAllData();
-            } catch (error) {
-                alert(`Failed to add weapon: ${error.message}`);
-            }
-        });
-    }
-    
-    // Add storage form
-    const addStorageForm = document.getElementById('add-storage-form');
-    if (addStorageForm) {
-        addStorageForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const inputs = e.target.querySelectorAll('input');
-            const storageData = {
-                location_name: inputs[0].value,
-                location: inputs[1].value,
-                latitude: parseFloat(inputs[2].value),
-                longitude: parseFloat(inputs[3].value)
-            };
-            
-            try {
-                await addStorage(storageData);
-                alert('Storage added successfully!');
-                closeModal();
-                await loadAllData();
-            } catch (error) {
-                alert(`Failed to add storage: ${error.message}`);
-            }
-        });
+// Fixed form submission handlers
+function setupSpecificFormHandler(type) {
+    if (type === 'user') {
+        const form = document.getElementById('add-user-form');
+        if (form) {
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                // Use FormData to get all form values properly
+                const formData = new FormData(form);
+                
+                const userData = {
+                    username: formData.get('username')?.trim(),
+                    password: formData.get('password'),
+                    full_name: formData.get('full_name')?.trim(),
+                    country: formData.get('country')?.trim() || null,
+                    organization: formData.get('organization')?.trim() || null,
+                    clearance_level: formData.get('clearance_level'),
+                    role: formData.get('role'),
+                    is_admin: formData.get('is_admin') === 'on' // checkbox handling
+                };
+                
+                // Basic validation
+                if (!userData.username || !userData.password || !userData.full_name || 
+                    !userData.clearance_level || !userData.role) {
+                    alert('Please fill in all required fields');
+                    return;
+                }
+                
+                console.log('Form data being sent:', userData);
+                
+                try {
+                    await addUser(userData);
+                    alert('User added successfully!');
+                    closeModal();
+                    await loadAllData();
+                    form.reset(); // Clear form
+                } catch (error) {
+                    console.error('Add user error:', error);
+                    alert(`Failed to add user: ${error.message}`);
+                }
+            });
+        }
+    } else if (type === 'weapon') {
+        const form = document.getElementById('add-weapon-form');
+        if (form) {
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                // Use FormData to get all form values properly
+                const formData = new FormData(form);
+                
+                const weaponData = {
+                    name: formData.get('name')?.trim(),
+                    type: formData.get('type')?.trim(),
+                    yield_megatons: formData.get('yield_megatons')?.trim(),
+                    range_km: formData.get('range_km')?.trim(),
+                    weight_kg: formData.get('weight_kg')?.trim(),
+                    status: formData.get('status'),
+                    country_of_origin: formData.get('country_of_origin')?.trim(),
+                    year_craeted: formData.get('year_craeted')?.trim(), // Note: keeping the typo to match DB
+                    notes: formData.get('notes')?.trim()
+                };
+                
+                // Basic validation - only name, type, and status are required
+                if (!weaponData.name || !weaponData.type || !weaponData.status) {
+                    alert('Please fill in all required fields (Name, Type, Status)');
+                    return;
+                }
+                
+                // Validate numeric fields if provided
+                if (weaponData.yield_megatons && isNaN(parseFloat(weaponData.yield_megatons))) {
+                    alert('Yield must be a valid number');
+                    return;
+                }
+                
+                if (weaponData.range_km && isNaN(parseInt(weaponData.range_km))) {
+                    alert('Range must be a valid number');
+                    return;
+                }
+                
+                if (weaponData.weight_kg && isNaN(parseInt(weaponData.weight_kg))) {
+                    alert('Weight must be a valid number');
+                    return;
+                }
+                
+                if (weaponData.year_craeted && (isNaN(parseInt(weaponData.year_craeted)) || 
+                    parseInt(weaponData.year_craeted) < 1900 || parseInt(weaponData.year_craeted) > 2100)) {
+                    alert('Year must be a valid year between 1900 and 2100');
+                    return;
+                }
+                
+                console.log('Weapon data being sent:', weaponData);
+                
+                try {
+                    await addWeapon(weaponData);
+                    alert('Weapon added successfully!');
+                    closeModal();
+                    await loadAllData();
+                    form.reset(); // Clear form
+                } catch (error) {
+                    console.error('Add weapon error:', error);
+                    alert(`Failed to add weapon: ${error.message}`);
+                }
+            });
+        }
+    } else if (type === 'storage') {
+        const form = document.getElementById('add-storage-form');
+        if (form) {
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const inputs = e.target.querySelectorAll('input');
+                
+                const storageData = {
+                    location_name: inputs[0].value.trim(),
+                    location: inputs[1].value.trim(),
+                    latitude: parseFloat(inputs[2].value),
+                    longitude: parseFloat(inputs[3].value)
+                };
+                
+                // Basic validation
+                if (!storageData.location_name || !storageData.location || 
+                    isNaN(storageData.latitude) || isNaN(storageData.longitude)) {
+                    alert('Please fill in all required fields with valid data');
+                    return;
+                }
+                
+                try {
+                    await addStorage(storageData);
+                    alert('Storage added successfully!');
+                    closeModal();
+                    await loadAllData();
+                    e.target.reset(); // Clear form
+                } catch (error) {
+                    alert(`Failed to add storage: ${error.message}`);
+                }
+            });
+        }
     }
 }
 
@@ -526,19 +882,28 @@ function setupAddButtons() {
     // User add button
     const userAddBtn = document.querySelector('#users .add-btn');
     if (userAddBtn) {
-        userAddBtn.addEventListener('click', () => showAddForm('user'));
+        userAddBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            showAddForm('user');
+        });
     }
     
     // Weapon add button
     const weaponAddBtn = document.querySelector('#weapons .add-btn');
     if (weaponAddBtn) {
-        weaponAddBtn.addEventListener('click', () => showAddForm('weapon'));
+        weaponAddBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            showAddForm('weapon');
+        });
     }
     
     // Storage add button
     const storageAddBtn = document.querySelector('#storage .add-btn');
     if (storageAddBtn) {
-        storageAddBtn.addEventListener('click', () => showAddForm('storage'));
+        storageAddBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            showAddForm('storage');
+        });
     }
 }
 
@@ -563,7 +928,11 @@ async function loadAllData() {
         renderWeapons(weapons);
         renderStorages(storages);
         
-        console.log('Data loaded successfully:', { users: users.length, weapons: weapons.length, storages: storages.length });
+        console.log('Data loaded successfully:', { 
+            users: users.length, 
+            weapons: weapons.length, 
+            storages: storages.length 
+        });
     } catch (error) {
         console.error('Failed to load data:', error);
         alert('Failed to load data. Please refresh the page.');
@@ -579,15 +948,10 @@ async function initializeAdmin() {
         
         // Setup event handlers
         setupSearchFunctionality();
-        setupFormHandlers();
         setupAddButtons();
         
-        // Setup modal close handlers
+        // Setup global modal close handlers
         const modal = document.getElementById('add-modal');
-        const closeBtn = modal.querySelector('.close-btn');
-        if (closeBtn) {
-            closeBtn.addEventListener('click', closeModal);
-        }
         
         // Close modal when clicking outside
         modal.addEventListener('click', (e) => {
