@@ -1,129 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>WebSocket Chat</title>
+  <meta charset="utf-8" />
+  <title>NWMS — Global Chat</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="/chat.css">
 </head>
-<body class="chat-page">
-  <header class="chat-header">
-    <h2>Global Chat Room</h2>
-    <button class="logout-btn" onclick="logout()">Logout</button>
-  </header>
+<body>
+  <div class="admin-wrapper">
+    <!-- Background -->
+    <div class="bg">
+      <img class="bg-img" src="/data/resources/detailMap.jpg" alt="background">
+    </div>
+    <div class="bg-overlay"></div>
 
-  <div id="chat" class="chat-box"></div>
+    <!-- Header (same styling as admin page) -->
+    <header class="header">
+      <h1>NWMS <span style="font-weight:400; font-size:0.9rem; margin-left:12px;">— Global Chat</span></h1>
+    </header>
 
-  <div class="input-area">
-    <textarea id="message" placeholder="Enter message..."></textarea>
-    <button onclick="sendMessage()">Send</button>
+    <!-- Main chat area -->
+    <main class="kanban-board" aria-live="polite">
+      <section class="kanban-column" style="display:flex; flex-direction:column; padding: 16px;">
+        <h2 style="margin-top:0; text-align:center;">Chat Room</h2>
+
+        <div id="chat" class="chat-box" aria-label="Chat messages"></div>
+
+        <form id="chat-form" class="add-popup-form" onsubmit="event.preventDefault(); sendMessage();" style="margin-top:12px;">
+          <textarea id="message" placeholder="Type a message..." rows="2" required></textarea>
+          <div style="display:flex; gap:12px; margin-top:10px;">
+            <button type="submit" class="add-popup-btn">Send</button>
+            <button type="button" class="add-popup-btn" onclick="logout()" style="background:linear-gradient(135deg,#ff7b7b 60%,#c74b4b 100%);">Logout</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="/" style="color:#00bfff; text-decoration:none;">← Back to Home</a>
+    </footer>
   </div>
 
-  <footer class="chat-footer">
-    <a href="/">Back to Home</a>
-  </footer>
-
-  <script>
-    const IP_ADDRESS = "10.106.43.80"; // adjust if needed
-    const PORT_NUMBER = 9999; 
-    const chatDiv = document.getElementById("chat");
-    const messageInput = document.getElementById("message");
-
-    // Auto-grow textarea
-    messageInput.addEventListener("input", function () {
-      this.style.height = "auto";
-      this.style.height = this.scrollHeight + "px";
-    });
-
-    // Enter to send, Ctrl+Enter for newline
-    messageInput.addEventListener("keydown", function (event) {
-      if (event.key === "Enter" && !event.ctrlKey) {
-        event.preventDefault();
-        sendMessage();
-      }
-    });
-
-    // Identity (simple localStorage fallback)
-    const nickname = localStorage.getItem("nickname") || "Guest";
-    const color = localStorage.getItem("color") || "#000000";
-
-    // Connect WebSocket
-    const socket = new WebSocket(`ws://${IP_ADDRESS}:${PORT_NUMBER}/ws/chat`);
-
-    socket.onopen = () => addSystemMessage("✅ Connected to chat.");
-    socket.onmessage = (event) => addMessage(event.data);
-    socket.onclose = () => addSystemMessage("❌ Disconnected from server.");
-
-    // Send message
-    function sendMessage() {
-      if (!messageInput.value.trim()) return;
-      const payload = JSON.stringify({ nickname, color, msg: messageInput.value });
-      socket.send(payload);
-      messageInput.value = "";
-    }
-
-    function logout() {
-      localStorage.clear();
-      window.location.href = "/logout";
-    }
-
-    // Append chat/system messages
-    function addMessage(raw) {
-      try {
-        const msgObj = typeof raw === "string" ? JSON.parse(raw) : raw;
-        renderMessage(msgObj);
-      } catch {
-        addSystemMessage(raw);
-      }
-    }
-
-    function renderMessage(msg) {
-      if (!msg.msg || msg.msg.trim() === "") return;
-
-      const wrapper = document.createElement("div");
-      wrapper.className = "chat-message";
-
-      const avatar = document.createElement("div");
-      avatar.className = "avatar";
-      avatar.style.backgroundColor = msg.color || "#888";
-      avatar.textContent = msg.nickname ? msg.nickname.charAt(0).toUpperCase() : "?";
-
-      const content = document.createElement("div");
-      content.className = "message-content";
-
-      const header = document.createElement("div");
-      header.className = "message-header";
-
-      const nameSpan = document.createElement("span");
-      nameSpan.className = "nickname";
-      nameSpan.style.color = msg.color;
-      nameSpan.textContent = msg.nickname;
-
-      const timeSpan = document.createElement("span");
-      timeSpan.className = "timestamp";
-      timeSpan.textContent = new Date().toLocaleTimeString();
-
-      header.appendChild(nameSpan);
-      header.appendChild(timeSpan);
-
-      const text = document.createElement("div");
-      text.className = "message-text";
-      text.textContent = msg.msg;
-
-      content.appendChild(header);
-      content.appendChild(text);
-      wrapper.appendChild(avatar);
-      wrapper.appendChild(content);
-
-      chatDiv.appendChild(wrapper);
-      chatDiv.scrollTop = chatDiv.scrollHeight;
-    }
-
-    function addSystemMessage(text) {
-      const wrapper = document.createElement("div");
-      wrapper.className = "system-message";
-      wrapper.textContent = text;
-      chatDiv.appendChild(wrapper);
-      chatDiv.scrollTop = chatDiv.scrollHeight;
-    }
-  </script>
+  <script src="/chat.js"></script>
 </body>
 </html>

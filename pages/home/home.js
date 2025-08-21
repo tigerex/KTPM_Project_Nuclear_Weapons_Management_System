@@ -45,7 +45,8 @@ function isAdmin() {
  */
 function updateUIForUserRole() {
     const fab = document.querySelector('.fab');
-    const usersNavLink = document.querySelector('.nav a[title="Users"]');
+    const usersNavLink = document.querySelector('.nav a[title="Admin"]');
+    const chatNavLink = document.querySelector('.nav a[title="Chat"]');
     
     // Update user profile information in dropdown
     updateUserProfile();

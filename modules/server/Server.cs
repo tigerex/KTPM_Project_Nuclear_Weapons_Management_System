@@ -163,30 +163,7 @@ namespace project_nuclear_weapons_management_system.modules.server
 
                                 var (method, path, headers, body) = ParseHttpRequest(stream, first, bytesRead);
                                 Logger.Log($"[DEBUG] {clientIP} -> {method} {path}");
-
-                                // string response;
-                                // if (method == "POST" && path == "/api/auth/login")
-                                // {
-                                //     response = HandleLogin(body);
-                                // }
-                                // else if (path.Contains("favicon.ico"))
-                                // {
-                                //     response = BuildHttpResponse(200, "image/x-icon", "");
-                                // }
-                                // else
-                                // {
-                                //     // Trang mặc định (demo)
-                                //     var html = "<h1>hello from project N</h1>";
-                                //     response = BuildHttpResponse(200, "text/html; charset=UTF-8", html);
-                                // }
-
-
-                                // Chuyển hết các request qua Router xử lí
-                                // Xong trả về response nhân được từ Router thôi
-                                // byte[] response = Router.Resolve(path, body, headers);
-                                if (headers.ContainsKey("Upgrade") 
-                                    && headers["Upgrade"].ToLower() == "websocket"
-                                    && path.Equals("/ws/chat", StringComparison.OrdinalIgnoreCase))
+                                if (headers.ContainsKey("Upgrade") && headers["Upgrade"].ToLower() == "websocket" && path.Equals("/ws/chat", StringComparison.OrdinalIgnoreCase))
                                 {
                                     HandleWebSocket.Handle(client, stream, headers);
                                 }

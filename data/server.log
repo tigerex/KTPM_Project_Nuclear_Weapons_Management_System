@@ -13204,3 +13204,1578 @@
 [2025-08-21 12:16:17] [INFO] Server shut down due to ProcessExit (application end).
 [2025-08-21 12:16:17] ===== SESSION END =====
 
+[2025-08-21 14:24:47] ✅ Server started successfully at 192.168.1.199:9999
+[2025-08-21 14:24:47] ====== SESSION ACTIVITIES =====
+[2025-08-21 14:25:17] Client connected from 192.168.1.200
+[2025-08-21 14:25:17] [DEBUG] 192.168.1.200 -> GET /
+[2025-08-21 14:25:17] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:17] Client connected from 192.168.1.200
+[2025-08-21 14:25:17] [DEBUG] 192.168.1.200 -> GET /default.css
+[2025-08-21 14:25:17] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:17] Client connected from 192.168.1.200
+[2025-08-21 14:25:17] [DEBUG] 192.168.1.200 -> GET /data/resources/loginMap.jpg
+[2025-08-21 14:25:17] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:18] Client connected from 192.168.1.200
+[2025-08-21 14:25:18] [DEBUG] 192.168.1.200 -> GET /favicon.ico
+[2025-08-21 14:25:18] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:43] Client connected from 192.168.1.200
+[2025-08-21 14:25:43] [DEBUG] 192.168.1.200 -> GET /login
+[2025-08-21 14:25:43] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:43] Client connected from 192.168.1.200
+[2025-08-21 14:25:43] [DEBUG] 192.168.1.200 -> GET /login.css
+[2025-08-21 14:25:43] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:43] Client connected from 192.168.1.200
+[2025-08-21 14:25:43] [DEBUG] 192.168.1.200 -> GET /login.js
+[2025-08-21 14:25:43] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:43] Client connected from 192.168.1.200
+[2025-08-21 14:25:43] [DEBUG] 192.168.1.200 -> GET /data/resources/loginMap.jpg
+[2025-08-21 14:25:43] Client 192.168.1.200 disconnected.
+[2025-08-21 14:25:44] Client connected from 192.168.1.200
+[2025-08-21 14:25:44] [DEBUG] 192.168.1.200 -> GET /favicon.ico
+[2025-08-21 14:25:44] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:00] Client connected from 192.168.1.200
+[2025-08-21 14:26:00] [DEBUG] 192.168.1.200 -> POST /api/auth/login
+[2025-08-21 14:26:01] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:06] Client connected from 192.168.1.200
+[2025-08-21 14:26:06] [DEBUG] 192.168.1.200 -> GET /home
+[2025-08-21 14:26:06] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:06] Client connected from 192.168.1.200
+[2025-08-21 14:26:06] [DEBUG] 192.168.1.200 -> GET /home.css
+[2025-08-21 14:26:06] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:06] Client connected from 192.168.1.200
+[2025-08-21 14:26:06] [DEBUG] 192.168.1.200 -> GET /login/login.css
+[2025-08-21 14:26:06] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:06] Client connected from 192.168.1.200
+[2025-08-21 14:26:06] [DEBUG] 192.168.1.200 -> GET /data/resources/detailMap.jpg
+[2025-08-21 14:26:06] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:06] Client connected from 192.168.1.200
+[2025-08-21 14:26:06] [DEBUG] 192.168.1.200 -> GET /home.js
+[2025-08-21 14:26:06] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:06] Client connected from 192.168.1.200
+[2025-08-21 14:26:06] [DEBUG] 192.168.1.200 -> GET /home
+[2025-08-21 14:26:06] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:07] Client connected from 192.168.1.200
+[2025-08-21 14:26:07] [DEBUG] 192.168.1.200 -> GET /api/auth/me
+[2025-08-21 14:26:07] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:07] Client connected from 192.168.1.200
+[2025-08-21 14:26:07] [DEBUG] 192.168.1.200 -> GET /favicon.ico
+[2025-08-21 14:26:07] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:07] Client connected from 192.168.1.200
+[2025-08-21 14:26:07] [DEBUG] 192.168.1.200 -> GET /api/storages/all
+[2025-08-21 14:26:07] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:14] Client connected from 192.168.1.200
+[2025-08-21 14:26:14] [DEBUG] 192.168.1.200 -> POST /api/inventory
+[2025-08-21 14:26:14] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:20] Client connected from 192.168.1.200
+[2025-08-21 14:26:20] [DEBUG] 192.168.1.200 -> POST /api/inventory
+[2025-08-21 14:26:20] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:26] Client connected from 192.168.1.200
+[2025-08-21 14:26:26] [DEBUG] 192.168.1.200 -> GET /admin
+[2025-08-21 14:26:26] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:26] Client connected from 192.168.1.200
+[2025-08-21 14:26:26] [DEBUG] 192.168.1.200 -> GET /admin.css
+[2025-08-21 14:26:26] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:26] Client connected from 192.168.1.200
+[2025-08-21 14:26:26] [DEBUG] 192.168.1.200 -> GET /admin.js
+[2025-08-21 14:26:26] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:26] Client connected from 192.168.1.200
+[2025-08-21 14:26:26] [DEBUG] 192.168.1.200 -> GET /data/resources/detailMap.jpg
+[2025-08-21 14:26:26] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:27] Client connected from 192.168.1.200
+[2025-08-21 14:26:27] [DEBUG] 192.168.1.200 -> GET /api/auth/me
+[2025-08-21 14:26:27] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:27] Client connected from 192.168.1.200
+[2025-08-21 14:26:27] [DEBUG] 192.168.1.200 -> GET /api/admin/allUser
+[2025-08-21 14:26:27] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:27] Client connected from 192.168.1.200
+[2025-08-21 14:26:27] [DEBUG] 192.168.1.200 -> GET /api/weapons/all
+[2025-08-21 14:26:27] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:27] Client connected from 192.168.1.200
+[2025-08-21 14:26:27] [DEBUG] 192.168.1.200 -> GET /api/storages/all
+[2025-08-21 14:26:27] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:27] Client connected from 192.168.1.200
+[2025-08-21 14:26:27] [DEBUG] 192.168.1.200 -> GET /favicon.ico
+[2025-08-21 14:26:27] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /home
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /home.css
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /login/login.css
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /data/resources/detailMap.jpg
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /home.js
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /home
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /api/auth/me
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /favicon.ico
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:55] Client connected from 192.168.1.200
+[2025-08-21 14:26:55] [DEBUG] 192.168.1.200 -> GET /api/storages/all
+[2025-08-21 14:26:55] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:59] Client connected from 192.168.1.200
+[2025-08-21 14:26:59] [DEBUG] 192.168.1.200 -> GET /profile
+[2025-08-21 14:26:59] Client 192.168.1.200 disconnected.
+[2025-08-21 14:26:59] Client connected from 192.168.1.200
+[2025-08-21 14:26:59] [DEBUG] 192.168.1.200 -> GET /profile.css
+[2025-08-21 14:26:59] Client 192.168.1.200 disconnected.
+[2025-08-21 14:27:00] Client connected from 192.168.1.200
+[2025-08-21 14:27:00] [DEBUG] 192.168.1.200 -> GET /profile.js
+[2025-08-21 14:27:00] Client 192.168.1.200 disconnected.
+[2025-08-21 14:27:00] Client connected from 192.168.1.200
+[2025-08-21 14:27:00] [DEBUG] 192.168.1.200 -> GET /data/resources/detailMap.jpg
+[2025-08-21 14:27:00] Client 192.168.1.200 disconnected.
+[2025-08-21 14:27:00] Client connected from 192.168.1.200
+[2025-08-21 14:27:00] [DEBUG] 192.168.1.200 -> GET /api/auth/me
+[2025-08-21 14:27:00] Client 192.168.1.200 disconnected.
+[2025-08-21 14:27:00] Client connected from 192.168.1.200
+[2025-08-21 14:27:00] [DEBUG] 192.168.1.200 -> GET /favicon.ico
+[2025-08-21 14:27:00] Client 192.168.1.200 disconnected.
+[2025-08-21 14:27:15] !!!Command issue!!!
+[2025-08-21 14:27:15] [ALERT] Server will stop in 0 seconds...
+[2025-08-21 14:27:15] 🛑 Server stopped gracefully.
+[2025-08-21 14:27:15] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 14:27:15] ===== SESSION END =====
+
+[2025-08-21 14:35:27] ✅ Server started successfully at 192.168.1.199:9999
+[2025-08-21 14:35:27] ====== SESSION ACTIVITIES =====
+[2025-08-21 14:35:35] Client connected from 192.168.1.199
+[2025-08-21 14:35:35] [DEBUG] 192.168.1.199 -> GET /
+[2025-08-21 14:35:35] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:35] Client connected from 192.168.1.199
+[2025-08-21 14:35:35] [DEBUG] 192.168.1.199 -> GET /default.css
+[2025-08-21 14:35:35] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:35] Client connected from 192.168.1.199
+[2025-08-21 14:35:35] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 14:35:35] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:35] Client connected from 192.168.1.199
+[2025-08-21 14:35:35] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 14:35:35] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:47] Client connected from 192.168.1.199
+[2025-08-21 14:35:47] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 14:35:47] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:47] Client connected from 192.168.1.199
+[2025-08-21 14:35:47] [DEBUG] 192.168.1.199 -> GET /login.css
+[2025-08-21 14:35:47] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:48] Client connected from 192.168.1.199
+[2025-08-21 14:35:48] [DEBUG] 192.168.1.199 -> GET /login.js
+[2025-08-21 14:35:48] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:48] Client connected from 192.168.1.199
+[2025-08-21 14:35:48] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 14:35:48] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:48] Client connected from 192.168.1.199
+[2025-08-21 14:35:48] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 14:35:48] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:53] Client connected from 192.168.1.199
+[2025-08-21 14:35:53] [DEBUG] 192.168.1.199 -> POST /api/auth/login
+[2025-08-21 14:35:54] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:35:55] Client connected from 192.168.1.199
+[2025-08-21 14:35:55] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 14:35:55] Client 192.168.1.199 disconnected.
+[2025-08-21 14:36:08] Client connected from 192.168.1.199
+[2025-08-21 14:36:08] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 14:36:08] Client 192.168.1.199 disconnected.
+[2025-08-21 14:36:09] Client connected from 192.168.1.199
+[2025-08-21 14:36:09] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 14:36:09] Client 192.168.1.199 disconnected.
+[2025-08-21 14:36:09] Client connected from 192.168.1.199
+[2025-08-21 14:36:09] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 14:36:09] Client 192.168.1.199 disconnected.
+[2025-08-21 14:55:59] Client connected from 192.168.1.199
+[2025-08-21 14:55:59] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 14:55:59] Client 192.168.1.199 disconnected.
+[2025-08-21 14:55:59] Client connected from 192.168.1.199
+[2025-08-21 14:55:59] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 14:55:59] Client 192.168.1.199 disconnected.
+[2025-08-21 14:56:00] Client connected from 192.168.1.199
+[2025-08-21 14:56:00] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 14:56:00] Client 192.168.1.199 disconnected.
+[2025-08-21 14:56:06] Client connected from 192.168.1.199
+[2025-08-21 14:56:06] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 14:56:06] Client 192.168.1.199 disconnected.
+[2025-08-21 14:56:31] Client connected from 192.168.1.199
+[2025-08-21 14:56:31] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 14:56:31] Client 192.168.1.199 disconnected.
+[2025-08-21 14:56:31] Client connected from 192.168.1.199
+[2025-08-21 14:56:31] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 14:56:31] Client 192.168.1.199 disconnected.
+[2025-08-21 14:56:31] Client connected from 192.168.1.199
+[2025-08-21 14:56:31] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 14:56:31] [WebSocket] Client joined. Total: 1
+[2025-08-21 14:56:34] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"aswedrftgyui"}
+[2025-08-21 14:56:38] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"3456789"}
+[2025-08-21 14:57:08] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 14:57:08] [WebSocket] Client left. Total: 0
+[2025-08-21 14:57:08] Client 192.168.1.199 disconnected.
+[2025-08-21 14:57:08] Client connected from 192.168.1.199
+[2025-08-21 14:57:08] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 14:57:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:02:59] Client connected from 192.168.1.199
+[2025-08-21 15:02:59] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:02:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:02:59] Client connected from 192.168.1.199
+[2025-08-21 15:02:59] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:02:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:02:59] Client connected from 192.168.1.199
+[2025-08-21 15:02:59] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:02:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:02:59] Client connected from 192.168.1.199
+[2025-08-21 15:02:59] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:02:59] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:03:02] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"wertyuio"}
+[2025-08-21 15:03:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"23456789"}
+[2025-08-21 15:03:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"fbsfbsfbsfb"}
+[2025-08-21 15:03:35] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:03:35] [WebSocket] Client left. Total: 0
+[2025-08-21 15:03:35] Client 192.168.1.199 disconnected.
+[2025-08-21 15:03:35] Client connected from 192.168.1.199
+[2025-08-21 15:03:35] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:03:35] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:30] Client connected from 192.168.1.199
+[2025-08-21 15:14:30] [DEBUG] 192.168.1.199 -> GET /
+[2025-08-21 15:14:30] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:30] Client connected from 192.168.1.199
+[2025-08-21 15:14:30] [DEBUG] 192.168.1.199 -> GET /default.css
+[2025-08-21 15:14:30] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:30] Client connected from 192.168.1.199
+[2025-08-21 15:14:30] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 15:14:30] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:30] Client connected from 192.168.1.199
+[2025-08-21 15:14:30] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:14:30] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:31] Client connected from 192.168.1.199
+[2025-08-21 15:14:31] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 15:14:31] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:31] Client connected from 192.168.1.199
+[2025-08-21 15:14:31] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:14:31] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:32] Client connected from 192.168.1.199
+[2025-08-21 15:14:32] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:14:32] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /admin
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /admin.css
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /admin.js
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /api/admin/allUser
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /api/weapons/all
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:38] Client connected from 192.168.1.199
+[2025-08-21 15:14:38] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:14:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:40] Client connected from 192.168.1.199
+[2025-08-21 15:14:40] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:14:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:41] Client connected from 192.168.1.199
+[2025-08-21 15:14:41] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:14:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:43] Client connected from 192.168.1.199
+[2025-08-21 15:14:43] [DEBUG] 192.168.1.199 -> GET /profile
+[2025-08-21 15:14:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:43] Client connected from 192.168.1.199
+[2025-08-21 15:14:43] [DEBUG] 192.168.1.199 -> GET /profile.css
+[2025-08-21 15:14:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:43] Client connected from 192.168.1.199
+[2025-08-21 15:14:43] [DEBUG] 192.168.1.199 -> GET /profile.js
+[2025-08-21 15:14:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:43] Client connected from 192.168.1.199
+[2025-08-21 15:14:43] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:14:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:43] Client connected from 192.168.1.199
+[2025-08-21 15:14:43] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:14:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:43] Client connected from 192.168.1.199
+[2025-08-21 15:14:43] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:14:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:49] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:14:50] Client connected from 192.168.1.199
+[2025-08-21 15:14:50] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:14:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:01] Client connected from 192.168.1.199
+[2025-08-21 15:16:01] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:16:01] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:02] Client connected from 192.168.1.199
+[2025-08-21 15:16:02] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:16:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:03] Client connected from 192.168.1.199
+[2025-08-21 15:16:03] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:16:03] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:03] Client connected from 192.168.1.199
+[2025-08-21 15:16:03] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:16:03] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:03] Client connected from 192.168.1.199
+[2025-08-21 15:16:03] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:16:03] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:03] Client connected from 192.168.1.199
+[2025-08-21 15:16:03] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:16:03] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:16:33] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:16:33] [WebSocket] Client left. Total: 0
+[2025-08-21 15:16:33] Client 192.168.1.199 disconnected.
+[2025-08-21 15:16:33] Client connected from 192.168.1.199
+[2025-08-21 15:16:33] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:16:33] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:06] Client connected from 192.168.1.199
+[2025-08-21 15:21:06] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:21:06] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:06] Client connected from 192.168.1.199
+[2025-08-21 15:21:06] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:21:06] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:06] Client connected from 192.168.1.199
+[2025-08-21 15:21:06] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:21:06] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:06] Client connected from 192.168.1.199
+[2025-08-21 15:21:06] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:21:06] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:21:11] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êfefe"}
+[2025-08-21 15:21:41] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:21:41] [WebSocket] Client left. Total: 0
+[2025-08-21 15:21:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:41] Client connected from 192.168.1.199
+[2025-08-21 15:21:41] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:21:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:50] Client connected from 192.168.1.199
+[2025-08-21 15:21:50] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:21:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:50] Client connected from 192.168.1.199
+[2025-08-21 15:21:50] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:21:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:50] Client connected from 192.168.1.199
+[2025-08-21 15:21:50] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:21:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:21:50] Client connected from 192.168.1.199
+[2025-08-21 15:21:50] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:21:50] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:21:53] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"adsfghgj"}
+[2025-08-21 15:22:23] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:22:23] [WebSocket] Client left. Total: 0
+[2025-08-21 15:22:23] Client 192.168.1.199 disconnected.
+[2025-08-21 15:22:23] Client connected from 192.168.1.199
+[2025-08-21 15:22:23] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:22:23] Client 192.168.1.199 disconnected.
+[2025-08-21 15:24:24] Client connected from 192.168.1.199
+[2025-08-21 15:24:24] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:24:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:24:24] Client connected from 192.168.1.199
+[2025-08-21 15:24:24] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:24:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:24:24] Client connected from 192.168.1.199
+[2025-08-21 15:24:24] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:24:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:24:24] Client connected from 192.168.1.199
+[2025-08-21 15:24:24] [DEBUG] 192.168.1.199 -> GET /assets/bg_admin.jpg
+[2025-08-21 15:24:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:24:24] Client connected from 192.168.1.199
+[2025-08-21 15:24:24] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:24:24] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:24:54] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:24:54] [WebSocket] Client left. Total: 0
+[2025-08-21 15:24:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:24:54] Client connected from 192.168.1.199
+[2025-08-21 15:24:54] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:24:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:33:54] Client connected from 192.168.1.199
+[2025-08-21 15:33:54] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:33:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:33:54] Client connected from 192.168.1.199
+[2025-08-21 15:33:54] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:33:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:33:54] Client connected from 192.168.1.199
+[2025-08-21 15:33:54] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:33:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:33:54] Client connected from 192.168.1.199
+[2025-08-21 15:33:54] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:33:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:33:54] Client connected from 192.168.1.199
+[2025-08-21 15:33:54] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:33:54] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:33:56] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"èqefqe"}
+[2025-08-21 15:33:58] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"2w34567890"}
+[2025-08-21 15:33:59] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"fsbsfb"}
+[2025-08-21 15:34:01] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sfsff"}
+[2025-08-21 15:34:02] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sfsf"}
+[2025-08-21 15:34:03] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sfsf"}
+[2025-08-21 15:34:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ssfsf"}
+[2025-08-21 15:34:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"q"}
+[2025-08-21 15:34:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"q"}
+[2025-08-21 15:34:38] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:34:38] [WebSocket] Client left. Total: 0
+[2025-08-21 15:34:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:34:38] Client connected from 192.168.1.199
+[2025-08-21 15:34:38] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:34:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:13] Client connected from 192.168.1.199
+[2025-08-21 15:36:13] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:36:13] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:14] Client connected from 192.168.1.199
+[2025-08-21 15:36:14] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:36:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:14] Client connected from 192.168.1.199
+[2025-08-21 15:36:14] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:36:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:14] Client connected from 192.168.1.199
+[2025-08-21 15:36:14] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:36:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:14] Client connected from 192.168.1.199
+[2025-08-21 15:36:14] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:36:14] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:36:16] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ádfghj"}
+[2025-08-21 15:36:18] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ưertyujik"}
+[2025-08-21 15:36:19] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ưertyuikol"}
+[2025-08-21 15:36:21] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ẻtyui"}
+[2025-08-21 15:36:22] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ẻtyui"}
+[2025-08-21 15:36:24] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ểtyuiop"}
+[2025-08-21 15:36:54] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:36:54] [WebSocket] Client left. Total: 0
+[2025-08-21 15:36:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:54] Client connected from 192.168.1.199
+[2025-08-21 15:36:54] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:36:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:54] Client connected from 192.168.1.199
+[2025-08-21 15:36:54] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:36:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:54] Client connected from 192.168.1.199
+[2025-08-21 15:36:54] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:36:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:54] Client connected from 192.168.1.199
+[2025-08-21 15:36:54] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:36:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:54] Client connected from 192.168.1.199
+[2025-08-21 15:36:54] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:36:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:36:54] Client connected from 192.168.1.199
+[2025-08-21 15:36:54] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:36:54] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:37:01] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 15:37:02] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 15:37:03] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 15:37:03] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 15:37:03] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 15:37:03] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 15:37:24] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:37:24] [WebSocket] Client left. Total: 0
+[2025-08-21 15:37:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:37:24] !!!Command issue!!!
+[2025-08-21 15:37:24] [ALERT] Server will stop in 0 seconds...
+[2025-08-21 15:37:25] 🛑 Server stopped gracefully.
+[2025-08-21 15:37:25] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 15:37:25] ===== SESSION END =====
+
+[2025-08-21 15:37:32] ✅ Server started successfully at 192.168.1.199:9999
+[2025-08-21 15:37:32] ====== SESSION ACTIVITIES =====
+[2025-08-21 15:37:35] Client connected from 192.168.1.199
+[2025-08-21 15:37:35] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:37:35] Client 192.168.1.199 disconnected.
+[2025-08-21 15:37:35] Client connected from 192.168.1.199
+[2025-08-21 15:37:35] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:37:35] Client 192.168.1.199 disconnected.
+[2025-08-21 15:37:35] Client connected from 192.168.1.199
+[2025-08-21 15:37:35] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:37:35] Client 192.168.1.199 disconnected.
+[2025-08-21 15:37:35] Client connected from 192.168.1.199
+[2025-08-21 15:37:35] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:37:35] Client 192.168.1.199 disconnected.
+[2025-08-21 15:37:35] Client connected from 192.168.1.199
+[2025-08-21 15:37:35] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:37:35] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:37:38] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:37:39] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:37:40] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:37:41] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:38:11] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:38:11] [WebSocket] Client left. Total: 0
+[2025-08-21 15:38:11] Client 192.168.1.199 disconnected.
+[2025-08-21 15:38:11] Client connected from 192.168.1.199
+[2025-08-21 15:38:11] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:38:11] Client 192.168.1.199 disconnected.
+[2025-08-21 15:38:42] Client connected from 192.168.1.199
+[2025-08-21 15:38:42] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:38:42] Client 192.168.1.199 disconnected.
+[2025-08-21 15:38:42] Client connected from 192.168.1.199
+[2025-08-21 15:38:42] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:38:42] Client 192.168.1.199 disconnected.
+[2025-08-21 15:38:42] Client connected from 192.168.1.199
+[2025-08-21 15:38:42] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:38:42] Client 192.168.1.199 disconnected.
+[2025-08-21 15:38:42] Client connected from 192.168.1.199
+[2025-08-21 15:38:42] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:38:42] Client 192.168.1.199 disconnected.
+[2025-08-21 15:38:42] Client connected from 192.168.1.199
+[2025-08-21 15:38:42] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:38:42] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:38:44] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ssdsds"}
+[2025-08-21 15:38:45] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sdsds"}
+[2025-08-21 15:38:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sdsd"}
+[2025-08-21 15:38:48] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sdsdsd"}
+[2025-08-21 15:38:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sdsd"}
+[2025-08-21 15:38:51] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"sdsdsds"}
+[2025-08-21 15:39:21] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:39:21] [WebSocket] Client left. Total: 0
+[2025-08-21 15:39:21] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:21] Client connected from 192.168.1.199
+[2025-08-21 15:39:21] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:39:21] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:21] Client connected from 192.168.1.199
+[2025-08-21 15:39:21] [DEBUG] 192.168.1.199 -> GET /
+[2025-08-21 15:39:21] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:21] Client connected from 192.168.1.199
+[2025-08-21 15:39:21] [DEBUG] 192.168.1.199 -> GET /default.css
+[2025-08-21 15:39:21] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:21] Client connected from 192.168.1.199
+[2025-08-21 15:39:21] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 15:39:21] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:21] Client connected from 192.168.1.199
+[2025-08-21 15:39:21] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:39:21] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:47] Client connected from 192.168.1.199
+[2025-08-21 15:39:47] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 15:39:47] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:47] Client connected from 192.168.1.199
+[2025-08-21 15:39:47] [DEBUG] 192.168.1.199 -> GET /login.css
+[2025-08-21 15:39:47] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:47] Client connected from 192.168.1.199
+[2025-08-21 15:39:47] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 15:39:47] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:47] Client connected from 192.168.1.199
+[2025-08-21 15:39:47] [DEBUG] 192.168.1.199 -> GET /login.js
+[2025-08-21 15:39:47] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:47] Client connected from 192.168.1.199
+[2025-08-21 15:39:47] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:39:47] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:52] Client connected from 192.168.1.199
+[2025-08-21 15:39:52] [DEBUG] 192.168.1.199 -> POST /api/auth/login
+[2025-08-21 15:39:53] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:54] Client connected from 192.168.1.199
+[2025-08-21 15:39:54] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:39:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:57] Client connected from 192.168.1.199
+[2025-08-21 15:39:57] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:39:57] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:57] Client connected from 192.168.1.199
+[2025-08-21 15:39:57] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:39:57] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:57] Client connected from 192.168.1.199
+[2025-08-21 15:39:57] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:39:57] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:57] Client connected from 192.168.1.199
+[2025-08-21 15:39:57] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:39:57] Client 192.168.1.199 disconnected.
+[2025-08-21 15:39:58] Client connected from 192.168.1.199
+[2025-08-21 15:39:58] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:39:58] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:40:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"Ching chong ding dong"}
+[2025-08-21 15:40:10] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ping pong ping pong"}
+[2025-08-21 15:40:11] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"aefaef"}
+[2025-08-21 15:40:13] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"aa"}
+[2025-08-21 15:40:43] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:40:43] [WebSocket] Client left. Total: 0
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:43] Client connected from 192.168.1.199
+[2025-08-21 15:40:43] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:40:43] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:48] Client connected from 192.168.1.199
+[2025-08-21 15:40:48] [DEBUG] 192.168.1.199 -> POST /api/auth/logout
+[2025-08-21 15:40:48] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:48] Client connected from 192.168.1.199
+[2025-08-21 15:40:48] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 15:40:48] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:48] Client connected from 192.168.1.199
+[2025-08-21 15:40:48] [DEBUG] 192.168.1.199 -> GET /login.css
+[2025-08-21 15:40:48] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:48] Client connected from 192.168.1.199
+[2025-08-21 15:40:48] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 15:40:48] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:49] Client connected from 192.168.1.199
+[2025-08-21 15:40:49] [DEBUG] 192.168.1.199 -> GET /login.js
+[2025-08-21 15:40:49] Client 192.168.1.199 disconnected.
+[2025-08-21 15:40:49] Client connected from 192.168.1.199
+[2025-08-21 15:40:49] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:40:49] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:44] Client connected from 192.168.1.199
+[2025-08-21 15:43:44] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 15:43:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:44] Client connected from 192.168.1.199
+[2025-08-21 15:43:44] [DEBUG] 192.168.1.199 -> GET /login.css
+[2025-08-21 15:43:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:44] Client connected from 192.168.1.199
+[2025-08-21 15:43:44] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 15:43:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:44] Client connected from 192.168.1.199
+[2025-08-21 15:43:44] [DEBUG] 192.168.1.199 -> GET /login.js
+[2025-08-21 15:43:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:44] Client connected from 192.168.1.199
+[2025-08-21 15:43:44] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:43:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:49] Client connected from 192.168.1.199
+[2025-08-21 15:43:49] [DEBUG] 192.168.1.199 -> POST /api/auth/login
+[2025-08-21 15:43:49] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:57] Client connected from 192.168.1.199
+[2025-08-21 15:43:57] [DEBUG] 192.168.1.199 -> POST /api/auth/login
+[2025-08-21 15:43:58] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:59] Client connected from 192.168.1.199
+[2025-08-21 15:43:59] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:43:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:59] Client connected from 192.168.1.199
+[2025-08-21 15:43:59] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 15:43:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:59] Client connected from 192.168.1.199
+[2025-08-21 15:43:59] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 15:43:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:59] Client connected from 192.168.1.199
+[2025-08-21 15:43:59] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:43:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:59] Client connected from 192.168.1.199
+[2025-08-21 15:43:59] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 15:43:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:43:59] Client connected from 192.168.1.199
+[2025-08-21 15:43:59] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 15:43:59] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:00] Client connected from 192.168.1.199
+[2025-08-21 15:44:00] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 15:44:00] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:00] Client connected from 192.168.1.199
+[2025-08-21 15:44:00] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:44:00] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:00] Client connected from 192.168.1.199
+[2025-08-21 15:44:00] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 15:44:00] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:01] Client connected from 192.168.1.199
+[2025-08-21 15:44:01] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:44:01] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:01] Client connected from 192.168.1.199
+[2025-08-21 15:44:02] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:44:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:02] Client connected from 192.168.1.199
+[2025-08-21 15:44:02] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:44:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:02] Client connected from 192.168.1.199
+[2025-08-21 15:44:02] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:44:02] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:02] Client connected from 192.168.1.199
+[2025-08-21 15:44:02] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:44:02] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:44:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êfefefe"}
+[2025-08-21 15:44:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êfef"}
+[2025-08-21 15:44:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êfef"}
+[2025-08-21 15:44:09] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êfef"}
+[2025-08-21 15:44:10] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êfef"}
+[2025-08-21 15:44:12] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"êf"}
+[2025-08-21 15:44:20] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"CHING CHONG DING DONG"}
+[2025-08-21 15:44:50] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:44:50] [WebSocket] Client left. Total: 0
+[2025-08-21 15:44:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:44:50] Client connected from 192.168.1.199
+[2025-08-21 15:44:50] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:44:50] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:14] Client connected from 192.168.1.199
+[2025-08-21 15:50:14] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:50:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:14] Client connected from 192.168.1.199
+[2025-08-21 15:50:14] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:50:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:14] Client connected from 192.168.1.199
+[2025-08-21 15:50:14] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:50:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:14] Client connected from 192.168.1.199
+[2025-08-21 15:50:14] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:50:14] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:14] Client connected from 192.168.1.199
+[2025-08-21 15:50:14] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:50:14] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:50:44] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:50:44] [WebSocket] Client left. Total: 0
+[2025-08-21 15:50:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:44] Client connected from 192.168.1.199
+[2025-08-21 15:50:44] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:50:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:44] Client connected from 192.168.1.199
+[2025-08-21 15:50:44] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:50:44] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:58] Client connected from 192.168.1.199
+[2025-08-21 15:50:58] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:50:58] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:58] Client connected from 192.168.1.199
+[2025-08-21 15:50:58] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:50:58] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:58] Client connected from 192.168.1.199
+[2025-08-21 15:50:58] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:50:58] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:58] Client connected from 192.168.1.199
+[2025-08-21 15:50:58] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:50:58] Client 192.168.1.199 disconnected.
+[2025-08-21 15:50:58] Client connected from 192.168.1.199
+[2025-08-21 15:50:58] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:50:58] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:51:03] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"ddddddd"}
+[2025-08-21 15:51:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:04] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:05] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:06] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"đ"}
+[2025-08-21 15:51:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:07] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:08] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:09] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:51:39] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:51:39] [WebSocket] Client left. Total: 0
+[2025-08-21 15:51:39] Client 192.168.1.199 disconnected.
+[2025-08-21 15:51:39] Client connected from 192.168.1.199
+[2025-08-21 15:51:39] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:51:39] Client 192.168.1.199 disconnected.
+[2025-08-21 15:51:39] Client connected from 192.168.1.199
+[2025-08-21 15:51:39] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:51:39] Client 192.168.1.199 disconnected.
+[2025-08-21 15:51:39] Client connected from 192.168.1.199
+[2025-08-21 15:51:39] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:51:39] Client 192.168.1.199 disconnected.
+[2025-08-21 15:51:39] Client connected from 192.168.1.199
+[2025-08-21 15:51:39] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:51:39] Client 192.168.1.199 disconnected.
+[2025-08-21 15:51:39] Client connected from 192.168.1.199
+[2025-08-21 15:51:39] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:51:39] Client 192.168.1.199 disconnected.
+[2025-08-21 15:51:39] Client connected from 192.168.1.199
+[2025-08-21 15:51:39] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:51:39] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:51:48] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:51:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:51:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:51:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:51:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:51:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:51:49] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"f"}
+[2025-08-21 15:52:19] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:52:19] [WebSocket] Client left. Total: 0
+[2025-08-21 15:52:19] Client 192.168.1.199 disconnected.
+[2025-08-21 15:52:19] !!!Command issue!!!
+[2025-08-21 15:52:19] Client connected from 192.168.1.199
+[2025-08-21 15:52:19] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:52:19] Client 192.168.1.199 disconnected.
+[2025-08-21 15:52:19] !!!Command issue!!!
+[2025-08-21 15:52:19] Client connected from 192.168.1.199
+[2025-08-21 15:52:19] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:52:19] Client 192.168.1.199 disconnected.
+[2025-08-21 15:52:20] !!!Command issue!!!
+[2025-08-21 15:52:20] Client connected from 192.168.1.199
+[2025-08-21 15:52:20] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:52:20] Client 192.168.1.199 disconnected.
+[2025-08-21 15:52:20] Client connected from 192.168.1.199
+[2025-08-21 15:52:20] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:52:20] Client 192.168.1.199 disconnected.
+[2025-08-21 15:52:20] Client connected from 192.168.1.199
+[2025-08-21 15:52:20] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:52:20] Client 192.168.1.199 disconnected.
+[2025-08-21 15:52:20] Client connected from 192.168.1.199
+[2025-08-21 15:52:20] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:52:20] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:52:35] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"dvd"}
+[2025-08-21 15:52:36] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:36] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:36] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:36] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:36] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:37] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:37] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:37] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:37] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"d"}
+[2025-08-21 15:52:40] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"dd"}
+[2025-08-21 15:53:10] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:53:10] [WebSocket] Client left. Total: 0
+[2025-08-21 15:53:10] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:10] Client connected from 192.168.1.199
+[2025-08-21 15:53:10] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:53:10] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:10] Client connected from 192.168.1.199
+[2025-08-21 15:53:10] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:53:10] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:10] Client connected from 192.168.1.199
+[2025-08-21 15:53:10] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:53:10] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:10] Client connected from 192.168.1.199
+[2025-08-21 15:53:10] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:53:10] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:10] Client connected from 192.168.1.199
+[2025-08-21 15:53:10] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:53:10] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:10] Client connected from 192.168.1.199
+[2025-08-21 15:53:10] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:53:10] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:53:40] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:53:40] [WebSocket] Client left. Total: 0
+[2025-08-21 15:53:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:40] Client connected from 192.168.1.199
+[2025-08-21 15:53:40] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:53:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:40] Client connected from 192.168.1.199
+[2025-08-21 15:53:40] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:53:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:40] Client connected from 192.168.1.199
+[2025-08-21 15:53:40] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:53:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:40] Client connected from 192.168.1.199
+[2025-08-21 15:53:40] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:53:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:40] Client connected from 192.168.1.199
+[2025-08-21 15:53:40] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:53:40] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:41] Client connected from 192.168.1.199
+[2025-08-21 15:53:41] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:53:41] Client 192.168.1.199 disconnected.
+[2025-08-21 15:53:41] Client connected from 192.168.1.199
+[2025-08-21 15:53:41] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:53:41] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:53:45] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:45] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:45] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:53:46] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"e"}
+[2025-08-21 15:54:16] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:54:16] [WebSocket] Client left. Total: 0
+[2025-08-21 15:54:16] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:16] Client connected from 192.168.1.199
+[2025-08-21 15:54:16] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:54:16] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:17] Client connected from 192.168.1.199
+[2025-08-21 15:54:17] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:54:17] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:37] Client connected from 192.168.1.199
+[2025-08-21 15:54:37] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:54:37] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:37] Client connected from 192.168.1.199
+[2025-08-21 15:54:37] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:54:37] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:37] Client connected from 192.168.1.199
+[2025-08-21 15:54:37] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:54:37] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:37] Client connected from 192.168.1.199
+[2025-08-21 15:54:37] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:54:37] Client 192.168.1.199 disconnected.
+[2025-08-21 15:54:37] Client connected from 192.168.1.199
+[2025-08-21 15:54:37] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:54:37] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:55:07] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:55:07] [WebSocket] Client left. Total: 0
+[2025-08-21 15:55:07] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:08] Client connected from 192.168.1.199
+[2025-08-21 15:55:08] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:55:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:08] Client connected from 192.168.1.199
+[2025-08-21 15:55:08] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:55:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:08] Client connected from 192.168.1.199
+[2025-08-21 15:55:08] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:55:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:08] Client connected from 192.168.1.199
+[2025-08-21 15:55:08] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:55:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:08] Client connected from 192.168.1.199
+[2025-08-21 15:55:08] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:55:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:08] Client connected from 192.168.1.199
+[2025-08-21 15:55:08] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:55:08] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:55:38] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:55:38] [WebSocket] Client left. Total: 0
+[2025-08-21 15:55:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:38] Client connected from 192.168.1.199
+[2025-08-21 15:55:38] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:55:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:38] Client connected from 192.168.1.199
+[2025-08-21 15:55:38] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:55:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:38] Client connected from 192.168.1.199
+[2025-08-21 15:55:38] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:55:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:38] Client connected from 192.168.1.199
+[2025-08-21 15:55:38] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:55:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:38] Client connected from 192.168.1.199
+[2025-08-21 15:55:38] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:55:38] Client 192.168.1.199 disconnected.
+[2025-08-21 15:55:38] Client connected from 192.168.1.199
+[2025-08-21 15:55:38] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:55:38] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:56:08] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:56:08] [WebSocket] Client left. Total: 0
+[2025-08-21 15:56:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:08] Client connected from 192.168.1.199
+[2025-08-21 15:56:08] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:56:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:08] Client connected from 192.168.1.199
+[2025-08-21 15:56:08] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:56:08] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:24] Client connected from 192.168.1.199
+[2025-08-21 15:56:24] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:56:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:24] Client connected from 192.168.1.199
+[2025-08-21 15:56:24] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:56:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:24] Client connected from 192.168.1.199
+[2025-08-21 15:56:24] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:56:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:24] Client connected from 192.168.1.199
+[2025-08-21 15:56:24] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:56:24] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:24] Client connected from 192.168.1.199
+[2025-08-21 15:56:24] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:56:24] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:56:54] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:56:54] [WebSocket] Client left. Total: 0
+[2025-08-21 15:56:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:54] Client connected from 192.168.1.199
+[2025-08-21 15:56:54] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:56:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:54] Client connected from 192.168.1.199
+[2025-08-21 15:56:54] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:56:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:54] Client connected from 192.168.1.199
+[2025-08-21 15:56:54] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:56:54] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:55] Client connected from 192.168.1.199
+[2025-08-21 15:56:55] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:56:55] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:55] Client connected from 192.168.1.199
+[2025-08-21 15:56:55] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:56:55] Client 192.168.1.199 disconnected.
+[2025-08-21 15:56:55] Client connected from 192.168.1.199
+[2025-08-21 15:56:55] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:56:55] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:57:25] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:57:25] [WebSocket] Client left. Total: 0
+[2025-08-21 15:57:25] Client 192.168.1.199 disconnected.
+[2025-08-21 15:57:25] Client connected from 192.168.1.199
+[2025-08-21 15:57:25] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:57:25] Client 192.168.1.199 disconnected.
+[2025-08-21 15:57:25] Client connected from 192.168.1.199
+[2025-08-21 15:57:25] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:57:25] Client 192.168.1.199 disconnected.
+[2025-08-21 15:57:25] Client connected from 192.168.1.199
+[2025-08-21 15:57:25] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:57:25] Client 192.168.1.199 disconnected.
+[2025-08-21 15:57:25] Client connected from 192.168.1.199
+[2025-08-21 15:57:25] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:57:25] Client 192.168.1.199 disconnected.
+[2025-08-21 15:57:25] Client connected from 192.168.1.199
+[2025-08-21 15:57:25] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:57:25] Client 192.168.1.199 disconnected.
+[2025-08-21 15:57:25] Client connected from 192.168.1.199
+[2025-08-21 15:57:25] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:57:25] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:57:33] [WebSocket] Received: {"nickname":"Guest","color":"#000000","msg":"CHING CHOGN DING DONG"}
+[2025-08-21 15:58:03] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 15:58:03] [WebSocket] Client left. Total: 0
+[2025-08-21 15:58:03] Client 192.168.1.199 disconnected.
+[2025-08-21 15:58:03] Client connected from 192.168.1.199
+[2025-08-21 15:58:03] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 15:58:03] Client 192.168.1.199 disconnected.
+[2025-08-21 15:58:03] Client connected from 192.168.1.199
+[2025-08-21 15:58:03] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:58:03] Client 192.168.1.199 disconnected.
+[2025-08-21 15:59:23] Client connected from 192.168.1.199
+[2025-08-21 15:59:23] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 15:59:23] Client 192.168.1.199 disconnected.
+[2025-08-21 15:59:23] Client connected from 192.168.1.199
+[2025-08-21 15:59:23] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 15:59:23] Client 192.168.1.199 disconnected.
+[2025-08-21 15:59:23] Client connected from 192.168.1.199
+[2025-08-21 15:59:23] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 15:59:23] Client 192.168.1.199 disconnected.
+[2025-08-21 15:59:23] Client connected from 192.168.1.199
+[2025-08-21 15:59:23] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 15:59:23] Client 192.168.1.199 disconnected.
+[2025-08-21 15:59:23] Client connected from 192.168.1.199
+[2025-08-21 15:59:23] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 15:59:23] [WebSocket] Client joined. Total: 1
+[2025-08-21 15:59:25] [WebSocket] Received: {"nickname":"Guest","color":"#8ceeffff","msg":"adadad"}
+[2025-08-21 15:59:28] [WebSocket] Received: {"nickname":"Guest","color":"#8ceeffff","msg":"aaaaaaaaaaaaaaaaaaaaaaaa"}
+[2025-08-21 15:59:32] [WebSocket] Received: {"nickname":"Guest","color":"#8ceeffff","msg":"CHING CHONG DINH DONG"}
+[2025-08-21 16:00:02] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:00:02] [WebSocket] Client left. Total: 0
+[2025-08-21 16:00:02] Client 192.168.1.199 disconnected.
+[2025-08-21 16:00:02] Client connected from 192.168.1.199
+[2025-08-21 16:00:02] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:00:02] Client 192.168.1.199 disconnected.
+[2025-08-21 16:00:42] Client connected from 192.168.1.199
+[2025-08-21 16:00:42] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:00:42] Client 192.168.1.199 disconnected.
+[2025-08-21 16:00:42] Client connected from 192.168.1.199
+[2025-08-21 16:00:42] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:00:42] Client 192.168.1.199 disconnected.
+[2025-08-21 16:00:42] Client connected from 192.168.1.199
+[2025-08-21 16:00:42] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:00:42] Client 192.168.1.199 disconnected.
+[2025-08-21 16:00:42] Client connected from 192.168.1.199
+[2025-08-21 16:00:42] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:00:42] Client 192.168.1.199 disconnected.
+[2025-08-21 16:00:42] Client connected from 192.168.1.199
+[2025-08-21 16:00:42] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:00:42] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:00:44] [WebSocket] Received: {"nickname":"Guest","color":"#00117eff","msg":"aaaaaaaaaaaaaaaaaaaaaaaa"}
+[2025-08-21 16:01:15] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:01:15] [WebSocket] Client left. Total: 0
+[2025-08-21 16:01:15] Client 192.168.1.199 disconnected.
+[2025-08-21 16:01:15] Client connected from 192.168.1.199
+[2025-08-21 16:01:15] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:01:15] Client 192.168.1.199 disconnected.
+[2025-08-21 16:01:47] Client connected from 192.168.1.199
+[2025-08-21 16:01:47] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:01:47] Client 192.168.1.199 disconnected.
+[2025-08-21 16:01:47] Client connected from 192.168.1.199
+[2025-08-21 16:01:47] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:01:47] Client 192.168.1.199 disconnected.
+[2025-08-21 16:01:47] Client connected from 192.168.1.199
+[2025-08-21 16:01:47] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:01:47] Client 192.168.1.199 disconnected.
+[2025-08-21 16:01:47] Client connected from 192.168.1.199
+[2025-08-21 16:01:47] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:01:47] Client 192.168.1.199 disconnected.
+[2025-08-21 16:01:47] Client connected from 192.168.1.199
+[2025-08-21 16:01:47] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:01:47] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:01:50] [WebSocket] Received: {"nickname":"Guest","color":"#afbfffff","msg":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}
+[2025-08-21 16:02:20] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:02:20] [WebSocket] Client left. Total: 0
+[2025-08-21 16:02:20] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:20] Client connected from 192.168.1.199
+[2025-08-21 16:02:20] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:02:20] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:21] Client connected from 192.168.1.199
+[2025-08-21 16:02:21] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:02:21] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:21] Client connected from 192.168.1.199
+[2025-08-21 16:02:21] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:02:21] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:21] Client connected from 192.168.1.199
+[2025-08-21 16:02:21] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:02:21] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:21] Client connected from 192.168.1.199
+[2025-08-21 16:02:21] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:02:21] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:21] Client connected from 192.168.1.199
+[2025-08-21 16:02:21] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:02:21] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:02:24] [WebSocket] Received: {"nickname":"Guest","color":"#89adffff","msg":"aaaaaaaaaaaaaaaaaaaaaaaaaa"}
+[2025-08-21 16:02:54] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:02:54] [WebSocket] Client left. Total: 0
+[2025-08-21 16:02:54] Client 192.168.1.199 disconnected.
+[2025-08-21 16:02:54] Client connected from 192.168.1.199
+[2025-08-21 16:02:54] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:02:54] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:24] Client connected from 192.168.1.199
+[2025-08-21 16:03:24] [DEBUG] 192.168.1.199 -> GET /
+[2025-08-21 16:03:24] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:24] Client connected from 192.168.1.199
+[2025-08-21 16:03:24] [DEBUG] 192.168.1.199 -> GET /default.css
+[2025-08-21 16:03:24] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:24] Client connected from 192.168.1.199
+[2025-08-21 16:03:24] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 16:03:24] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:24] Client connected from 192.168.1.199
+[2025-08-21 16:03:24] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:03:24] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:25] Client connected from 192.168.1.199
+[2025-08-21 16:03:25] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 16:03:25] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:25] Client connected from 192.168.1.199
+[2025-08-21 16:03:25] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 16:03:25] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:25] Client connected from 192.168.1.199
+[2025-08-21 16:03:25] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 16:03:25] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:25] Client connected from 192.168.1.199
+[2025-08-21 16:03:25] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 16:03:25] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:25] Client connected from 192.168.1.199
+[2025-08-21 16:03:25] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:03:25] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:26] Client connected from 192.168.1.199
+[2025-08-21 16:03:26] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 16:03:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:26] Client connected from 192.168.1.199
+[2025-08-21 16:03:26] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 16:03:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:26] Client connected from 192.168.1.199
+[2025-08-21 16:03:26] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:03:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:26] Client connected from 192.168.1.199
+[2025-08-21 16:03:26] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:03:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:26] Client connected from 192.168.1.199
+[2025-08-21 16:03:26] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 16:03:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:28] Client connected from 192.168.1.199
+[2025-08-21 16:03:28] [DEBUG] 192.168.1.199 -> POST /api/inventory
+[2025-08-21 16:03:28] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:32] Client connected from 192.168.1.199
+[2025-08-21 16:03:32] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:03:32] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:32] Client connected from 192.168.1.199
+[2025-08-21 16:03:32] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:03:32] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:32] Client connected from 192.168.1.199
+[2025-08-21 16:03:32] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:03:32] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:32] Client connected from 192.168.1.199
+[2025-08-21 16:03:32] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:03:32] Client 192.168.1.199 disconnected.
+[2025-08-21 16:03:32] Client connected from 192.168.1.199
+[2025-08-21 16:03:32] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:03:32] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:04:02] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:04:02] [WebSocket] Client left. Total: 0
+[2025-08-21 16:04:02] Client 192.168.1.199 disconnected.
+[2025-08-21 16:04:03] Client connected from 192.168.1.199
+[2025-08-21 16:04:03] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:04:03] Client 192.168.1.199 disconnected.
+[2025-08-21 16:05:39] Client connected from 192.168.1.199
+[2025-08-21 16:05:39] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:05:39] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:23] Client connected from 192.168.1.199
+[2025-08-21 16:20:23] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:20:23] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:23] Client connected from 192.168.1.199
+[2025-08-21 16:20:23] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:20:23] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:24] Client connected from 192.168.1.199
+[2025-08-21 16:20:24] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:20:24] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:24] Client connected from 192.168.1.199
+[2025-08-21 16:20:24] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:20:24] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:24] Client connected from 192.168.1.199
+[2025-08-21 16:20:24] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:20:24] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:20:26] [WebSocket] Received: {"nickname":"Guest","color":"#89adffff","msg":"ggggg"}
+[2025-08-21 16:20:56] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:20:56] [WebSocket] Client left. Total: 0
+[2025-08-21 16:20:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:56] Client connected from 192.168.1.199
+[2025-08-21 16:20:56] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:20:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:20:56] Client connected from 192.168.1.199
+[2025-08-21 16:20:56] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:20:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:00] Client connected from 192.168.1.199
+[2025-08-21 16:21:00] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:21:00] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:00] Client connected from 192.168.1.199
+[2025-08-21 16:21:00] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:21:00] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:00] Client connected from 192.168.1.199
+[2025-08-21 16:21:00] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:21:00] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:00] Client connected from 192.168.1.199
+[2025-08-21 16:21:00] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:21:00] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:00] Client connected from 192.168.1.199
+[2025-08-21 16:21:00] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:21:00] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:21:30] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:21:30] [WebSocket] Client left. Total: 0
+[2025-08-21 16:21:30] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:30] Client connected from 192.168.1.199
+[2025-08-21 16:21:30] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:21:30] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:30] Client connected from 192.168.1.199
+[2025-08-21 16:21:30] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:21:30] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:30] Client connected from 192.168.1.199
+[2025-08-21 16:21:30] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:21:30] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:56] Client connected from 192.168.1.199
+[2025-08-21 16:21:56] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:21:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:56] Client connected from 192.168.1.199
+[2025-08-21 16:21:56] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:21:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:57] Client connected from 192.168.1.199
+[2025-08-21 16:21:57] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:21:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:57] Client connected from 192.168.1.199
+[2025-08-21 16:21:57] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:21:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:21:57] Client connected from 192.168.1.199
+[2025-08-21 16:21:57] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:21:57] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:22:27] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:22:27] [WebSocket] Client left. Total: 0
+[2025-08-21 16:22:27] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:27] Client connected from 192.168.1.199
+[2025-08-21 16:22:27] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:22:27] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:27] Client connected from 192.168.1.199
+[2025-08-21 16:22:27] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:22:27] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:46] Client connected from 192.168.1.199
+[2025-08-21 16:22:46] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:22:46] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:46] Client connected from 192.168.1.199
+[2025-08-21 16:22:46] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:22:46] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:46] Client connected from 192.168.1.199
+[2025-08-21 16:22:46] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:22:46] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:46] Client connected from 192.168.1.199
+[2025-08-21 16:22:46] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:22:46] Client 192.168.1.199 disconnected.
+[2025-08-21 16:22:46] Client connected from 192.168.1.199
+[2025-08-21 16:22:46] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:22:46] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:23:16] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:23:16] [WebSocket] Client left. Total: 0
+[2025-08-21 16:23:16] Client 192.168.1.199 disconnected.
+[2025-08-21 16:23:16] Client connected from 192.168.1.199
+[2025-08-21 16:23:16] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:23:16] Client 192.168.1.199 disconnected.
+[2025-08-21 16:23:16] Client connected from 192.168.1.199
+[2025-08-21 16:23:16] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:23:16] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:26] Client connected from 192.168.1.199
+[2025-08-21 16:30:26] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:30:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:26] Client connected from 192.168.1.199
+[2025-08-21 16:30:26] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:30:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:26] Client connected from 192.168.1.199
+[2025-08-21 16:30:26] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:30:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:26] Client connected from 192.168.1.199
+[2025-08-21 16:30:26] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:30:26] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:26] Client connected from 192.168.1.199
+[2025-08-21 16:30:26] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:30:26] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:30:56] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:30:56] [WebSocket] Client left. Total: 0
+[2025-08-21 16:30:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:56] Client connected from 192.168.1.199
+[2025-08-21 16:30:56] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:30:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:30:56] Client connected from 192.168.1.199
+[2025-08-21 16:30:56] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:30:56] Client 192.168.1.199 disconnected.
+[2025-08-21 16:43:39] Client connected from 192.168.1.199
+[2025-08-21 16:43:39] [DEBUG] 192.168.1.199 -> GET /chat
+[2025-08-21 16:43:39] Client 192.168.1.199 disconnected.
+[2025-08-21 16:43:39] Client connected from 192.168.1.199
+[2025-08-21 16:43:39] [DEBUG] 192.168.1.199 -> GET /chat.css
+[2025-08-21 16:43:39] Client 192.168.1.199 disconnected.
+[2025-08-21 16:43:39] Client connected from 192.168.1.199
+[2025-08-21 16:43:39] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:43:39] Client 192.168.1.199 disconnected.
+[2025-08-21 16:43:39] Client connected from 192.168.1.199
+[2025-08-21 16:43:39] [DEBUG] 192.168.1.199 -> GET /chat.js
+[2025-08-21 16:43:39] Client 192.168.1.199 disconnected.
+[2025-08-21 16:43:39] Client connected from 192.168.1.199
+[2025-08-21 16:43:39] [DEBUG] 192.168.1.199 -> GET /ws/chat
+[2025-08-21 16:43:39] [WebSocket] Client joined. Total: 1
+[2025-08-21 16:43:42] [WebSocket] Received: {"username":"System Admin","color":"#ff6f61","msg":"jjjjj"}
+[2025-08-21 16:43:44] [WebSocket] Received: {"username":"System Admin","color":"#ff6f61","msg":"jjjjjjjjjjjjjjjjj"}
+[2025-08-21 16:43:48] [WebSocket] Received: {"username":"System Admin","color":"#ff6f61","msg":"aaaaaaaaaaaaaaaaaaaa"}
+[2025-08-21 16:43:59] [WebSocket] Received: {"username":"System Admin","color":"#ff6f61","msg":"11111111111111111111111111"}
+[2025-08-21 16:44:29] [WebSocket] Error: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond..
+[2025-08-21 16:44:29] [WebSocket] Client left. Total: 0
+[2025-08-21 16:44:29] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:29] Client connected from 192.168.1.199
+[2025-08-21 16:44:29] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:44:29] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:29] Client connected from 192.168.1.199
+[2025-08-21 16:44:29] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:44:29] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:29] Client connected from 192.168.1.199
+[2025-08-21 16:44:29] [DEBUG] 192.168.1.199 -> GET /
+[2025-08-21 16:44:29] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:29] Client connected from 192.168.1.199
+[2025-08-21 16:44:29] [DEBUG] 192.168.1.199 -> GET /default.css
+[2025-08-21 16:44:29] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:29] Client connected from 192.168.1.199
+[2025-08-21 16:44:29] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 16:44:29] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:30] Client connected from 192.168.1.199
+[2025-08-21 16:44:30] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:44:30] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:34] Client connected from 192.168.1.199
+[2025-08-21 16:44:34] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 16:44:34] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:34] Client connected from 192.168.1.199
+[2025-08-21 16:44:34] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 16:44:34] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /home.css
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /login/login.css
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /home.js
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /home
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:35] Client connected from 192.168.1.199
+[2025-08-21 16:44:35] [DEBUG] 192.168.1.199 -> GET /api/storages/all
+[2025-08-21 16:44:35] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:52] Client connected from 192.168.1.199
+[2025-08-21 16:44:52] [DEBUG] 192.168.1.199 -> GET /profile
+[2025-08-21 16:44:52] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:52] Client connected from 192.168.1.199
+[2025-08-21 16:44:52] [DEBUG] 192.168.1.199 -> GET /profile.css
+[2025-08-21 16:44:52] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:52] Client connected from 192.168.1.199
+[2025-08-21 16:44:52] [DEBUG] 192.168.1.199 -> GET /profile.js
+[2025-08-21 16:44:52] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:52] Client connected from 192.168.1.199
+[2025-08-21 16:44:52] [DEBUG] 192.168.1.199 -> GET /data/resources/detailMap.jpg
+[2025-08-21 16:44:52] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:53] Client connected from 192.168.1.199
+[2025-08-21 16:44:53] [DEBUG] 192.168.1.199 -> GET /api/auth/me
+[2025-08-21 16:44:53] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:53] Client connected from 192.168.1.199
+[2025-08-21 16:44:53] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:44:53] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:57] Client connected from 192.168.1.199
+[2025-08-21 16:44:57] [DEBUG] 192.168.1.199 -> POST /api/auth/logout
+[2025-08-21 16:44:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:57] Client connected from 192.168.1.199
+[2025-08-21 16:44:57] [DEBUG] 192.168.1.199 -> GET /login
+[2025-08-21 16:44:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:57] Client connected from 192.168.1.199
+[2025-08-21 16:44:57] [DEBUG] 192.168.1.199 -> GET /login.css
+[2025-08-21 16:44:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:57] Client connected from 192.168.1.199
+[2025-08-21 16:44:57] [DEBUG] 192.168.1.199 -> GET /data/resources/loginMap.jpg
+[2025-08-21 16:44:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:57] Client connected from 192.168.1.199
+[2025-08-21 16:44:57] [DEBUG] 192.168.1.199 -> GET /login.js
+[2025-08-21 16:44:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:44:57] Client connected from 192.168.1.199
+[2025-08-21 16:44:57] [DEBUG] 192.168.1.199 -> GET /favicon.ico
+[2025-08-21 16:44:57] Client 192.168.1.199 disconnected.
+[2025-08-21 16:45:01] [ALERT] Server stopping due to Ctrl+C / CancelKeyPress
+[2025-08-21 16:45:11] 🛑 Server stopped gracefully.
+[2025-08-21 16:45:11] [INFO] Server shut down due to ProcessExit (application end).
+[2025-08-21 16:45:11] ===== SESSION END =====
+
