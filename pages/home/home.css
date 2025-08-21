@@ -1,9 +1,19 @@
-/* Map background and overlay are inherited from loginPage.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0a0a0a;
+    min-height: 100vh;
+    overflow: hidden;
+}
 
-/* .map-bg {
-    opacity: 0.35;
-    filter: drop-shadow(0 0 32px #00bfff) brightness(1.15) grayscale(0.3);
-} */
+
+.map-bg {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    pointer-events: none;
+}
 
 .dot {
     position: absolute;
@@ -86,14 +96,22 @@
     font-size: 1.1rem;
     text-decoration: none;
     font-weight: 600;
-    transition: color 0.2s;
+    transition: color 0.2s, opacity 0.3s;
     display: flex;
     align-items: center;
     gap: 6px;
+    opacity: 1;
 }
 
 .top-bar .nav a:hover {
     color: #00bfff;
+}
+
+/* Smooth transition for admin-only elements */
+.top-bar .nav a[style*="display: none"] {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
 }
 
 .top-bar .avatar {
@@ -119,13 +137,42 @@
     border-radius: 10px;
     box-shadow: 0 4px 24px #00bfff44;
     padding: 12px 18px;
-    min-width: 160px;
+    min-width: 180px;
     color: #eaf6fb;
     font-size: 1rem;
     display: none;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     z-index: 20;
+    transition: opacity 0.2s;
+}
+
+.profile-dropdown a {
+    color: #eaf6fb;
+    text-decoration: none;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+
+.profile-dropdown a:hover {
+    color: #00bfff;
+}
+
+.profile-dropdown hr {
+    border: none;
+    height: 1px;
+    background: #00bfff44;
+    margin: 4px 0;
+}
+
+/* Loading state styling */
+.profile-dropdown div:first-child {
+    font-weight: bold;
+}
+
+.profile-dropdown div:nth-child(2) {
+    font-size: 0.9rem;
+    opacity: 0.8;
 }
 
 .avatar:hover .profile-dropdown,
@@ -151,12 +198,21 @@
     z-index: 20;
     border: none;
     outline: none;
-    transition: background 0.2s, box-shadow 0.2s;
+    transition: background 0.2s, box-shadow 0.2s, opacity 0.3s, transform 0.3s;
+    opacity: 1;
 }
 
 .fab:hover {
     background: linear-gradient(135deg, #005f8f 60%, #00bfff 100%);
     box-shadow: 0 8px 32px #00bfff99;
+    transform: scale(1.05);
+}
+
+/* Smooth hide/show for FAB */
+.fab[style*="display: none"] {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
 }
 
 @media (max-width: 700px) {
@@ -180,4 +236,110 @@
         height: 44px;
         font-size: 1.3rem;
     }
+    
+    .profile-dropdown {
+        min-width: 160px;
+        font-size: 0.9rem;
+    }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.7);
+  display: none; /* hidden by default */
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: rgba(20, 24, 34, 0.98);
+  color: #eaf6fb;
+  border-radius: 12px;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 24px #00bfff99;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px; right: 14px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #00bfff;
+}
+.modal-close:hover {
+  color: #fff;
+}
+
+.modal-content ul {
+  list-style: none;
+  padding: 0;
+}
+.modal-content li {
+  background: rgba(0, 191, 255, 0.1);
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+
+/* Input & Select fields inside modal */
+.modal-content input[type="text"],
+.modal-content input[type="number"],
+.modal-content select {
+  width:92%;
+  padding: 10px 12px;
+  margin: 6px 0 14px;
+  border: 1px solid #00bfff55;
+  border-radius: 8px;
+  background: rgba(0, 191, 255, 0.08);
+  color: #eaf6fb;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.modal-content input:focus,
+.modal-content select:focus {
+  border-color: #00bfff;
+  box-shadow: 0 0 8px #00bfff66;
+}
+
+/* Consistent modal buttons */
+.modal-content button {
+  background: linear-gradient(135deg, #00bfff 60%, #005f8f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  margin: 6px 4px 0 0;
+}
+
+.modal-content button:hover {
+  background: linear-gradient(135deg, #005f8f 60%, #00bfff 100%);
+  box-shadow: 0 4px 16px #00bfff88;
+  transform: scale(1.03);
+}
+
+/* Headings inside modal */
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  color: #00bfff;
+  text-shadow: 0 0 6px #00bfff55;
+}
+
+.modal-content h3 {
+  margin: 12px 0 8px;
+  font-size: 1.1rem;
+  color: #eaf6fb;
 }

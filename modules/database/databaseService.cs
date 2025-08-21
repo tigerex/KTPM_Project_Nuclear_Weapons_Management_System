@@ -29,6 +29,23 @@ namespace project_nuclear_weapons_management_system.modules.database
         string? notes
     );
 
+    //Object vũ khí trong kho
+    public sealed record WeaponInventoryDto(
+        int WeaponId,
+        string WeaponName,
+        string WeaponType,
+        int Quantity
+    );
+
+    //Object kho có vũ khí
+    public sealed record StorageInventoryDto(
+        int StorageId,
+        string StorageName,
+        List<WeaponInventoryDto> Weapons
+    );
+
+
+
     /// <summary>
     /// Database module chịu trách nhiệm quản lý kết nối và truy vấn đến MySQL database.
     /// - Sử dụng MySQL Connector/NET (MySql.Data)
@@ -37,7 +54,7 @@ namespace project_nuclear_weapons_management_system.modules.database
     public static class Database
     {
         // Chuỗi kết nối đến MySQL database, nhớ đổi host, pass, database nếu khác tên
-        private static string connectionString = "Server=127.0.0.1;Database=nuclear_weapon;User ID=root;Password=1234;";
+        private static string connectionString = "Server=localhost;Database=nuclear_weapon;User ID=root;Password=gunnyvip2003;";
 
         /// <summary>
         /// Trả về một MySqlConnection đã mở sẵn.
@@ -65,7 +82,8 @@ namespace project_nuclear_weapons_management_system.modules.database
             var weapons = new List<WeaponDto>();
             using (var conn = GetConnection())
             {
-                string sql = "SELECT weapon_id, name, type FROM weapons;";
+                string sql = @"SELECT weapon_id, name, type, yield_megatons, range_km, weight_kg, status, country_of_origin, year_created, notes FROM weapons;";
+
                 using (var cmd = new MySqlCommand(sql, conn))
                 using (var reader = cmd.ExecuteReader())
                 {
@@ -179,14 +197,32 @@ namespace project_nuclear_weapons_management_system.modules.database
         // DELETE kho vũ khí
         public static bool DeleteStorage(int id)
         {
+            if (id <= 0) return false;
+
             using var conn = GetConnection();
-
-            const string sql = @"DELETE FROM storages WHERE storage_id = @id;";
-
-            using var cmd = new MySqlCommand(sql, conn);
-            cmd.Parameters.AddWithValue("@id", id);
-
-            return cmd.ExecuteNonQuery() > 0; // Trả về true nếu có bản ghi bị xóa
+            using var tran = conn.BeginTransaction();
+            try
+            {
+                // B1: Xóa tất cả inventory liên quan tới storage này
+                using (var cmd1 = new MySqlCommand("DELETE FROM storage_inventory WHERE storage_id = @id;", conn, tran))
+                {
+                    cmd1.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
+                    cmd1.ExecuteNonQuery();
+                }
+                // B2: Xóa chính record trong storages
+                using (var cmd2 = new MySqlCommand("DELETE FROM storages WHERE storage_id = @id;", conn, tran))
+                {
+                    cmd2.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
+                    int rows = cmd2.ExecuteNonQuery();
+                    tran.Commit();
+                    return rows > 0; // true nếu xóa thành công ít nhất 1 dòng
+                }
+            }
+            catch
+            {
+                tran.Rollback();
+                throw; // quăng lỗi ra ngoài nếu có sự cố
+            }
         }
 
         // GET 1 vũ khí
@@ -306,53 +342,206 @@ namespace project_nuclear_weapons_management_system.modules.database
             return rows > 0;
         }
 
-        // ======= Chuẩn bị cho login =======
+        //GET tất cả vũ khí trong các kho
+        public static List<StorageInventoryDto> GetAllInventories()
+        {
+            var storages = new Dictionary<int, StorageInventoryDto>();
 
-        // public sealed record UserDto(
-        //     int Id,
-        //     string Username,
-        //     string PasswordHash,
-        //     string Role,
-        //     bool IsAdmin,
-        //     string ClearanceLevel
-        // );
+            using var conn = GetConnection();
+            const string sql = @"
+                                    SELECT 
+                                        s.storage_id,
+                                        s.location_name,
+                                        w.weapon_id,
+                                        w.name AS weapon_name,
+                                        w.type AS weapon_type,
+                                        si.quantity
+                                    FROM storage_inventory si
+                                    JOIN storages s ON si.storage_id = s.storage_id
+                                    JOIN weapons w ON si.weapon_id = w.weapon_id
+                                    ORDER BY s.storage_id, w.weapon_id;
+                                ";
 
+            using var cmd = new MySqlCommand(sql, conn);
+            using var reader = cmd.ExecuteReader();
 
-        // /// <summary>
-        // /// Lấy user theo username. Dùng async để không block.
-        // /// </summary>
-        // public static async Task<UserDto?> GetUserByUsernameAsync(string username)
-        // {
-        //     using var conn = GetConnection();
-        //     const string sql = @"
-        //         SELECT 
-        //             user_id,
-        //             username,
-        //             password_hash,
-        //             role,
-        //             is_admin,
-        //             clearance_level
-        //         FROM users
-        //         WHERE username = @u
-        //         LIMIT 1;";
+            while (reader.Read())
+            {
+                int storageId = reader.GetInt32("storage_id");
 
+                if (!storages.ContainsKey(storageId))
+                {
+                    storages[storageId] = new StorageInventoryDto(
+                        StorageId: storageId,
+                        StorageName: reader.GetString("location_name"),
+                        Weapons: new List<WeaponInventoryDto>()
+                    );
+                }
 
-        //     using var cmd = new MySqlCommand(sql, conn);
-        //     cmd.Parameters.AddWithValue("@u", username);
+                storages[storageId].Weapons.Add(new WeaponInventoryDto(
+                    WeaponId: reader.GetInt32("weapon_id"),
+                    WeaponName: reader.GetString("weapon_name"),
+                    WeaponType: reader.GetString("weapon_type"),
+                    Quantity: reader.GetInt32("quantity")
+                ));
+            }
 
-        //     using var reader = await cmd.ExecuteReaderAsync();
-        //     if (await reader.ReadAsync())
-        //     {
-        //         return new UserDto(
-        //             Id: reader.GetInt32("user_id"),
-        //             Username: reader.GetString("username"),
-        //             PasswordHash: reader.GetString("password_hash"),
-        //             Role: reader.GetString("role"),
-        //             IsAdmin: reader.GetBoolean("is_admin"),
-        //             ClearanceLevel: reader.GetString("clearance_level")
-        //         );
-        //     }
-        //     return null;
-        // }
+            return storages.Values.ToList();
+        }
+
+        //GET tất cả vũ khí từ 1 kho theo ID
+        public static StorageInventoryDto? GetInventoryByStorageId(int storageId)
+        {
+            StorageInventoryDto? storage = null;
+
+            using var conn = GetConnection();
+            const string sql = @"
+                                    SELECT 
+                                        s.storage_id,
+                                        s.location_name,
+                                        w.weapon_id,
+                                        w.name AS weapon_name,
+                                        w.type AS weapon_type,
+                                        si.quantity
+                                    FROM storage_inventory si
+                                    JOIN storages s ON si.storage_id = s.storage_id
+                                    JOIN weapons w ON si.weapon_id = w.weapon_id
+                                    WHERE s.storage_id = @storageId
+                                    ORDER BY w.weapon_id;
+                                ";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@storageId", storageId);
+            Console.WriteLine("Database: " + storageId);
+            using var reader = cmd.ExecuteReader();
+
+            while (reader.Read())
+            {
+                if (storage == null)
+                {
+                    storage = new StorageInventoryDto(
+                        StorageId: reader.GetInt32("storage_id"),
+                        StorageName: reader.GetString("location_name"),
+                        Weapons: new List<WeaponInventoryDto>()
+                    );
+                }
+
+                storage.Weapons.Add(new WeaponInventoryDto(
+                    WeaponId: reader.GetInt32("weapon_id"),
+                    WeaponName: reader.GetString("weapon_name"),
+                    WeaponType: reader.GetString("weapon_type"),
+                    Quantity: reader.GetInt32("quantity")
+                ));
+            }
+
+            return storage;
+        }
+
+        //PUT sửa invenroty 
+        public static bool UpdateInventory(int storageId, List<(int WeaponId, int Quantity)> weapons)
+        {
+            using var conn = GetConnection();
+            using var tx = conn.BeginTransaction();
+
+            try
+            {
+                // Xóa inventory cũ
+                const string deleteSql = "DELETE FROM storage_inventory WHERE storage_id = @sid;";
+                using (var del = new MySqlCommand(deleteSql, conn, tx))
+                {
+                    del.Parameters.AddWithValue("@sid", storageId);
+                    del.ExecuteNonQuery();
+                }
+
+                // Chèn inventory mới
+                const string insertSql = @"INSERT INTO storage_inventory (storage_id, weapon_id, quantity) 
+                                        VALUES (@sid, @wid, @qty);";
+                foreach (var (weaponId, qty) in weapons)
+                {
+                    using var ins = new MySqlCommand(insertSql, conn, tx);
+                    ins.Parameters.AddWithValue("@sid", storageId);
+                    ins.Parameters.AddWithValue("@wid", weaponId);
+                    ins.Parameters.AddWithValue("@qty", qty);
+                    ins.ExecuteNonQuery();
+                }
+
+                tx.Commit();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[ERROR] UpdateInventory failed: {ex.Message}");
+                tx.Rollback();
+                return false;
+            }
+        }
+
+        // GET all users
+        public static List<UserDto> GetAllUsers()
+        {
+            var users = new List<UserDto>();
+            using var conn = GetConnection();
+            const string sql = @"
+                SELECT 
+                    user_id,
+                    username,
+                    full_name,
+                    password_hash,
+                    role,
+                    is_admin,
+                    clearance_level
+                FROM users;";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                users.Add(new UserDto(
+                    Id: reader.GetInt32("user_id"),
+                    Username: reader.GetString("username"),
+                    Fullname: reader.GetString("full_name"),
+                    PasswordHash: reader.GetString("password_hash"),
+                    Role: reader.GetString("role"),
+                    IsAdmin: reader.GetBoolean("is_admin"),
+                    ClearanceLevel: reader.GetString("clearance_level")
+                ));
+            }
+            return users;
+        }
+
+        // POST user
+        public static int AddUser(
+            string username,
+            string passwordHash,
+            string fullName,
+            string role,
+            string? country,
+            string? organization,
+            string clearanceLevel,
+            bool isAdmin
+        )
+        {
+            using var conn = GetConnection();
+            const string sql = @"
+                INSERT INTO users 
+                    (username, password_hash, full_name, role, country, organization, clearance_level, is_admin) 
+                VALUES 
+                    (@username, @password_hash, @full_name, @role, @country, @organization, @clearance_level, @is_admin);
+                SELECT LAST_INSERT_ID();";
+
+            using var cmd = new MySqlCommand(sql, conn);
+            cmd.Parameters.AddWithValue("@username", username);
+            cmd.Parameters.AddWithValue("@password_hash", passwordHash);
+            cmd.Parameters.AddWithValue("@full_name", fullName);
+            cmd.Parameters.AddWithValue("@role", role);
+            cmd.Parameters.AddWithValue("@country", (object?)country ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@organization", (object?)organization ?? DBNull.Value);
+            cmd.Parameters.AddWithValue("@clearance_level", clearanceLevel);
+            cmd.Parameters.AddWithValue("@is_admin", isAdmin);
+
+            var result = cmd.ExecuteScalar();
+            return Convert.ToInt32(result); // return the new user_id
+        }
+
     }
 }

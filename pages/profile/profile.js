@@ -39,8 +39,9 @@ async function doLogout(){
     const headers = {};
     if (token) headers.Authorization = `Bearer ${token}`;
     await fetch("/api/auth/logout", { method:"POST", headers });
+    localStorage.removeItem("authToken");
   }catch{}
-  localStorage.removeItem("access_token");
+  localStorage.removeItem("authToken");
   window.location.href = "/login";
 }
 

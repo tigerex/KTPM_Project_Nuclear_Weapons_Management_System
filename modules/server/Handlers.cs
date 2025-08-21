@@ -6,7 +6,7 @@ using BCryptNet = BCrypt.Net.BCrypt;
 
 namespace project_nuclear_weapons_management_system.modules.server
 {
-    
+
     // ========================
     // AuthService (Singleton)
     // ========================
@@ -28,7 +28,7 @@ namespace project_nuclear_weapons_management_system.modules.server
             return token;
         }
 
-        public static bool RequireRole(Dictionary<string,string> headers, params string[] roles)
+        public static bool RequireRole(Dictionary<string, string> headers, params string[] roles)
         {
             headers.TryGetValue("Authorization", out var authHeader);
             var session = AuthService.Instance.Validate(authHeader);
@@ -62,7 +62,7 @@ namespace project_nuclear_weapons_management_system.modules.server
         // byte[] Handle(string body); // GET có thể bỏ qua body
 
         // NHỚ: thêm headers ở đây để handler nào cần (logout, protected) có thể đọc Authorization
-        byte[] Handle(string body, Dictionary<string,string> headers);
+        byte[] Handle(string body, Dictionary<string, string> headers);
     }
 
     // ===================================
@@ -80,7 +80,10 @@ namespace project_nuclear_weapons_management_system.modules.server
             // API cho user
             "/api/auth/login" => new LoginHandler(repo),
             "/api/auth/logout" => new LogoutHandler(),
-            "/api/auth/me"     => new MeHandler(repo),
+            "/api/auth/me" => new MeHandler(repo),
+            "/api/admin/allUser" => new AllUserHandler(repo),
+            "/api/admin/getUser" => new GetUserHandler(repo),
+            "/api/admin/addUser" => new AddUserHandler(repo),
 
             // API cho kho vũ khí
             "/api/storages/" => new StorageHandler(), // GET một kho vũ khí (với ID hay gì đó)
@@ -96,6 +99,11 @@ namespace project_nuclear_weapons_management_system.modules.server
             "/api/weapons/delete" => new DeleteWeaponHandler(), // DELETE một vũ khí
             "/api/weapons/update" => new UpdateWeaponHandler(), // PUT vũ khí
 
+            // API API API API
+            "/api/inventory/all" => new AllInventoryHandler(), // GET tất cả vũ khí trong tất cả các kho
+            "/api/inventory" => new InventoryByStorageHandler(), // GET tất cả vũ khí trong 1 kho theo ID
+            "/api/invenroty/edit" => new EditInventoryHandler(), // PUT bla bla
+
             _ => new NotFoundHandler() //Default if not found
         };
     }
@@ -107,7 +115,7 @@ namespace project_nuclear_weapons_management_system.modules.server
     //Trong trường hợp endpoint not found
     public sealed class NotFoundHandler : IRequestHandler
     {
-        public byte[] Handle(string _, Dictionary<string,string> headers) =>
+        public byte[] Handle(string _, Dictionary<string, string> headers) =>
             HttpHelper.Json(404, new { error = "Endpoint Not found" });
     }
 
@@ -116,11 +124,11 @@ namespace project_nuclear_weapons_management_system.modules.server
     /// - Trả về thông tin user đang đăng nhập dựa trên token.
     /// - Ưu tiên đọc từ Authorization: Bearer <token>; nếu không có thì fallback cookie 'authToken'.
     /// </summary>
-    
+
     // Helper nhỏ để lấy cookie (nếu cần)
     static class CookieUtil
     {
-        public static string? GetCookie(Dictionary<string,string> headers, string name)
+        public static string? GetCookie(Dictionary<string, string> headers, string name)
         {
             if (!headers.TryGetValue("Cookie", out var cookie) || string.IsNullOrEmpty(cookie)) return null;
             foreach (var part in cookie.Split(';'))
@@ -218,7 +226,7 @@ namespace project_nuclear_weapons_management_system.modules.server
     // ===== Logout (header-based) =====
     public sealed class LogoutHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -244,7 +252,7 @@ namespace project_nuclear_weapons_management_system.modules.server
             }
         }
     }
-    
+
     //Handler GET một kho vũ khí
     public sealed class StorageHandler : IRequestHandler
     {
@@ -272,7 +280,7 @@ namespace project_nuclear_weapons_management_system.modules.server
     //Handler GET tất cả kho vũ khí
     public sealed class AllStorageHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -293,11 +301,11 @@ namespace project_nuclear_weapons_management_system.modules.server
     //Hanlder cho POST kho vũ khí
     public sealed class AddStorageHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
-            //chỉ có admin mới làm được cái này
-            // if (!AuthService.RequireRole(headers, "Admin"))
-            //     return HttpHelper.Json(403, new { error = "Forbidden" });
+            // chỉ có admin mới làm được cái này
+            if (!AuthService.RequireRole(headers, "Admin"))
+                return HttpHelper.Json(403, new { error = "Forbidden!!!" });
             try
             {
                 // parse body JSON: { "locationName": "...", "latitude": 10.7, "longitude": 106.6 }
@@ -323,8 +331,12 @@ namespace project_nuclear_weapons_management_system.modules.server
     //Handler cho DELETE kho vũ khí
     public sealed class DeleteStorageHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
+            // chỉ có admin mới làm được cái này
+            if (!AuthService.RequireRole(headers, "Admin"))
+                return HttpHelper.Json(403, new { error = "Forbidden!!!" });
+
             try
             {
                 var doc = JsonDocument.Parse(body);
@@ -347,8 +359,11 @@ namespace project_nuclear_weapons_management_system.modules.server
     //Handler cho UPDATE kho vũ khí
     public sealed class UpdateStorageHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
+            // chỉ có admin mới làm được cái này
+            if (!AuthService.RequireRole(headers, "Admin"))
+                return HttpHelper.Json(403, new { error = "Forbidden!!!" });
             try
             {
                 var doc = JsonDocument.Parse(body);
@@ -371,10 +386,10 @@ namespace project_nuclear_weapons_management_system.modules.server
         }
     }
 
-    //Handler
+    //GET all vũ khí
     public sealed class AllWeaponHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -389,9 +404,10 @@ namespace project_nuclear_weapons_management_system.modules.server
         }
     }
 
+    //GET 1 vũ khí với id
     public sealed class WeaponHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -412,9 +428,10 @@ namespace project_nuclear_weapons_management_system.modules.server
         }
     }
 
+    //POST vũ khí
     public sealed class AddWeaponHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -447,9 +464,10 @@ namespace project_nuclear_weapons_management_system.modules.server
         }
     }
 
+    //DELETE vũ khí
     public sealed class DeleteWeaponHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -465,14 +483,15 @@ namespace project_nuclear_weapons_management_system.modules.server
             catch (Exception ex)
             {
                 Logger.Log($"[ERROR] DeleteWeaponHandler: {ex.Message}");
-            return HttpHelper.Json(500, new { error = "Server error" });
+                return HttpHelper.Json(500, new { error = "Server error" });
             }
         }
     }
 
+    //PUT vũ khí
     public sealed class UpdateWeaponHandler : IRequestHandler
     {
-        public byte[] Handle(string body, Dictionary<string,string> headers)
+        public byte[] Handle(string body, Dictionary<string, string> headers)
         {
             try
             {
@@ -497,6 +516,211 @@ namespace project_nuclear_weapons_management_system.modules.server
             catch (Exception ex)
             {
                 Logger.Log($"[ERROR] UpdateWeaponHandler: {ex.Message}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+
+    // GET tất cả inventories (nested per storage)
+    public sealed class AllInventoryHandler : IRequestHandler
+    {
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                var inventories = Database.GetAllInventories();
+                return HttpHelper.Json(200, inventories);
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] AllInventoryHandler: {ex.Message}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+
+    // GET inventory của 1 storage theo id
+    public sealed class InventoryByStorageHandler : IRequestHandler
+    {
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                // Expect payload: { "storage_id": 123 }
+                var doc = JsonDocument.Parse(body);
+                Console.WriteLine("HAndler recieve: " + body);
+                var root = doc.RootElement;
+                int id = root.GetProperty("storage_id").GetInt32();
+
+                var storageInventory = Database.GetInventoryByStorageId(id);
+
+                if (storageInventory is null)
+                    return HttpHelper.Json(404, new { error = "Storage or inventory not found" });
+
+                return HttpHelper.Json(200, storageInventory);
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] InventoryByStorageHandler: {ex.Message}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+
+    // PUT inventory
+    public sealed class EditInventoryHandler : IRequestHandler
+    {
+        private sealed record WeaponQuantity(int weapon_id, int quantity);
+        private sealed record EditInventoryRequest(int storage_id, List<WeaponQuantity> weapons);
+
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                var req = JsonSerializer.Deserialize<EditInventoryRequest>(body,
+                    new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+                if (req is null || req.weapons is null)
+                    return HttpHelper.Json(400, new { error = "Invalid payload" });
+
+                var weaponList = req.weapons
+                    .Select(w => (w.weapon_id, w.quantity))
+                    .ToList();
+
+                bool success = Database.UpdateInventory(req.storage_id, weaponList);
+
+                if (success)
+                    return HttpHelper.Json(200, new { message = "Inventory updated successfully" });
+                else
+                    return HttpHelper.Json(500, new { error = "Failed to update inventory" });
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] EditInventoryHandler: {ex.Message}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+
+    // GET all user
+    public sealed class AllUserHandler : IRequestHandler
+    {
+        private readonly IUserRepository _repo;
+
+        public AllUserHandler(IUserRepository repo)
+        {
+            _repo = repo;
+        }
+
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                // You should add a repository method for this
+                var users = Database.GetAllUsers();
+
+                return HttpHelper.Json(200, users);
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] AllUserHandler: {ex.Message}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+
+    // GET 1 user
+    public sealed class GetUserHandler : IRequestHandler
+    {
+        private readonly IUserRepository _repo;
+
+        public GetUserHandler(IUserRepository repo)
+        {
+            _repo = repo;
+        }
+
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                var doc = JsonDocument.Parse(body);
+                var root = doc.RootElement;
+
+                string username = root.GetProperty("username").GetString()!;
+
+                var user = _repo.FindByUsernameAsync(username).GetAwaiter().GetResult();
+                if (user is null)
+                    return HttpHelper.Json(404, new { error = "User not found" });
+
+                return HttpHelper.Json(200, user);
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] GetUserHandler: {ex.Message}");
+                return HttpHelper.Json(500, new { error = "Server error" });
+            }
+        }
+    }
+    
+    public sealed class AddUserHandler : IRequestHandler
+    {
+        private readonly IUserRepository _repo;
+
+        public AddUserHandler(IUserRepository repo)
+        {
+            _repo = repo;
+        }
+
+        public byte[] Handle(string body, Dictionary<string, string> headers)
+        {
+            try
+            {
+                var doc = JsonDocument.Parse(body);
+                var root = doc.RootElement;
+
+                string? usernameValue = root.GetProperty("username").GetString();
+                if (string.IsNullOrWhiteSpace(usernameValue))
+                    return HttpHelper.Json(400, new { error = "Username is required" });
+                string username = usernameValue;
+                string? passwordValue = root.GetProperty("password").GetString();
+                if (string.IsNullOrWhiteSpace(passwordValue))
+                    return HttpHelper.Json(400, new { error = "Password is required" });
+                string password = passwordValue;
+
+                string? fullNameValue = root.GetProperty("full_name").GetString();
+                if (string.IsNullOrWhiteSpace(fullNameValue))
+                    return HttpHelper.Json(400, new { error = "Full name is required" });
+                string fullName = fullNameValue;
+
+                string? roleValue = root.GetProperty("role").GetString();
+                if (string.IsNullOrWhiteSpace(roleValue))
+                    return HttpHelper.Json(400, new { error = "Role is required" });
+                string role = roleValue;
+
+                string? country = root.TryGetProperty("country", out var c) ? c.GetString() : null;
+                string? organization = root.TryGetProperty("organization", out var o) ? o.GetString() : null;
+                string clearance = root.TryGetProperty("clearance_level", out var cl) && !string.IsNullOrWhiteSpace(cl.GetString()) ? cl.GetString()! : "Low";
+                bool isAdmin = root.TryGetProperty("is_admin", out var ia) && ia.GetBoolean();
+
+                // Hash password
+                string passwordHash = BCryptNet.HashPassword(password);
+
+                int newUserId = Database.AddUser(
+                    username,
+                    passwordHash,
+                    fullName,
+                    role,
+                    country,
+                    organization,
+                    clearance,
+                    isAdmin
+                );
+
+                return HttpHelper.Json(201, new { message = "User created", user_id = newUserId });
+            }
+            catch (Exception ex)
+            {
+                Logger.Log($"[ERROR] AddUserHandler: {ex.Message}");
                 return HttpHelper.Json(500, new { error = "Server error" });
             }
         }

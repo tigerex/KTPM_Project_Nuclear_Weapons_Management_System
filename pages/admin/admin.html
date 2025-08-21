@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<div class="admin-wrapper">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,96 +7,101 @@
 	<link rel="stylesheet" href="admin.css">
 </head>
 <body>
-	<header class="header">
-		<h1>Admin Control Center</h1>
-		<!-- <nav>
-			<ul>
-				<li><a href="#users">Users</a></li>
-				<li><a href="#weapons">Weapons</a></li>
-				<li><a href="#storage">Storage</a></li>
-			</ul>
-		</nav> -->
-	</header>
-	<main class="kanban-board">
-		<section class="kanban-column" id="users">
-			<h2>Users</h2>
-			<form class="search-form">
-				<input type="text" placeholder="Username" required>
-				<button type="submit">Search</button>
-				<button type="button" class="add-btn">Add</button>
-			</form>
-			<ul class="item-list" id="user-list">
-				<li>admin</li>
-				<li>operator</li>
-				<li>guest</li>
-				<li>supervisor</li>
-				<li>auditor</li>
-				<li>controller</li>
-				<li>analyst</li>
-				<li>inspector</li>
-				<li>security</li>
-				<li>commander</li>
-				<li>technician</li>
-				<li>observer</li>
-				<li>specialist</li>
-				<li>consultant</li>
-				<li>intern</li>
-			</ul>
-		</section>
-		<section class="kanban-column" id="weapons">
-			<h2>Weapons</h2>
-			<form class="search-form">
-				<input type="text" placeholder="Weapon Name" required>
-				<button type="submit">Search</button>
-				<button type="button" class="add-btn">Add</button>
-			</form>
-			<ul class="item-list" id="weapon-list">
-				<li>Peacekeeper</li>
-				<li>Trident II</li>
-				<li>Minuteman III</li>
-				<li>Topol-M</li>
-				<li>DF-41</li>
-				<li>RS-24 Yars</li>
-				<li>M51</li>
-				<li>Agni-V</li>
-				<li>Bulava</li>
-				<li>Hwasong-15</li>
-				<li>Hwasong-17</li>
-				<li>Jericho III</li>
-				<li>Shaheen-III</li>
-				<li>R-36M2</li>
-				<li>Dongfeng-5B</li>
-			</ul>
-		</section>
-		<section class="kanban-column" id="storage">
-			<h2>Weapon Storage</h2>
-			<form class="search-form">
-				<input type="text" placeholder="Storage Name" required>
-				<button type="submit">Search</button>
-				<button type="button" class="add-btn">Add</button>
-			</form>
-			<ul class="item-list" id="storage-list">
-				<li>Site Alpha</li>
-				<li>Site Bravo</li>
-				<li>Site Charlie</li>
-				<li>Site Delta</li>
-				<li>Site Echo</li>
-				<li>Site Foxtrot</li>
-				<li>Site Golf</li>
-				<li>Site Hotel</li>
-				<li>Site India</li>
-				<li>Site Juliet</li>
-				<li>Site Kilo</li>
-				<li>Site Lima</li>
-				<li>Site Mike</li>
-				<li>Site November</li>
-				<li>Site Oscar</li>
-			</ul>
-		</section>
-	</main>
+	<div class="admin-wrapper">
+		<!-- Background setup like profile page -->
+		<div class="bg">
+			<img src="../../data/resources/detailMap.jpg" class="bg-img" alt="Background Map">
+			<div class="bg-overlay"></div>
+		</div>
+
+		<header class="header">
+			<h1>Admin Control Center</h1>
+			<nav class="nav">
+				<a href="/home" style="color: #9cc7ff; text-decoration: none; font-weight: 600;">← Back to Home</a>
+			</nav>
+		</header>
+
+		<main class="kanban-board">
+			<section class="kanban-column" id="users">
+				<h2>Users</h2>
+				<form class="search-form">
+					<input type="text" placeholder="Search username..." required>
+					<button type="submit">Search</button>
+					<button type="button" class="add-btn">Add</button>
+				</form>
+				<ul class="item-list" id="user-list">
+					<li>admin</li>
+					<li>operator</li>
+					<li>guest</li>
+					<li>supervisor</li>
+					<li>auditor</li>
+					<li>controller</li>
+					<li>analyst</li>
+					<li>inspector</li>
+					<li>security</li>
+					<li>commander</li>
+					<li>technician</li>
+					<li>observer</li>
+					<li>specialist</li>
+					<li>consultant</li>
+					<li>intern</li>
+				</ul>
+			</section>
+
+			<section class="kanban-column" id="weapons">
+				<h2>Weapons</h2>
+				<form class="search-form">
+					<input type="text" placeholder="Search weapon name..." required>
+					<button type="submit">Search</button>
+					<button type="button" class="add-btn">Add</button>
+				</form>
+				<ul class="item-list" id="weapon-list">
+					<li>Peacekeeper</li>
+					<li>Trident II</li>
+					<li>Minuteman III</li>
+					<li>Topol-M</li>
+					<li>DF-41</li>
+					<li>RS-24 Yars</li>
+					<li>M51</li>
+					<li>Agni-V</li>
+					<li>Bulava</li>
+					<li>Hwasong-15</li>
+					<li>Hwasong-17</li>
+					<li>Jericho III</li>
+					<li>Shaheen-III</li>
+					<li>R-36M2</li>
+					<li>Dongfeng-5B</li>
+				</ul>
+			</section>
+
+			<section class="kanban-column" id="storage">
+				<h2>Weapon Storage</h2>
+				<form class="search-form">
+					<input type="text" placeholder="Search storage name..." required>
+					<button type="submit">Search</button>
+					<button type="button" class="add-btn">Add</button>
+				</form>
+				<ul class="item-list" id="storage-list">
+					<li>Site Alpha</li>
+					<li>Site Bravo</li>
+					<li>Site Charlie</li>
+					<li>Site Delta</li>
+					<li>Site Echo</li>
+					<li>Site Foxtrot</li>
+					<li>Site Golf</li>
+					<li>Site Hotel</li>
+					<li>Site India</li>
+					<li>Site Juliet</li>
+					<li>Site Kilo</li>
+					<li>Site Lima</li>
+					<li>Site Mike</li>
+					<li>Site November</li>
+					<li>Site Oscar</li>
+				</ul>
+			</section>
+		</main>
 
 		<!-- Modal Popup for Add Forms -->
-		<!-- REMOVE IF DON'T WANT -->
 		<div id="add-modal" class="modal" style="display:none;">
 			<div class="modal-content">
 				<span class="close-btn">&times;</span>
@@ -106,27 +109,33 @@
 					<h3>Add User</h3>
 					<input type="text" placeholder="Username" required>
 					<input type="password" placeholder="Password" required>
+					<input type="text" placeholder="Full Name" required>
+					<input type="number" placeholder="Clearance Level" min="1" max="10" required>
 					<button type="submit">Add User</button>
 				</form>
 				<form id="add-weapon-form" class="add-popup-form" style="display:none;">
 					<h3>Add Weapon</h3>
 					<input type="text" placeholder="Weapon Name" required>
 					<input type="text" placeholder="Type" required>
+					<input type="text" placeholder="Classification" required>
 					<button type="submit">Add Weapon</button>
 				</form>
 				<form id="add-storage-form" class="add-popup-form" style="display:none;">
 					<h3>Add Weapon Storage</h3>
 					<input type="text" placeholder="Storage Name" required>
 					<input type="text" placeholder="Location" required>
+					<input type="number" placeholder="Latitude" step="0.0001" required>
+					<input type="number" placeholder="Longitude" step="0.0001" required>
 					<button type="submit">Add Storage</button>
 				</form>
 			</div>
 		</div>
-		<footer class="footer">
-				<span>&copy;2025 Nuclear Weapons Management System</span>
-		</footer>
-		<script src="admin.js"></script>
-</body>
-</div>
-</html>
 
+		<footer class="footer">
+			<span>&copy; 2025 Nuclear Weapons Management System - Admin Panel</span>
+		</footer>
+
+		<script src="admin.js"></script>
+	</div>
+</body>
+</html>

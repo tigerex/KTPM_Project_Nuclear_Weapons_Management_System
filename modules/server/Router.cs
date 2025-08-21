@@ -22,8 +22,8 @@ namespace project_nuclear_weapons_management_system.modules.server
         // --- Auth helpers ---
         private static bool IsProtectedPath(string path)
         {
-            // add other protected pages as needed
-            return path.StartsWith("/home") || path.StartsWith("/admin") || path.StartsWith("/detail");
+            // thêm route phải login mới vào được vô đây
+            return path.StartsWith("/home") || path.StartsWith("/admin") || path.StartsWith("/detail") || path.StartsWith("/profile");
         }
 
         private static string? GetCookie(Dictionary<string,string> headers, string name)
@@ -40,7 +40,7 @@ namespace project_nuclear_weapons_management_system.modules.server
             return null;
         }
 
-        // --- Static file serving ---
+        // --- File tĩnh ---
         private static byte[] HandleStatic(string path, Dictionary<string, string> headers)
         {
             // 🚨 enforce authentication for protected pages
@@ -57,6 +57,21 @@ namespace project_nuclear_weapons_management_system.modules.server
                 }
             }
 
+            // 🚨 if already logged in, don’t show login page again
+            if (path.StartsWith("/login"))
+            {
+                var token = GetCookie(headers, "auth");
+                bool ok = !string.IsNullOrEmpty(token) &&
+                        AuthService.Instance.Validate($"Bearer {token}") != null;
+
+                if (ok)
+                {
+                    // already logged in → skip login page
+                    return HttpHelper.Redirect("/home");
+                }
+            }
+
+            //default route
             if (path == "/" || string.IsNullOrEmpty(path))
                 path = "/default";
 
